@@ -1,0 +1,10 @@
+{
+  "ensemble": false,
+  "alpha": 0.25,
+  "seed": 2026,
+  "threads": 4,
+  "arch": "linear",
+  "design": "nostyle",
+  "epochs": 120,
+  "l2": 0.01
+}

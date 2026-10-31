@@ -1,0 +1,24 @@
+{
+  "epochs": 8,
+  "curves": [
+    {
+      "epoch": 1,
+      "train_loss": 0.14635874919201197,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.14415257659397626,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.13568313106110222,
+      "contrast_loss": 0.0
+    }
+  ],
+  "seconds": 11.792284299999665,
+  "score_scale": 1.4786808185006424,
+  "method": "charcnn",
+  "validation_correct": 749
+}

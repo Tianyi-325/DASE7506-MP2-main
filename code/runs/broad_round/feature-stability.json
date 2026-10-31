@@ -1,0 +1,203 @@
+{
+  "text": [
+    {
+      "name": "log_chars",
+      "weights": [
+        0.01700161024928093,
+        0.019591188058257103,
+        0.006795389112085104
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "log_words",
+      "weights": [
+        0.0037038056179881096,
+        0.007394092157483101,
+        -0.023276109248399734
+      ],
+      "consistent_sign": false
+    },
+    {
+      "name": "log_lines",
+      "weights": [
+        0.06109374761581421,
+        -0.02847353182733059,
+        -0.047993503510951996
+      ],
+      "consistent_sign": false
+    },
+    {
+      "name": "log_numbers",
+      "weights": [
+        0.18232683837413788,
+        0.15240725874900818,
+        0.13333934545516968
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "log_question_words",
+      "weights": [
+        -2.5870976969599724e-05,
+        -2.5628360162954777e-06,
+        -5.28334203409031e-06
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "word_overlap",
+      "weights": [
+        0.10114311426877975,
+        0.09159793704748154,
+        0.13991470634937286
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "number_coverage",
+      "weights": [
+        0.20968493819236755,
+        0.30404919385910034,
+        0.22625890374183655
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "new_number_fraction",
+      "weights": [
+        0.41161400079727173,
+        0.3989086151123047,
+        0.2649366855621338
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "hash_marker",
+      "weights": [
+        -0.04850804805755615,
+        -0.1420743316411972,
+        -0.0435936376452446
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "boxed_marker",
+      "weights": [
+        -0.01875418610870838,
+        -0.009044312871992588,
+        0.10821864008903503
+      ],
+      "consistent_sign": false
+    },
+    {
+      "name": "log_equal_signs",
+      "weights": [
+        0.07582387328147888,
+        0.037301477044820786,
+        0.07649712264537811
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "log_math_operators",
+      "weights": [
+        -0.03625029698014259,
+        -0.021073894575238228,
+        0.020992888137698174
+      ],
+      "consistent_sign": false
+    },
+    {
+      "name": "log_steps",
+      "weights": [
+        -0.024839801713824272,
+        -0.05771413445472717,
+        -0.062430109828710556
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "confidence_words",
+      "weights": [
+        -0.13222597539424896,
+        -0.14516061544418335,
+        -0.11159561574459076
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "revision_words",
+      "weights": [
+        0.07725588977336884,
+        0.06918004900217056,
+        -0.06558496505022049
+      ],
+      "consistent_sign": false
+    },
+    {
+      "name": "has_valid_answer",
+      "weights": [
+        0.40332603454589844,
+        0.3993486166000366,
+        0.399114727973938
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "answer_signed_log",
+      "weights": [
+        -0.03127850219607353,
+        0.017895886674523354,
+        -0.005962575785815716
+      ],
+      "consistent_sign": false
+    },
+    {
+      "name": "answer_integer",
+      "weights": [
+        0.7350075244903564,
+        0.7072975635528564,
+        0.6927496194839478
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "answer_negative",
+      "weights": [
+        -0.19355131685733795,
+        -0.19034533202648163,
+        -0.2267562597990036
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "answer_zero",
+      "weights": [
+        -0.23135219514369965,
+        -0.21033233404159546,
+        -0.2568208575248718
+      ],
+      "consistent_sign": true
+    },
+    {
+      "name": "answer_in_question",
+      "weights": [
+        0.03664672002196312,
+        0.05400221049785614,
+        -0.012528050690889359
+      ],
+      "consistent_sign": false
+    },
+    {
+      "name": "log_sentence_count",
+      "weights": [
+        0.00789128988981247,
+        0.004838019609451294,
+        -0.08657979965209961
+      ],
+      "consistent_sign": false
+    }
+  ],
+  "note": "Sign stability does not establish causality; no post-hoc feature refit after test."
+}

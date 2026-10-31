@@ -1,0 +1,414 @@
+[
+  {
+    "position": 2912,
+    "question": "Wilson decides to go sledding on some nearby hills. On the 2 tall hills, he sleds down them 4 times each and on the 3 small hills, he sled down them half as often as he sleds down the tall hills. How many times did he sled down the hills?",
+    "selected": [
+      0,
+      0
+    ],
+    "correct_indices": [
+      3
+    ],
+    "candidates": [
+      {
+        "text": "Let's solve the problem step by step:\n\n- On the **2 tall hills**, he sleds **down them 4 times each**.  \n  So, $ 2 \\times 4 = 8 $ times.\n\n- On the **3 small hills**, he sleds **half as often as he sleds down the tall hills**.  \n  So, $ 8 \\div 2 = 4 $ times.\n\n- Add the total number of times he sleded:\n\n$$\n8 + 4 = \\boxed{12}\n$$\n\n**Final Answer:** $ \\boxed{12} $",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are told:\n\n- On **2 tall hills**, Wilson sleds **4 times each**.\n- On **3 small hills**, he sleds **half as often** as he does on the tall hills.\n\nLet’s denote:\n- $ t $ = number of times Wilson sleds on the tall hills.\n- $ s $ = number of times Wilson sleds on the small hills.\n\nFrom the problem:\n\n- On the **2 tall hills**, he sleds $ 4 \\times 2 = 8 $ times.\n- On the **3 small hills**, he sleds $ \\frac{1}{2} \\times t = \\frac{t}{2} $ times.\n\nSo, the total number of times he sleds is:\n\n$$\n8 + \\frac{t}{2}\n$$\n\nBut we are not given the value of $ t $, so we need to express the total number of times in terms of $ t $.\n\nHowever, the problem doesn’t specify how many times he sleds on each hill. Therefore, we are missing information.\n\nBut wait — the problem says: *\"how many times did he sled down the hills?\"* — which implies we need to find the **total number of times** he sleded, not the number of hills.\n\nSo, we can only give the expression for the total number of times in terms of $ t $, and the answer is:\n\n$$\n\\boxed{8 + \\frac{t}{2}}\n$$\n\nBut since the problem asks for a **numeric answer**, and we don’t have the value of $ t $, the **answer cannot be determined** with the given information.\n\nHowever, if we assume that the number of times he sleds on the small hills is the same as the number on the tall hills (i.e., $ t = 8 $), then:\n\n$$\n\\text{Total",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are told:\n\n- On the **2 tall hills**, he sleds **4 times each**, so he sleds **8 times** in total.\n- On the **3 small hills**, he sleds **half as often** as on the tall hills. Since he sleds 4 times on the tall hills, he sleds **2 times** on the small hills.\n\nSo, the total number of times he sled down the hills is:\n\n$$\n8 + 2 = \\boxed{10}\n$$\n\n#### <numeric answer> 10.",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given:\n\n- On the **2 tall hills**, Wilson sleds **down them 4 times each**.\n- On the **3 small hills**, he sleds **half as often** as he sleds on the tall hills.\n\nLet’s define:\n\n- Let $ t $ be the number of times Wilson sleds on the **tall hills**.\n- Then, on the **small hills**, he sleds $ \\frac{t}{2} $ times.\n\nSo, the total number of times he sleds:\n\n$$\n2 \\times 4 + 3 \\times \\frac{t}{2} = 8 + \\frac{3t}{2}\n$$\n\nWe are to find the total number of times he sleds.\n\n### Final Answer:\n\n$$\n\\boxed{8 + \\frac{3t}{2}}\n$$\n\n**If $ t = 4 $**, then:\n\n$$\n8 + \\frac{3 \\times 4}{2} = 8 + 6 = \\boxed{14}\n$$\n\nSo, the final answer is:\n\n$$\n\\boxed{14}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "reference_solution": "On the tall hills, he sleds down 2 tall hills * 4 times per tall hill = <<2*4=8>>8 times.\nHe sleds down the small hills half as often so he sleds down each hill 4 times per tall hill / 2 = <<4/2=2>>2 times per small hill.\nOn the small hills, he sleds down 3 small hills * 2 times per small hill = <<3*2=6>>6 times.\nSo in total, Wilson sled down the hills 8 times on tall hills + 6 times on small hills = <<8+6=14>>14 times.\n#### 14"
+  },
+  {
+    "position": 3931,
+    "question": "If a circle has a radius of 14 feet, how many 6-inch pencils can be placed end-to-end across the diameter of the circle?",
+    "selected": [
+      3,
+      3
+    ],
+    "correct_indices": [
+      0,
+      2
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- Radius of the circle: $ r = 14 $ feet  \n- Length of each pencil: $ 6 $ inches  \n- We need to find how many pencils can be placed **end-to-end** across the **diameter** of the circle.\n\n---\n\n### Step 1: Convert units\n\nSince the radius is in feet and the pencil length is in inches, we convert inches to feet to match the units.\n\n$$\n6 \\text{ inches} = \\frac{6}{12} = 0.5 \\text{ feet}\n$$\n\n---\n\n### Step 2: Calculate the diameter of the circle\n\nThe **diameter** of a circle is $ 2 \\times \\text{radius} $:\n\n$$\n\\text{Diameter} = 2 \\times 14 = 28 \\text{ feet}\n$$\n\n---\n\n### Step 3: Find how many pencils fit in the diameter\n\nEach pencil is $ 0.5 $ feet long. So:\n\n$$\n\\text{Number of pencils} = \\frac{28}{0.5} = 56\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{56}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given:\n\n- Radius of the circle = 14 feet  \n- Each pencil is 6 inches long\n\n---\n\n### Step 1: Convert inches to feet\n\nSince 6 inches = 1 foot, then:\n\n$$\n6 \\text{ inches} = 1 \\text{ foot}\n$$\n\n---\n\n### Step 2: Calculate the diameter of the circle\n\nThe diameter of a circle is twice the radius:\n\n$$\n\\text{Diameter} = 2 \\times 14 = 28 \\text{ feet}\n$$\n\n---\n\n### Step 3: Calculate how many pencils fit end-to-end across the diameter\n\nEach pencil is 1 foot long, so:\n\n$$\n\\frac{28 \\text{ feet}}{1 \\text{ foot}} = 28\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{28}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given:\n\n- Radius of the circle = 14 feet  \n- Each pencil is 6 inches long  \n- We need to find how many pencils can be placed **end-to-end across the diameter** of the circle.\n\n---\n\n### Step 1: Convert the radius to inches\n\nSince the pencils are 6 inches long, and the radius is 14 feet, convert feet to inches:\n\n$$\n14 \\text{ feet} = 14 \\times 12 = 168 \\text{ inches}\n$$\n\n---\n\n### Step 2: Calculate the length of the diameter\n\nThe **diameter** of the circle is twice the radius:\n\n$$\n\\text{Diameter} = 2 \\times 168 = 336 \\text{ inches}\n$$\n\n---\n\n### Step 3: Calculate how many pencils fit end-to-end\n\nEach pencil is 6 inches long, so the number of pencils is:\n\n$$\n\\frac{336 \\text{ inches}}{6 \\text{ inches per pencil}} = 56\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{56}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given:\n\n- Radius of the circle = 14 feet  \n- Length of each pencil = 6 inches  \n\n### Step 1: Convert the radius to inches\n\nSince 1 foot = 12 inches,  \n$$ 14 \\text{ feet} = 14 \\times 12 = 168 \\text{ inches} $$\n\n### Step 2: Find the length of one pencil in feet\n\n$$ 6 \\text{ inches} = \\frac{6}{12} = 0.5 \\text{ feet} $$\n\n### Step 3: Calculate how many pencils can fit end-to-end across the diameter\n\n$$ \\frac{168 \\text{ inches}}{0.5 \\text{ feet}} = \\frac{168}{0.5} = 336 $$\n\n### Final Answer:\n\n$$\n\\boxed{336}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "reference_solution": "A circle with a radius of 14 feet has a diameter of 2*14=<<14*2=28>>28 feet.\nA six-inch pencil is 6/12=<<6/12=0.5>>0.5 feet long.\nThus, across a 28-foot diameter, one can place 28/0.5=<<28/0.5=56>>56 6-inch pencils.\n#### 56"
+  },
+  {
+    "position": 113,
+    "question": "Marianne was 20 years old when Bella was 8 years old. How old will Marianne be when Bella turns 18?",
+    "selected": [
+      1,
+      2
+    ],
+    "correct_indices": [
+      0
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- Marianne was 20 when Bella was 8.\n\nWe need to find how old Marianne will be when Bella turns 18.\n\n### Step 1: Find the age difference between Marianne and Bella\n\n- Bella turns 18 in $ 18 - 8 = 10 $ years.\n\nSo, Marianne is 10 years older than Bella.\n\n### Step 2: Find Marianne's age when Bella turns 18\n\n- Marianne is 20 when Bella is 8.\n- Bella will turn 18 in 10 years.\n- So, Marianne will be $ 20 + 10 = \\boxed{30} $ years old.\n\n#### Final Answer: **30**.",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "Marianne was 20 when Bella was 8.  \nSo, the age difference is:  \n$$ 20 - 8 = 12 $$\n\nWhen Bella turns 18, Marianne will be:  \n$$ 20 + 12 = \\boxed{32} $$\n\n#### <numeric answer> 32",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Marianne was 20 when Bella was 8.  \nSo, the difference in age between them is $ 20 - 8 = 12 $ years.\n\nWhen Bella turns 18, Marianne will be $ 20 + 12 = 32 $.\n\n#### <numeric answer> 32",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "Marianne was 20 when Bella was 8.  \nSo, the age difference is:  \n**20 - 8 = 12 years**.\n\nWhen Bella turns 18, Marianne will be **12 years older**.  \n\n#### <numeric answer> 32.",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "reference_solution": "Marianne is 20 - 8 = <<20-8=12>>12 years older than Bella.\nBella will turn 18 in 18 - 8 = <<18-8=10>>10 years.\nSo, Marianne will be 20 + 10 = <<20+10=30>>30 years old then.\n#### 30"
+  },
+  {
+    "position": 2179,
+    "question": "Mitch has saved $20000 to finance his boating hobby. A new boat costs $1500 per foot in length. If Mitch needs to keep $500 for a license and registration, and three times that amount for docking fees, how many feet is the longest boat he can buy?",
+    "selected": [
+      2,
+      2
+    ],
+    "correct_indices": [
+      1
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- Mitch has saved **$20,000**\n- A new boat costs **$1500 per foot**\n- He needs **$500** for **license and registration**\n- He needs **3 times that amount** for **docking fees**\n\n---\n\n### Step 1: Calculate the total amount he needs for the boat and fees\n\n- **License and registration:** $500\n- **Docking fees:** $3 × $500 = $1,500\n\n**Total cost for boat and fees:**  \n$500 + $1,500 = **$2,000**\n\n---\n\n### Step 2: Calculate the number of feet the longest boat can be\n\n- A boat costs **$1500 per foot**\n- So, the number of feet is:  \n  $$\n  \\frac{2000}{1500} = 1.333\\ldots \\text{ feet}\n  $$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{1.33}\n$$\n\nSo, the longest boat Mitch can buy is **1.33 feet**.",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given:\n\n- Mitch has saved **$20,000**\n- A new boat costs **$1,500 per foot**\n- He needs to keep **$500** for a **license and registration**\n- He needs to keep **3 times that amount** for **docking fees**\n\n---\n\n### Step 1: Calculate total cost of boat\n\n- Cost per foot: $1,500\n- Total cost of boat: $1,500 × x \\text{ (number of feet) } $\n\n---\n\n### Step 2: Add license and registration\n\n- License and registration: $500\n- Docking fees: $3 × $500 = $1,500\n\nSo, total cost of the boat is:\n\n$$\n\\text{Total cost} = 1,500x + 500 + 1,500 = 1,500x + 2,000\n$$\n\n---\n\n### Step 3: Set total cost equal to savings\n\nMitch has saved $20,000:\n\n$$\n1,500x + 2,000 = 20,000\n$$\n\n---\n\n### Step 4: Solve for x\n\n$$\n1,500x = 18,000 \\\\\nx = \\frac{18,000}{1,500} = 12\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{12} \\text{ feet}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given:\n\n- Mitch has $20,000 to finance.\n- A new boat costs **$1,500 per foot** in length.\n- He needs **$500** for a **license and registration**.\n- He needs **three times that amount** for **docking fees**.\n\nLet’s break it down step by step:\n\n1. **License and registration**: $500  \n2. **Docking fees**: $3 × $500 = **$1,500**\n\nTotal cost of boat and fees =  \n$1,500 (boat) + $500 (license) + $1,500 (docking) = **$3,500**\n\nMitch has $20,000 to spend. So the remaining money is:\n\n$$\n20,000 - 3,500 = 16,500\n$$\n\nThis is used to buy the boat. Since the boat costs $1,500 per foot, we divide the remaining money by the cost per foot:\n\n$$\n\\frac{16,500}{1,500} = 11 \\text{ feet}\n$$\n\n### ✅ Final Answer:  \n#### **11** feet.",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given the following:\n\n- Mitch has **$20,000** to finance his boating hobby.\n- A new boat costs **$1,500 per foot** in length.\n- He needs **$500** for a **license and registration**.\n- He also needs **3 times that amount** for **docking fees**.\n\nLet’s solve step by step:\n\n---\n\n### Step 1: Calculate the total amount needed for the boat and fees\n\n- License and registration: $500  \n- Docking fees: $3 \\times 500 = 1500$\n\nTotal amount needed:\n$$\n500 + 1500 = 2000\n$$\n\nSo, Mitch needs **$2000** to buy the boat and pay the license and fees.\n\n---\n\n### Step 2: Calculate the number of feet\n\nWe know that a boat costs **$1,500 per foot**, so:\n\n$$\n\\text{Number of feet} = \\frac{2000}{1500} = \\frac{4}{3} \\approx 1.333\n$$\n\nSince the number of feet must be a whole number, Mitch can **buy a boat of 1.33 feet**, which is **1 foot and 10 inches**.\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{1.33}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "reference_solution": "Mitch needs to keep 500 * 3 = <<500*3=1500>>1500 for docking fees.\nThus, he needs to keep 500 + 3 * 500 = $<<500+3*500=2000>>2000 for license, registration, and docking fees.\nHe has 20000 - 2000 = $<<20000-2000=18000>>18000 left to spend on a boat.\nTherefore, the longest boat he can buy is 18000 / 1500 = <<18000/1500=12>>12 feet long.\n#### 12"
+  },
+  {
+    "position": 3707,
+    "question": "Harry is 50 years old. His father is currently 24 years older than he is. How old was his mother when she gave birth to him if she is younger than his father by 1/25 of Harry's current age?",
+    "selected": [
+      1,
+      0
+    ],
+    "correct_indices": [
+      2
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- Harry is **50 years old**.\n- His **father is 24 years older** than Harry.\n- The **mother is younger than Harry by $ \\frac{1}{25} $ of Harry's current age**.\n\n---\n\n### Step 1: Find Harry's father's current age\n\nHarry is 50 years old, and his father is 24 years older:\n\n$$\n\\text{Father's age} = 50 + 24 = 74 \\text{ years old}\n$$\n\n---\n\n### Step 2: Find the mother's age\n\nThe mother is **1/25** of Harry's current age:\n\n$$\n\\frac{1}{25} \\times 50 = 2 \\text{ years}\n$$\n\nSo the mother is **2 years younger** than Harry, which means:\n\n$$\n\\text{Mother's age} = 50 - 2 = 48 \\text{ years old}\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{48}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given:\n\n- Harry is **50 years old**.\n- His **father is 24 years older** than Harry.\n- The **mother is younger than Harry by 1/25 of Harry's current age**.\n\n---\n\n### Step 1: Find Harry's father's age\n\nHarry is 50 years old, and his father is 24 years older:\n\n$$\n\\text{Father's age} = 50 + 24 = 74 \\text{ years old}\n$$\n\n---\n\n### Step 2: Find the mother's age\n\nThe mother is **1/25 of Harry's current age** younger than Harry:\n\n$$\n\\text{Mother's age} = 50 - \\left(\\frac{1}{25} \\times 50\\right) = 50 - 2 = 48 \\text{ years old}\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{48}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given:\n\n- Harry is 50 years old.\n- His father is **24 years older** than Harry.\n- The **mother** is **1/25 of Harry's current age** younger than his father.\n- We are to find **how old the mother was when she gave birth to Harry**.\n\n---\n\n### Step 1: Find Harry's father's current age\n\nHarry is 50, and his father is 24 years older:\n\n$$\n\\text{Father's age} = 50 + 24 = 74\n$$\n\n---\n\n### Step 2: Find the mother's current age\n\nThe mother is **1/25 of Harry's current age** younger than his father:\n\n$$\n\\text{Mother's age} = 74 - \\left(\\frac{1}{25} \\times 50\\right) = 74 - 2 = 72\n$$\n\n---\n\n### Step 3: Find how old the mother was when she gave birth\n\nThe mother's age when she gave birth is:\n\n$$\n\\text{Mother's age at birth} = \\text{Mother's current age} - \\text{Years until birth}\n$$\n\nSince the mother is 72 years old now, and she is 72 - 50 = **22 years old** when she gave birth.\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{22}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given:\n\n- Harry is **50 years old**.\n- His **father is 24 years older** than Harry.\n- The **mother is younger than Harry by $ \\frac{1}{25} $ of Harry's current age**.\n\n---\n\n### Step 1: Find Harry's father's current age\n\nHarry's father is **24 years older** than Harry:\n\n$$\n\\text{Father's age} = 50 + 24 = 74\n$$\n\n---\n\n### Step 2: Find the mother's age\n\nThe mother is **1/25** of Harry's current age younger than him:\n\n$$\n\\text{Mother's age} = 50 - \\frac{1}{25} \\times 50 = 50 - 2 = 48\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{48}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "reference_solution": "Harry's father is 50 years + 24 years = <<50+24=74>>74 years old.\nHarry's mother is 1/25 * 50 years = <<1/25*50=2>>2 years younger than his father.\nSo she is currently 74 years - 2 years = <<74-2=72>>72 years old.\nSo when Harry was born, she was 72 years - 50 years = <<72-50=22>>22 years old.\n#### 22"
+  },
+  {
+    "position": 3912,
+    "question": "A 40 meters rope was cut into 2 parts in the ratio of 2:3. How long is the shorter part?",
+    "selected": [
+      1,
+      3
+    ],
+    "correct_indices": [
+      0
+    ],
+    "candidates": [
+      {
+        "text": "We are given that a **40-meter rope** is cut into **2 parts** in the ratio of **2:3**. Let’s find the **length of the shorter part**.\n\n---\n\n### Step 1: Understand the ratio\nThe rope is divided into **2 parts** in the ratio **2:3**.\n\nSo, the **total parts** = $2 + 3 = 5$.\n\n---\n\n### Step 2: Find the total length of the rope\nThe rope is 40 meters long.\n\n---\n\n### Step 3: Find the length of each part\nSince the total parts are 5, each part is:\n\n$$\n\\frac{40}{5} = 8 \\text{ meters}\n$$\n\n---\n\n### Step 4: Identify the shorter part\nThe ratio is **2:3**, so the **shorter part** is the smaller of the two parts.\n\n- Shorter part = $2 \\times 8 = 16$ meters\n\n---\n\n### Final Answer:\n$$\n\\boxed{16} \\text{ meters}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given:\n\n- A 40-meter rope is cut into **2 parts** in the ratio of **2:3**.\n\nLet the **shorter part** be $ x $ meters. Then the **longer part** will be $ 3x $ meters.\n\nSince the total length is 40 meters, we have:\n\n$$\nx + 3x = 40\n$$\n\n$$\n4x = 40\n$$\n\n$$\nx = 10\n$$\n\n### ✅ Final Answer:\n\n$$\n\\boxed{10} \\text{ meters}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are told that a 40-meter rope is cut into **2 parts in the ratio of 2:3**.\n\nLet’s denote the **shorter part** as $ x $ meters. Then the **longer part** will be $ 3x $ meters.\n\nSince the total length is 40 meters, we can write:\n\n$$\nx + 3x = 40\n$$\n\n$$\n4x = 40\n$$\n\n$$\nx = 10\n$$\n\n### ✅ Final Answer:\n**The shorter part is 10 meters.**",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are told that a 40-meter rope is cut into two parts in the ratio of **2:3**. Let's solve this step by step:\n\n1. The total parts in the ratio = $2 + 3 = 5$.\n2. The total length of the rope = 40 meters.\n3. The length of each part is:\n   $$\n   \\frac{40}{5} = 8 \\text{ meters}\n   $$\n4. The shorter part is 2 meters.\n\n### Final Answer:\n$$\n\\boxed{2}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "reference_solution": "The rope was cut into 2 + 3 = <<2+3=5>>5 parts.\nSo each part is 40/5 = <<40/5=8>>8 meters long.\nSince the shorter part is consists of 2 parts, then it is 8 x 2 = <<8*2=16>>16 meters long.\n#### 16"
+  },
+  {
+    "position": 1739,
+    "question": "Vincent has 72 inches of rope that he wants to use for a project, but he needs to cut it into smaller pieces first. He cuts it into 12 equal length pieces, but then he realizes it's too short, so he ties three pieces together. The knots then make each piece 1 inch shorter. How long are his pieces of rope after all this?",
+    "selected": [
+      2,
+      2
+    ],
+    "correct_indices": [
+      1
+    ],
+    "candidates": [
+      {
+        "text": "Vincent has 72 inches of rope. He cuts it into **12 equal pieces**, each **1 inch shorter** due to the knots. Then he ties the pieces together.\n\n### Step-by-step:\n\n1. **Original length**: 72 inches  \n2. **Cut into 12 equal pieces**:  \n   $$\n   \\text{Each piece} = \\frac{72}{12} = 6 \\text{ inches}\n   $$\n3. **Each piece is 1 inch shorter after tying**:  \n   $$\n   \\text{Total length after tying} = 12 \\times 6 - 12 = 72 - 12 = 60 \\text{ inches}\n   $$\n\n### Final answer:\n\n$$\n\\boxed{60}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "Vincent has **72 inches** of rope. He cuts it into **12 equal length pieces**, each of **6 inches**.\n\nThen, he realizes it's too short and **ties the three pieces together**. The **knots make each piece 1 inch shorter**.\n\nSo, the final length of each piece is:\n\n- **6 inches** (original length)  \n- Minus **1 inch** for each knot = **5 inches**\n\nSince he tied **3 pieces**, the total length is:\n\n$$\n3 \\times 5 = \\boxed{15} \\text{ inches}\n$$\n\n#### ✅ Final Answer: **15**",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Vincent starts with **72 inches** of rope. He cuts it into **12 equal pieces**, each **1 inch** shorter. Then he **ties the pieces** together, and each knot makes each piece **1 inch shorter**.\n\n### Step-by-step:\n\n1. **Cutting the rope into 12 equal pieces**:\n   - Each piece = $ \\frac{72}{12} = 6 $ inches.\n\n2. **Tying the pieces together**:\n   - After tying, each piece is **1 inch shorter** due to the knots.\n   - So each piece becomes $ 6 - 1 = 5 $ inches.\n\n3. **Final length of each piece**:\n   - Since there are 12 pieces, the total length is $ 12 \\times 5 = 60 $ inches.\n\n### Final answer:\n$$\n\\boxed{60}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "Vincent starts with 72 inches of rope. He cuts it into **12 equal pieces**, each of length:\n\n$$\n\\frac{72}{12} = 6 \\text{ inches}\n$$\n\nThen he realizes it's too short and **ties the pieces together**. Each piece is tied, and each tie makes each piece **1 inch shorter**.\n\nSo, each piece after tying is:\n\n$$\n6 - 1 = 5 \\text{ inches}\n$$\n\nThere are 12 pieces, so the final length of each piece is:\n\n$$\n5 \\text{ inches}\n$$\n\n### Final Answer:\n\n$$\n\\boxed{5} \\text{ inches}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "reference_solution": "Each small piece is 6 inches because 72 / 12 = <<72/12=6>>6.\nEach piece is then 5 inches long after the knots are tied because 6-1=<<5=5>>5\nThe three pieces tied together are now 15 inches long because 5 x 3 = <<5*3=15>>15\n#### 15"
+  },
+  {
+    "position": 427,
+    "question": "Tabitha has 25 dollars. She gives her mom 8 dollars and invests half what is left in a money market. She spends some money on 5 items that costs 50 cents each. How much money does Tabitha have left?",
+    "selected": [
+      1,
+      1
+    ],
+    "correct_indices": [
+      0,
+      2
+    ],
+    "candidates": [
+      {
+        "text": "Tabitha starts with **$25**.\n\n- She gives her mom **$8**, so she has **$17** left.\n- She invests **half** of the remaining money, so she invests **$8.50**.\n- She spends **5 items** costing **$0.50 each**, so she spends **$2.50**.\n\nNow, we add the money she spent and invested:\n\n- Total spent: $8.50 + $2.50 = **$11**\n- Total money left: $25 - $8 - $8.50 - $2.50 = **$25 - $19 = $6**\n\n#### <numeric answer> $6.00",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "Tabitha starts with **25 dollars**.\n\n1. She gives **8 dollars** to her mom:  \n   $ 25 - 8 = 17 $ dollars left.\n\n2. She invests **half** of what is left:  \n   $ \\frac{1}{2} \\times 17 = 8.5 $ dollars.\n\n3. She spends **5 items**, each costing **50 cents**:  \n   $ 5 \\times 0.50 = 2.50 $ dollars.\n\n4. Total money used:  \n   $ 8.50 + 2.50 = 11.00 $ dollars.\n\n5. Remaining money:  \n   $ 25 - 11 = \\boxed{14} $ dollars.  \n\n**Final answer:**  \n#### <numeric answer> 14.",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Tabitha starts with **$25**.\n\n- She gives her mom **8 dollars**, so she has **$25 - 8 = $17** left.\n- She invests **half** of what is left in a money market, so she invests **$17 / 2 = $8.50**.\n- She spends **5 items**, each costing **50 cents**, so she spends **5 × 0.50 = $2.50**.\n\nNow, she has:\n\n- $17 (initial) - $8.50 (invested) - $2.50 (spent) = **$17 - 11 = $6**\n\nSo, the final amount is:\n\n#### $6.00.",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "Tabitha starts with **25 dollars**.\n\n1. She gives **8 dollars** to her mom, so she has:\n   $$\n   25 - 8 = 17 \\text{ dollars left}\n   $$\n\n2. She invests **half** of what is left in a money market:\n   $$\n   \\frac{1}{2} \\times 17 = 8.5 \\text{ dollars}\n   $$\n\n3. She spends **5 items** costing **50 cents each**:\n   $$\n   5 \\times 0.50 = 2.50 \\text{ dollars}\n   $$\n\n4. Subtract the total spent from what she had:\n   $$\n   17 - 2.50 = 14.50 \\text{ dollars}\n   $$\n\n### Final Answer:\n$$\n\\boxed{14.50}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "reference_solution": "Tabitha has 25-8 = <<25-8=17>>17 dollars after giving some to her mom.\nTabitha has 17/2 = <<17/2=8.5>>8.5 dollars left after putting some in a money market.\nThe 5 items Tabitha buys totals out to 5*0.5 = <<5*0.5=2.50>>2.50 dollars.\nTabitha has 8.5-2.5 = <<8.5-2.5=6>>6 dollars left.\n#### 6"
+  },
+  {
+    "position": 873,
+    "question": "Tina made a large pan of brownies and cut it into 24 pieces.  She had one with lunch and dinner every day for 5 days.  Her husband snagged one per day for 5 days to take to work.  They shared 4 with dinner guests.  How many brownies were left?",
+    "selected": [
+      1,
+      2
+    ],
+    "correct_indices": [
+      0
+    ],
+    "candidates": [
+      {
+        "text": "Tina made 24 brownies in total. She had one with lunch and dinner every day for 5 days, so she had **10 brownies**.\n\nHer husband snagged one per day for 5 days, so he took **5 brownies**.\n\nThey shared 4 brownies with dinner guests.\n\nSo, the number of brownies left is:\n\n$$\n24 - 10 - 5 - 4 = 5\n$$\n\n**Answer:** $ \\boxed{5} $",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We start with **24 brownies**.\n\n- Tina had **1 lunch** and **1 dinner** per day for **5 days**, so she had **10 brownies**.\n- Her husband took **1 brownie per day** for **5 days**, so he took **5 brownies**.\n- They shared **4 brownies** with dinner guests.\n\nSo, the total brownies used are:\n\n$$\n10 + 5 - 4 = 11\n$$\n\n**Left with:**  \n$$\n24 - 11 = \\boxed{13}\n$$\n\n#### <numeric answer> 13",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Tina made 24 brownies. She had 1 lunch and 1 dinner per day for 5 days, so she had:\n\n$$\n2 \\times 5 = 10 \\text{ pieces}\n$$\n\nHer husband took 1 per day for 5 days, so he took:\n\n$$\n5 \\times 1 = 5 \\text{ pieces}\n$$\n\nThey shared 4 with dinner guests, so the total number of brownies used is:\n\n$$\n10 + 5 - 4 = 11 \\text{ pieces}\n$$\n\nTherefore, the number of brownies left is:\n\n$$\n24 - 11 = \\boxed{13}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "Tina made 24 brownies. She had **1 lunch** and **1 dinner** every day for 5 days, so that's **10 brownies**.\n\nHer husband took **1 brownie per day for 5 days**, so that's **5 brownies**.\n\nThey shared **4 brownies** with dinner guests.\n\nSo, the total number of brownies used is:\n\n$$ 10 + 5 - 4 = 11 $$\n\n**Answer:** $\\boxed{11}$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "reference_solution": "Tina ate one twice a day for 5 days so 2*5 = <<1*2*5=10>>10\nHer husband at 1 per day for 5 days so 1*5 = <<1*5=5>>5\nShe made 24, ate 10, her husband ate 5 and the guests ate 4 so 24-10-5-4 = <<24-10-5-4=5>>5 brownies left\n#### 5"
+  },
+  {
+    "position": 1809,
+    "question": "Marta is arranging floral centerpieces for a reception party.  Each arrangement needs to have 8 roses,12 daisies, 3 snapdragons and twice as many lilies.  The reception will have 10 tables.  How many flowers will she need in total to fill this order?",
+    "selected": [
+      0,
+      0
+    ],
+    "correct_indices": [
+      2
+    ],
+    "candidates": [
+      {
+        "text": "We are given the following:\n\n- Each arrangement has:\n  - 8 roses  \n  - 12 daisies  \n  - 3 snapdragons  \n  - Twice as many lilies  \n- There are 10 tables.\n\n---\n\n### Step 1: Determine the number of lilies per arrangement\n\n- Twice as many lilies as daisies:  \n  $ 12 \\times 2 = 24 $ lilies per arrangement.\n\n---\n\n### Step 2: Calculate the total number of flowers per arrangement\n\n$$\n8 \\text{ roses} + 12 \\text{ daisies} + 3 \\text{ snapdragons} + 24 \\text{ lilies} = 47 \\text{ flowers per arrangement}\n$$\n\n---\n\n### Step 3: Multiply by the number of tables (10)\n\n$$\n47 \\times 10 = 470\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{470}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are told:\n\n- 8 roses  \n- 12 daisies  \n- 3 snapdragons  \n- Twice as many lilies (i.e., $ 2 \\times 3 = 6 $ lilies)  \n\nSo the total number of flowers is:\n\n$$\n8 + 12 + 3 + 6 = 29\n$$\n\nSince there are 10 tables, and each table needs 1 flower, the total number of flowers needed is:\n\n$$\n\\boxed{29}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are told:\n\n- Each arrangement has:\n  - 8 roses  \n  - 12 daisies  \n  - 3 snapdragons  \n  - twice as many lilies (i.e., 2 × 3 = **6 lilies**)\n\nSo, each arrangement has:\n- 8 roses  \n- 12 daisies  \n- 3 snapdragons  \n- 6 lilies\n\nNow, there are **10 tables**, and each table will have one arrangement.\n\n### Step 1: Calculate the number of arrangements\n$$\n\\text{Number of arrangements} = \\frac{10 \\text{ tables}}{1 \\text{ arrangement per table}} = 10 \\text{ arrangements}\n$$\n\n### Step 2: Calculate the total number of flowers\n$$\n\\text{Total flowers} = 10 \\text{ arrangements} \\times (8 \\text{ roses} + 12 \\text{ daisies} + 3 \\text{ snapdragons} + 6 \\text{ lilies})\n$$\n$$\n= 10 \\times (8 + 12 + 3 + 6) = 10 \\times 29 = 290\n$$\n\n### ✅ Final Answer:\n$$\n\\boxed{290}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given the following:\n\n- 8 roses  \n- 12 daisies  \n- 3 snapdragons  \n- Twice as many lilies as roses → $ 2 \\times 8 = 16 $ lilies  \n\nTotal flowers =  \n$$\n8 \\text{ roses} + 12 \\text{ daisies} + 3 \\text{ snapdragons} + 16 \\text{ lilies} = 39 \\text{ flowers}\n$$\n\n### Final Answer:\n$$\n\\boxed{39}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "reference_solution": "She needs twice as many lilies as the 3 snapdragons in the arrangement so she needs 2*3 = <<2*3=6>>6 lilies\nShe needs 8 roses, 12 daisies, 3 snapdragons and 6 lilies for a total of 8+12+3+6 = <<8+12+3+6=29>>29 flowers per arrangement\nShe needs 29 flowers per each of the 10 tables for a total of 29*10 = <<29*10=290>>290 flowers\n#### 290"
+  },
+  {
+    "position": 1707,
+    "question": "There are 15 cats in a shelter. One-third were adopted, and were replaced with twice the amount that were adopted. Later on, twice as many dogs showed up as there are cats. How many total animals are there in the shelter?",
+    "selected": [
+      3,
+      3
+    ],
+    "correct_indices": [
+      1
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- There are **15 cats** in the shelter.\n- One-third of the cats were **adopted**.\n- These cats were **replaced with twice the amount that were adopted**.\n- Twice as many **dogs** showed up as there are cats.\n\nLet's solve step by step:\n\n### Step 1: Calculate the number of cats adopted\n$$\n\\frac{1}{3} \\times 15 = 5 \\text{ cats}\n$$\n\n### Step 2: Calculate the number of cats replaced\n$$\n2 \\times 5 = 10 \\text{ cats}\n$$\n\nSo now, the shelter has:\n- 15 cats - 5 adopted = 10 cats\n- 10 cats + 10 dogs = 20 animals\n\n### Final answer:\n$$\n\\boxed{20}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given the following:\n\n- There are **15 cats** in the shelter.\n- **One-third** of the cats were adopted.\n- The adopted cats were **replaced with twice as many** as the number of adopted cats.\n- **Twice as many dogs** showed up as the number of cats.\n\nLet's solve step by step:\n\n---\n\n### Step 1: Number of adopted cats\n\n- One-third of 15 cats = $ \\frac{1}{3} \\times 15 = 5 $ cats.\n\n---\n\n### Step 2: Number of adopted cats replaced\n\n- Twice the number of adopted cats = $ 2 \\times 5 = 10 $ cats.\n\n---\n\n### Step 3: Total number of cats after replacement\n\n- Original cats: 15  \n- Adopted cats: 5  \n- Replaced cats: 10  \n- Total cats = $ 15 - 5 + 10 = 20 $\n\n---\n\n### Step 4: Number of dogs that showed up\n\n- Twice as many dogs as cats = $ 2 \\times 20 = 40 $ dogs.\n\n---\n\n### Step 5: Total number of animals\n\n- Cats: 20  \n- Dogs: 40  \n- Total = $ 20 + 40 = \\boxed{60} $\n\n---\n\n### ✅ Final Answer: **60**.",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given:\n\n- 15 cats in the shelter.\n- One-third of the cats were **adopted**.\n- The adopted cats were replaced with **twice the amount** that were adopted.\n- Twice as many **dogs** showed up as there are **cats**.\n\n---\n\n### Step 1: Calculate the number of adopted cats\n\nOne-third of 15 cats =  \n$$\n\\frac{1}{3} \\times 15 = 5 \\text{ cats}\n$$\n\n---\n\n### Step 2: Calculate the number of adopted cats replaced by twice their amount\n\n5 cats were replaced by **twice** the amount:  \n$$\n2 \\times 5 = 10 \\text{ cats}\n$$\n\nSo now, the shelter has:  \n- **15 cats** + **10 cats** = **25 cats**\n\n---\n\n### Step 3: Calculate the number of dogs that showed up\n\nTwice as many dogs showed up as cats:  \n$$\n2 \\times 5 = 10 \\text{ dogs}\n$$\n\nSo now, the shelter has:  \n- **25 cats** + **10 dogs** = **35 animals**\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{35}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given the following:\n\n- There are **15 cats** in the shelter.\n- **One-third** of the cats were adopted.\n- The cats were **replaced with twice the amount that were adopted**.\n- **Twice as many dogs showed up as there are cats**.\n\n---\n\n### Step 1: Start with the number of cats\n\n- Original number of cats: $15$\n- Number adopted: $ \\frac{1}{3} \\times 15 = 5 $\n- Number replaced: $2 \\times 5 = 10$\n\nSo, **10 cats** are added to the shelter.\n\n---\n\n### Step 2: Number of dogs\n\n- Twice as many dogs showed up as cats: $2 \\times 15 = 30$\n\n---\n\n### Step 3: Total number of animals\n\n- Cats: $15 + 10 = 25$\n- Dogs: $30$\n- Total animals: $25 + 30 = \\boxed{55}$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{55}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "reference_solution": "15/3=<<15/3=5>>5 cats were adopted out of 15\nThere were 15-5 = <<15-5=10>>10 cats left\n5*2=<<5*2=10>>10 more cats were added.\nThis makes 10+10=<<10+10=20>>20 cats in the shelter.\n20*2=<<20*2=40>>40 dogs came into the shelter.\nThere are now 20+40=<<20+40=60>>60 animals in the shelter.\n#### 60"
+  },
+  {
+    "position": 3022,
+    "question": "Tim watches 2 shows.  One of them is a half-hour show per episode and the other is a 1-hour long show per episode.  The short show had 24 episodes and the long show had 12 episodes.  How many hours of TV did he watch?",
+    "selected": [
+      0,
+      0
+    ],
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- The **short show** had **24 episodes**, and each episode was **1 hour long**.\n- The **long show** had **12 episodes**, and each episode was **0.5 hours long**.\n\n### Step 1: Calculate hours from the short show  \nShort show:  \n$$ 24 \\text{ episodes} \\times 1 \\text{ hour per episode} = 24 \\text{ hours} $$\n\n### Step 2: Calculate hours from the long show  \nLong show:  \n$$ 12 \\text{ episodes} \\times 0.5 \\text{ hours per episode} = 6 \\text{ hours} $$\n\n### Step 3: Add the two amounts together  \n$$ 24 \\text{ hours} + 6 \\text{ hours} = \\boxed{30} $$\n\n#### Final answer:  \n$$\n\\boxed{30}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are told:\n\n- The **short show** had **24 episodes**, each lasting **0.5 hours**.\n- The **long show** had **12 episodes**, each lasting **1 hour**.\n\n### Step 1: Calculate hours from the short show\n$$\n24 \\times 0.5 = 12 \\text{ hours}\n$$\n\n### Step 2: Calculate hours from the long show\n$$\n12 \\times 1 = 12 \\text{ hours}\n$$\n\n### Step 3: Add the two amounts\n$$\n12 + 12 = 24 \\text{ hours}\n$$\n\n### Final Answer:\n$$\n\\boxed{24}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given:\n\n- The **short show** had **24 episodes**, each lasting **0.5 hours**.\n- The **long show** had **12 episodes**, each lasting **1 hour**.\n\nTo find the total hours watched:\n\n- Short show: $ 24 \\times 0.5 = 12 $ hours  \n- Long show: $ 12 \\times 1 = 12 $ hours  \n\nTotal hours watched:  \n$$ 12 + 12 = 24 $$\n\n#### <numeric answer> 24.",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given:\n\n- The **short show** had **24 episodes**, each lasting **0.5 hours**.\n- The **long show** had **12 episodes**, each lasting **1 hour**.\n\n### Step 1: Calculate hours for the short show  \n$$ 24 \\times 0.5 = 12 \\text{ hours} $$\n\n### Step 2: Calculate hours for the long show  \n$$ 12 \\times 1 = 12 \\text{ hours} $$\n\n### Step 3: Add the two results  \n$$ 12 + 12 = 24 \\text{ hours} $$\n\n### Final Answer:\n$$ \\boxed{24} $$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "reference_solution": "The short show has 24*.5=<<24*.5=12>>12 hours of TV\nThe long show is 12*1=<<12*1=12>>12 hours\nSo in total he watches 12+12=<<12+12=24>>24 hours\n#### 24"
+  }
+]

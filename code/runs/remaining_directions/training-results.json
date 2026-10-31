@@ -1,0 +1,6966 @@
+{
+  "checkpoints": [
+    {
+      "family": "linear_control",
+      "architecture": "linear",
+      "features": "none",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "validation_correct": {
+        "valid_only": 730,
+        "weighted": 733
+      },
+      "validation_group_loss": 0.24882079660892487,
+      "trajectory_seconds": 1.9068594000000303
+    },
+    {
+      "family": "linear_control",
+      "architecture": "linear",
+      "features": "none",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "validation_correct": {
+        "valid_only": 733,
+        "weighted": 734
+      },
+      "validation_group_loss": 0.25707197189331055,
+      "trajectory_seconds": 5.63482600000043
+    },
+    {
+      "family": "linear_control",
+      "architecture": "linear",
+      "features": "none",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "validation_correct": {
+        "valid_only": 732,
+        "weighted": 731
+      },
+      "validation_group_loss": 0.2570708394050598,
+      "trajectory_seconds": 11.191178300000502
+    },
+    {
+      "family": "linear_text",
+      "architecture": "linear",
+      "features": "text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "validation_correct": {
+        "valid_only": 740,
+        "weighted": 743
+      },
+      "validation_group_loss": 0.19647248089313507,
+      "trajectory_seconds": 1.9566586999999345
+    },
+    {
+      "family": "linear_text",
+      "architecture": "linear",
+      "features": "text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "validation_correct": {
+        "valid_only": 738,
+        "weighted": 740
+      },
+      "validation_group_loss": 0.1982995718717575,
+      "trajectory_seconds": 5.998896199999763
+    },
+    {
+      "family": "linear_text",
+      "architecture": "linear",
+      "features": "text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "validation_correct": {
+        "valid_only": 739,
+        "weighted": 741
+      },
+      "validation_group_loss": 0.19810828566551208,
+      "trajectory_seconds": 11.625465000000077
+    },
+    {
+      "family": "linear_text",
+      "architecture": "linear",
+      "features": "text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "validation_correct": {
+        "valid_only": 743,
+        "weighted": 746
+      },
+      "validation_group_loss": 0.17446060478687286,
+      "trajectory_seconds": 1.9193887000001268
+    },
+    {
+      "family": "linear_text",
+      "architecture": "linear",
+      "features": "text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "validation_correct": {
+        "valid_only": 742,
+        "weighted": 746
+      },
+      "validation_group_loss": 0.1742318868637085,
+      "trajectory_seconds": 5.699014000000716
+    },
+    {
+      "family": "linear_text",
+      "architecture": "linear",
+      "features": "text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "validation_correct": {
+        "valid_only": 742,
+        "weighted": 746
+      },
+      "validation_group_loss": 0.1742318868637085,
+      "trajectory_seconds": 11.688562900000761
+    },
+    {
+      "family": "linear_calc",
+      "architecture": "linear",
+      "features": "calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "validation_correct": {
+        "valid_only": 729,
+        "weighted": 733
+      },
+      "validation_group_loss": 0.2499714195728302,
+      "trajectory_seconds": 1.8690369000005376
+    },
+    {
+      "family": "linear_calc",
+      "architecture": "linear",
+      "features": "calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "validation_correct": {
+        "valid_only": 725,
+        "weighted": 730
+      },
+      "validation_group_loss": 0.2591902017593384,
+      "trajectory_seconds": 5.600824300000568
+    },
+    {
+      "family": "linear_calc",
+      "architecture": "linear",
+      "features": "calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "validation_correct": {
+        "valid_only": 726,
+        "weighted": 729
+      },
+      "validation_group_loss": 0.2597930431365967,
+      "trajectory_seconds": 11.408526600000187
+    },
+    {
+      "family": "linear_calc",
+      "architecture": "linear",
+      "features": "calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "validation_correct": {
+        "valid_only": 735,
+        "weighted": 741
+      },
+      "validation_group_loss": 0.22739243507385254,
+      "trajectory_seconds": 2.00862909999978
+    },
+    {
+      "family": "linear_calc",
+      "architecture": "linear",
+      "features": "calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "validation_correct": {
+        "valid_only": 735,
+        "weighted": 741
+      },
+      "validation_group_loss": 0.22739742696285248,
+      "trajectory_seconds": 5.729832400000305
+    },
+    {
+      "family": "linear_calc",
+      "architecture": "linear",
+      "features": "calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "validation_correct": {
+        "valid_only": 733,
+        "weighted": 739
+      },
+      "validation_group_loss": 0.22718828916549683,
+      "trajectory_seconds": 11.297432999999728
+    },
+    {
+      "family": "linear_textcalc",
+      "architecture": "linear",
+      "features": "textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "validation_correct": {
+        "valid_only": 741,
+        "weighted": 741
+      },
+      "validation_group_loss": 0.19845689833164215,
+      "trajectory_seconds": 2.038344199999301
+    },
+    {
+      "family": "linear_textcalc",
+      "architecture": "linear",
+      "features": "textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "validation_correct": {
+        "valid_only": 741,
+        "weighted": 740
+      },
+      "validation_group_loss": 0.19916994869709015,
+      "trajectory_seconds": 6.115692399999716
+    },
+    {
+      "family": "linear_textcalc",
+      "architecture": "linear",
+      "features": "textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "validation_correct": {
+        "valid_only": 741,
+        "weighted": 740
+      },
+      "validation_group_loss": 0.19900229573249817,
+      "trajectory_seconds": 11.845029499999328
+    },
+    {
+      "family": "linear_textcalc",
+      "architecture": "linear",
+      "features": "textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "validation_correct": {
+        "valid_only": 742,
+        "weighted": 743
+      },
+      "validation_group_loss": 0.17424975335597992,
+      "trajectory_seconds": 1.9110774999999194
+    },
+    {
+      "family": "linear_textcalc",
+      "architecture": "linear",
+      "features": "textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "validation_correct": {
+        "valid_only": 742,
+        "weighted": 742
+      },
+      "validation_group_loss": 0.1740349978208542,
+      "trajectory_seconds": 5.907356799999434
+    },
+    {
+      "family": "linear_textcalc",
+      "architecture": "linear",
+      "features": "textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "validation_correct": {
+        "valid_only": 742,
+        "weighted": 742
+      },
+      "validation_group_loss": 0.17403501272201538,
+      "trajectory_seconds": 12.034131699999307
+    },
+    {
+      "family": "mlp",
+      "architecture": "mlp",
+      "features": "none",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "validation_correct": {
+        "valid_only": 731,
+        "weighted": 732
+      },
+      "validation_group_loss": 0.27006447315216064,
+      "trajectory_seconds": 1.0940209000000323
+    },
+    {
+      "family": "mlp",
+      "architecture": "mlp",
+      "features": "none",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "validation_correct": {
+        "valid_only": 730,
+        "weighted": 730
+      },
+      "validation_group_loss": 0.32335248589515686,
+      "trajectory_seconds": 2.147954000000027
+    },
+    {
+      "family": "mlp",
+      "architecture": "mlp",
+      "features": "none",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "validation_correct": {
+        "valid_only": 728,
+        "weighted": 728
+      },
+      "validation_group_loss": 0.40761926770210266,
+      "trajectory_seconds": 4.184871999999814
+    },
+    {
+      "family": "mlp",
+      "architecture": "mlp",
+      "features": "none",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "validation_correct": {
+        "valid_only": 731,
+        "weighted": 732
+      },
+      "validation_group_loss": 0.3010053038597107,
+      "trajectory_seconds": 1.7229891000006319
+    },
+    {
+      "family": "mlp",
+      "architecture": "mlp",
+      "features": "none",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "validation_correct": {
+        "valid_only": 725,
+        "weighted": 727
+      },
+      "validation_group_loss": 0.3856501281261444,
+      "trajectory_seconds": 3.597063000000162
+    },
+    {
+      "family": "mlp",
+      "architecture": "mlp",
+      "features": "none",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "validation_correct": {
+        "valid_only": 730,
+        "weighted": 733
+      },
+      "validation_group_loss": 0.48792868852615356,
+      "trajectory_seconds": 7.551558500000283
+    },
+    {
+      "family": "context",
+      "architecture": "context",
+      "features": "none",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "validation_correct": {
+        "valid_only": 725,
+        "weighted": 723
+      },
+      "validation_group_loss": 0.4008054733276367,
+      "trajectory_seconds": 1.6778623999998672
+    },
+    {
+      "family": "context",
+      "architecture": "context",
+      "features": "none",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "validation_correct": {
+        "valid_only": 728,
+        "weighted": 726
+      },
+      "validation_group_loss": 0.43798840045928955,
+      "trajectory_seconds": 3.321160399999826
+    },
+    {
+      "family": "context",
+      "architecture": "context",
+      "features": "none",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "validation_correct": {
+        "valid_only": 727,
+        "weighted": 725
+      },
+      "validation_group_loss": 0.5419990420341492,
+      "trajectory_seconds": 6.640534399999524
+    },
+    {
+      "family": "context",
+      "architecture": "context",
+      "features": "none",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "validation_correct": {
+        "valid_only": 729,
+        "weighted": 732
+      },
+      "validation_group_loss": 0.43002820014953613,
+      "trajectory_seconds": 2.7793675000002622
+    },
+    {
+      "family": "context",
+      "architecture": "context",
+      "features": "none",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "validation_correct": {
+        "valid_only": 726,
+        "weighted": 726
+      },
+      "validation_group_loss": 0.5294880867004395,
+      "trajectory_seconds": 5.8905577000005
+    },
+    {
+      "family": "context",
+      "architecture": "context",
+      "features": "none",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "validation_correct": {
+        "valid_only": 723,
+        "weighted": 724
+      },
+      "validation_group_loss": 0.6760078072547913,
+      "trajectory_seconds": 11.167741300000671
+    },
+    {
+      "family": "context_textcalc",
+      "architecture": "context",
+      "features": "textcalc",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "validation_correct": {
+        "valid_only": 724,
+        "weighted": 729
+      },
+      "validation_group_loss": 0.3437647521495819,
+      "trajectory_seconds": 1.957524899999953
+    },
+    {
+      "family": "context_textcalc",
+      "architecture": "context",
+      "features": "textcalc",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "validation_correct": {
+        "valid_only": 725,
+        "weighted": 730
+      },
+      "validation_group_loss": 0.4313451647758484,
+      "trajectory_seconds": 3.88429989999986
+    },
+    {
+      "family": "context_textcalc",
+      "architecture": "context",
+      "features": "textcalc",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "validation_correct": {
+        "valid_only": 729,
+        "weighted": 729
+      },
+      "validation_group_loss": 0.5078298449516296,
+      "trajectory_seconds": 7.76642609999999
+    },
+    {
+      "family": "context_textcalc",
+      "architecture": "context",
+      "features": "textcalc",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "validation_correct": {
+        "valid_only": 725,
+        "weighted": 730
+      },
+      "validation_group_loss": 0.39961835741996765,
+      "trajectory_seconds": 2.866465999999491
+    },
+    {
+      "family": "context_textcalc",
+      "architecture": "context",
+      "features": "textcalc",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "validation_correct": {
+        "valid_only": 729,
+        "weighted": 732
+      },
+      "validation_group_loss": 0.47767528891563416,
+      "trajectory_seconds": 5.457445500000176
+    },
+    {
+      "family": "context_textcalc",
+      "architecture": "context",
+      "features": "textcalc",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "validation_correct": {
+        "valid_only": 737,
+        "weighted": 738
+      },
+      "validation_group_loss": 0.5429133772850037,
+      "trajectory_seconds": 11.079412299999603
+    }
+  ],
+  "curves": [
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 1,
+      "training_objective_epoch_mean": 0.3787294924259186
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 10,
+      "training_objective_epoch_mean": 0.24808289110660553
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "training_objective_epoch_mean": 0.21049775183200836
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 30,
+      "training_objective_epoch_mean": 0.1840268224477768
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "training_objective_epoch_mean": 0.17231084406375885
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 50,
+      "training_objective_epoch_mean": 0.16461053490638733
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 60,
+      "training_objective_epoch_mean": 0.15947549045085907
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 70,
+      "training_objective_epoch_mean": 0.15592870116233826
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "training_objective_epoch_mean": 0.15325401723384857
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 90,
+      "training_objective_epoch_mean": 0.1512768417596817
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 100,
+      "training_objective_epoch_mean": 0.1497550904750824
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 110,
+      "training_objective_epoch_mean": 0.1485806256532669
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "training_objective_epoch_mean": 0.14766591787338257
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 130,
+      "training_objective_epoch_mean": 0.14695176482200623
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 140,
+      "training_objective_epoch_mean": 0.1463916152715683
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 150,
+      "training_objective_epoch_mean": 0.1459505707025528
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 160,
+      "training_objective_epoch_mean": 0.14560215175151825
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 170,
+      "training_objective_epoch_mean": 0.14532586932182312
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 180,
+      "training_objective_epoch_mean": 0.14510603249073029
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 190,
+      "training_objective_epoch_mean": 0.14493045210838318
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 200,
+      "training_objective_epoch_mean": 0.14478975534439087
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 210,
+      "training_objective_epoch_mean": 0.14467662572860718
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 220,
+      "training_objective_epoch_mean": 0.14458537101745605
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 230,
+      "training_objective_epoch_mean": 0.14451156556606293
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 240,
+      "training_objective_epoch_mean": 0.14445170760154724
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 250,
+      "training_objective_epoch_mean": 0.14440302550792694
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 260,
+      "training_objective_epoch_mean": 0.1443634331226349
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 270,
+      "training_objective_epoch_mean": 0.1443311721086502
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 280,
+      "training_objective_epoch_mean": 0.14430488646030426
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 290,
+      "training_objective_epoch_mean": 0.1442834585905075
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 300,
+      "training_objective_epoch_mean": 0.14426599442958832
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 310,
+      "training_objective_epoch_mean": 0.14425179362297058
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 320,
+      "training_objective_epoch_mean": 0.14424018561840057
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 330,
+      "training_objective_epoch_mean": 0.14423072338104248
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 340,
+      "training_objective_epoch_mean": 0.1442229002714157
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 350,
+      "training_objective_epoch_mean": 0.1442164182662964
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "training_objective_epoch_mean": 0.14421087503433228
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 370,
+      "training_objective_epoch_mean": 0.14420592784881592
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 380,
+      "training_objective_epoch_mean": 0.14420101046562195
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 390,
+      "training_objective_epoch_mean": 0.14419494569301605
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 400,
+      "training_objective_epoch_mean": 0.1441851705312729
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 410,
+      "training_objective_epoch_mean": 0.1441684514284134
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 420,
+      "training_objective_epoch_mean": 0.14414961636066437
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 430,
+      "training_objective_epoch_mean": 0.1441357582807541
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 440,
+      "training_objective_epoch_mean": 0.1441267877817154
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 450,
+      "training_objective_epoch_mean": 0.14412103593349457
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 460,
+      "training_objective_epoch_mean": 0.14411726593971252
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 470,
+      "training_objective_epoch_mean": 0.14411470293998718
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 480,
+      "training_objective_epoch_mean": 0.14411289989948273
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 490,
+      "training_objective_epoch_mean": 0.14411163330078125
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 500,
+      "training_objective_epoch_mean": 0.14411066472530365
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 510,
+      "training_objective_epoch_mean": 0.14410997927188873
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 520,
+      "training_objective_epoch_mean": 0.14410944283008575
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 530,
+      "training_objective_epoch_mean": 0.14410902559757233
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 540,
+      "training_objective_epoch_mean": 0.14410871267318726
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 550,
+      "training_objective_epoch_mean": 0.14410850405693054
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 560,
+      "training_objective_epoch_mean": 0.14410831034183502
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 570,
+      "training_objective_epoch_mean": 0.14410816133022308
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 580,
+      "training_objective_epoch_mean": 0.14410802721977234
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 590,
+      "training_objective_epoch_mean": 0.14410795271396637
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 600,
+      "training_objective_epoch_mean": 0.144107848405838
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 610,
+      "training_objective_epoch_mean": 0.14410783350467682
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 620,
+      "training_objective_epoch_mean": 0.14410775899887085
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 630,
+      "training_objective_epoch_mean": 0.14410772919654846
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 640,
+      "training_objective_epoch_mean": 0.14410769939422607
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 650,
+      "training_objective_epoch_mean": 0.14410768449306488
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 660,
+      "training_objective_epoch_mean": 0.1441076695919037
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 670,
+      "training_objective_epoch_mean": 0.1441076397895813
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 680,
+      "training_objective_epoch_mean": 0.1441076397895813
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 690,
+      "training_objective_epoch_mean": 0.1441076397895813
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 700,
+      "training_objective_epoch_mean": 0.1441076248884201
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 710,
+      "training_objective_epoch_mean": 0.1441076248884201
+    },
+    {
+      "family": "linear_control",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "training_objective_epoch_mean": 0.1441076099872589
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 1,
+      "training_objective_epoch_mean": 0.3787294924259186
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 10,
+      "training_objective_epoch_mean": 0.21818920969963074
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "training_objective_epoch_mean": 0.17429165542125702
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 30,
+      "training_objective_epoch_mean": 0.14930517971515656
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "training_objective_epoch_mean": 0.13926197588443756
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 50,
+      "training_objective_epoch_mean": 0.1309777945280075
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 60,
+      "training_objective_epoch_mean": 0.12585145235061646
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 70,
+      "training_objective_epoch_mean": 0.12238828837871552
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "training_objective_epoch_mean": 0.11984271556138992
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 90,
+      "training_objective_epoch_mean": 0.11790098249912262
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 100,
+      "training_objective_epoch_mean": 0.11642742156982422
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 110,
+      "training_objective_epoch_mean": 0.11529069393873215
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "training_objective_epoch_mean": 0.1144058033823967
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 130,
+      "training_objective_epoch_mean": 0.1137140542268753
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 140,
+      "training_objective_epoch_mean": 0.11316998302936554
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 150,
+      "training_objective_epoch_mean": 0.11274043470621109
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 160,
+      "training_objective_epoch_mean": 0.11239990592002869
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 170,
+      "training_objective_epoch_mean": 0.11212889105081558
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 180,
+      "training_objective_epoch_mean": 0.11191239207983017
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 190,
+      "training_objective_epoch_mean": 0.11173883080482483
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 200,
+      "training_objective_epoch_mean": 0.11159926652908325
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 210,
+      "training_objective_epoch_mean": 0.11148665845394135
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 220,
+      "training_objective_epoch_mean": 0.11139547824859619
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 230,
+      "training_objective_epoch_mean": 0.11132147163152695
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 240,
+      "training_objective_epoch_mean": 0.11126120388507843
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 250,
+      "training_objective_epoch_mean": 0.11121197044849396
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 260,
+      "training_objective_epoch_mean": 0.11117162555456161
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 270,
+      "training_objective_epoch_mean": 0.11113846302032471
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 280,
+      "training_objective_epoch_mean": 0.1111111119389534
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 290,
+      "training_objective_epoch_mean": 0.11108848452568054
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 300,
+      "training_objective_epoch_mean": 0.1110697016119957
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 310,
+      "training_objective_epoch_mean": 0.11105407029390335
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 320,
+      "training_objective_epoch_mean": 0.11104097217321396
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 330,
+      "training_objective_epoch_mean": 0.11103000491857529
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 340,
+      "training_objective_epoch_mean": 0.1110207736492157
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 350,
+      "training_objective_epoch_mean": 0.11101296544075012
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "training_objective_epoch_mean": 0.11100631952285767
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 370,
+      "training_objective_epoch_mean": 0.1110006794333458
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 380,
+      "training_objective_epoch_mean": 0.11099585145711899
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 390,
+      "training_objective_epoch_mean": 0.11099168658256531
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 400,
+      "training_objective_epoch_mean": 0.11098811030387878
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 410,
+      "training_objective_epoch_mean": 0.11098502576351166
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 420,
+      "training_objective_epoch_mean": 0.11098234355449677
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 430,
+      "training_objective_epoch_mean": 0.11098000407218933
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 440,
+      "training_objective_epoch_mean": 0.11097794771194458
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 450,
+      "training_objective_epoch_mean": 0.11097615212202072
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 460,
+      "training_objective_epoch_mean": 0.11097457259893417
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 470,
+      "training_objective_epoch_mean": 0.11097316443920135
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 480,
+      "training_objective_epoch_mean": 0.11097192764282227
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 490,
+      "training_objective_epoch_mean": 0.11097084730863571
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 500,
+      "training_objective_epoch_mean": 0.11096987128257751
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 510,
+      "training_objective_epoch_mean": 0.11096899956464767
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 520,
+      "training_objective_epoch_mean": 0.11096823215484619
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 530,
+      "training_objective_epoch_mean": 0.11096754670143127
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 540,
+      "training_objective_epoch_mean": 0.11096694320440292
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 550,
+      "training_objective_epoch_mean": 0.11096639186143875
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 560,
+      "training_objective_epoch_mean": 0.11096590757369995
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 570,
+      "training_objective_epoch_mean": 0.11096545308828354
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 580,
+      "training_objective_epoch_mean": 0.1109650731086731
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 590,
+      "training_objective_epoch_mean": 0.11096472293138504
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 600,
+      "training_objective_epoch_mean": 0.11096438765525818
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 610,
+      "training_objective_epoch_mean": 0.11096411943435669
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 620,
+      "training_objective_epoch_mean": 0.1109638661146164
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 630,
+      "training_objective_epoch_mean": 0.11096364259719849
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 640,
+      "training_objective_epoch_mean": 0.11096344143152237
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 650,
+      "training_objective_epoch_mean": 0.11096325516700745
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 660,
+      "training_objective_epoch_mean": 0.11096309125423431
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 670,
+      "training_objective_epoch_mean": 0.11096294224262238
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 680,
+      "training_objective_epoch_mean": 0.11096283048391342
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 690,
+      "training_objective_epoch_mean": 0.11096271127462387
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 700,
+      "training_objective_epoch_mean": 0.11096261441707611
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 710,
+      "training_objective_epoch_mean": 0.11096252501010895
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "training_objective_epoch_mean": 0.11096245050430298
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 1,
+      "training_objective_epoch_mean": 0.3787294924259186
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 10,
+      "training_objective_epoch_mean": 0.23337076604366302
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "training_objective_epoch_mean": 0.2026369869709015
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 30,
+      "training_objective_epoch_mean": 0.1811455488204956
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "training_objective_epoch_mean": 0.17679762840270996
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 50,
+      "training_objective_epoch_mean": 0.17450080811977386
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 60,
+      "training_objective_epoch_mean": 0.17369459569454193
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 70,
+      "training_objective_epoch_mean": 0.17326390743255615
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "training_objective_epoch_mean": 0.17304404079914093
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 90,
+      "training_objective_epoch_mean": 0.17297208309173584
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 100,
+      "training_objective_epoch_mean": 0.1729317158460617
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 110,
+      "training_objective_epoch_mean": 0.17290638387203217
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "training_objective_epoch_mean": 0.1728930026292801
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 130,
+      "training_objective_epoch_mean": 0.1728842556476593
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 140,
+      "training_objective_epoch_mean": 0.17287877202033997
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 150,
+      "training_objective_epoch_mean": 0.17287518084049225
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 160,
+      "training_objective_epoch_mean": 0.1728728711605072
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 170,
+      "training_objective_epoch_mean": 0.1728714257478714
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 180,
+      "training_objective_epoch_mean": 0.17287051677703857
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 190,
+      "training_objective_epoch_mean": 0.1728699654340744
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 200,
+      "training_objective_epoch_mean": 0.17286966741085052
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 210,
+      "training_objective_epoch_mean": 0.1728694885969162
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 220,
+      "training_objective_epoch_mean": 0.17286935448646545
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 230,
+      "training_objective_epoch_mean": 0.17286929488182068
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 240,
+      "training_objective_epoch_mean": 0.17286929488182068
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 250,
+      "training_objective_epoch_mean": 0.1728692650794983
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 260,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 270,
+      "training_objective_epoch_mean": 0.1728692352771759
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 280,
+      "training_objective_epoch_mean": 0.1728692352771759
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 290,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 300,
+      "training_objective_epoch_mean": 0.1728692352771759
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 310,
+      "training_objective_epoch_mean": 0.1728692203760147
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 320,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 330,
+      "training_objective_epoch_mean": 0.1728692352771759
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 340,
+      "training_objective_epoch_mean": 0.1728692352771759
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 350,
+      "training_objective_epoch_mean": 0.1728692650794983
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 370,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 380,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 390,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 400,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 410,
+      "training_objective_epoch_mean": 0.1728692352771759
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 420,
+      "training_objective_epoch_mean": 0.1728692650794983
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 430,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 440,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 450,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 460,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 470,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 480,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 490,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 500,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 510,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 520,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 530,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 540,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 550,
+      "training_objective_epoch_mean": 0.1728692352771759
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 560,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 570,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 580,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 590,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 600,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 610,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 620,
+      "training_objective_epoch_mean": 0.1728692352771759
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 630,
+      "training_objective_epoch_mean": 0.1728692352771759
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 640,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 650,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 660,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 670,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 680,
+      "training_objective_epoch_mean": 0.1728692352771759
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 690,
+      "training_objective_epoch_mean": 0.1728692352771759
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 700,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 710,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_text",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "training_objective_epoch_mean": 0.1728692501783371
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 1,
+      "training_objective_epoch_mean": 0.3787294924259186
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 10,
+      "training_objective_epoch_mean": 0.2442677617073059
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "training_objective_epoch_mean": 0.20795002579689026
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 30,
+      "training_objective_epoch_mean": 0.181512713432312
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "training_objective_epoch_mean": 0.1695535033941269
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 50,
+      "training_objective_epoch_mean": 0.1619623899459839
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 60,
+      "training_objective_epoch_mean": 0.15688464045524597
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 70,
+      "training_objective_epoch_mean": 0.15336039662361145
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "training_objective_epoch_mean": 0.15072882175445557
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 90,
+      "training_objective_epoch_mean": 0.14879348874092102
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 100,
+      "training_objective_epoch_mean": 0.14729690551757812
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 110,
+      "training_objective_epoch_mean": 0.1461459845304489
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "training_objective_epoch_mean": 0.14525137841701508
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 130,
+      "training_objective_epoch_mean": 0.14455266296863556
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 140,
+      "training_objective_epoch_mean": 0.14400461316108704
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 150,
+      "training_objective_epoch_mean": 0.14357317984104156
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 160,
+      "training_objective_epoch_mean": 0.1432322859764099
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 170,
+      "training_objective_epoch_mean": 0.14296194911003113
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 180,
+      "training_objective_epoch_mean": 0.14274689555168152
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 190,
+      "training_objective_epoch_mean": 0.14257527887821198
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 200,
+      "training_objective_epoch_mean": 0.1424379050731659
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 210,
+      "training_objective_epoch_mean": 0.142327681183815
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 220,
+      "training_objective_epoch_mean": 0.14223897457122803
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 230,
+      "training_objective_epoch_mean": 0.14216749370098114
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 240,
+      "training_objective_epoch_mean": 0.1421097368001938
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 250,
+      "training_objective_epoch_mean": 0.14206302165985107
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 260,
+      "training_objective_epoch_mean": 0.1420252025127411
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 270,
+      "training_objective_epoch_mean": 0.14199455082416534
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 280,
+      "training_objective_epoch_mean": 0.141969695687294
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 290,
+      "training_objective_epoch_mean": 0.14194951951503754
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 300,
+      "training_objective_epoch_mean": 0.1419331580400467
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 310,
+      "training_objective_epoch_mean": 0.14191988110542297
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 320,
+      "training_objective_epoch_mean": 0.14190912246704102
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 330,
+      "training_objective_epoch_mean": 0.14190040528774261
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 340,
+      "training_objective_epoch_mean": 0.14189334213733673
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 350,
+      "training_objective_epoch_mean": 0.1418875753879547
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "training_objective_epoch_mean": 0.14188289642333984
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 370,
+      "training_objective_epoch_mean": 0.1418791264295578
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 380,
+      "training_objective_epoch_mean": 0.14187605679035187
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 390,
+      "training_objective_epoch_mean": 0.1418735682964325
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 400,
+      "training_objective_epoch_mean": 0.14187154173851013
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 410,
+      "training_objective_epoch_mean": 0.14186988770961761
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 420,
+      "training_objective_epoch_mean": 0.14186854660511017
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 430,
+      "training_objective_epoch_mean": 0.14186745882034302
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 440,
+      "training_objective_epoch_mean": 0.14186657965183258
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 450,
+      "training_objective_epoch_mean": 0.14186586439609528
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 460,
+      "training_objective_epoch_mean": 0.14186525344848633
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 470,
+      "training_objective_epoch_mean": 0.14186477661132812
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 480,
+      "training_objective_epoch_mean": 0.14186438918113708
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 490,
+      "training_objective_epoch_mean": 0.14186406135559082
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 500,
+      "training_objective_epoch_mean": 0.14186379313468933
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 510,
+      "training_objective_epoch_mean": 0.14186358451843262
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 520,
+      "training_objective_epoch_mean": 0.1418634057044983
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 530,
+      "training_objective_epoch_mean": 0.14186328649520874
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 540,
+      "training_objective_epoch_mean": 0.141863152384758
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 550,
+      "training_objective_epoch_mean": 0.14186304807662964
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 560,
+      "training_objective_epoch_mean": 0.14186295866966248
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 570,
+      "training_objective_epoch_mean": 0.1418629139661789
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 580,
+      "training_objective_epoch_mean": 0.14186283946037292
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 590,
+      "training_objective_epoch_mean": 0.14186279475688934
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 600,
+      "training_objective_epoch_mean": 0.14186276495456696
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 610,
+      "training_objective_epoch_mean": 0.14186273515224457
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 620,
+      "training_objective_epoch_mean": 0.14186270534992218
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 630,
+      "training_objective_epoch_mean": 0.14186272025108337
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 640,
+      "training_objective_epoch_mean": 0.14186270534992218
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 650,
+      "training_objective_epoch_mean": 0.1418626755475998
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 660,
+      "training_objective_epoch_mean": 0.1418626606464386
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 670,
+      "training_objective_epoch_mean": 0.1418626308441162
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 680,
+      "training_objective_epoch_mean": 0.1418626457452774
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 690,
+      "training_objective_epoch_mean": 0.1418626308441162
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 700,
+      "training_objective_epoch_mean": 0.1418626308441162
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 710,
+      "training_objective_epoch_mean": 0.14186261594295502
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "training_objective_epoch_mean": 0.14186261594295502
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 1,
+      "training_objective_epoch_mean": 0.3787294924259186
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 10,
+      "training_objective_epoch_mean": 0.26046985387802124
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "training_objective_epoch_mean": 0.23396213352680206
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 30,
+      "training_objective_epoch_mean": 0.21791678667068481
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "training_objective_epoch_mean": 0.21207168698310852
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 50,
+      "training_objective_epoch_mean": 0.21017909049987793
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 60,
+      "training_objective_epoch_mean": 0.20993009209632874
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 70,
+      "training_objective_epoch_mean": 0.20963911712169647
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "training_objective_epoch_mean": 0.20955319702625275
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 90,
+      "training_objective_epoch_mean": 0.20951329171657562
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 100,
+      "training_objective_epoch_mean": 0.2095026671886444
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 110,
+      "training_objective_epoch_mean": 0.20949631929397583
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "training_objective_epoch_mean": 0.20949509739875793
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 130,
+      "training_objective_epoch_mean": 0.2094944715499878
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 140,
+      "training_objective_epoch_mean": 0.2094942182302475
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 150,
+      "training_objective_epoch_mean": 0.20949415862560272
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 160,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 170,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 180,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 190,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 200,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 210,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 220,
+      "training_objective_epoch_mean": 0.20949408411979675
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 230,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 240,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 250,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 260,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 270,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 280,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 290,
+      "training_objective_epoch_mean": 0.20949408411979675
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 300,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 310,
+      "training_objective_epoch_mean": 0.20949408411979675
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 320,
+      "training_objective_epoch_mean": 0.20949408411979675
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 330,
+      "training_objective_epoch_mean": 0.20949408411979675
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 340,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 350,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 370,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 380,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 390,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 400,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 410,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 420,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 430,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 440,
+      "training_objective_epoch_mean": 0.20949408411979675
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 450,
+      "training_objective_epoch_mean": 0.20949408411979675
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 460,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 470,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 480,
+      "training_objective_epoch_mean": 0.20949408411979675
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 490,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 500,
+      "training_objective_epoch_mean": 0.20949408411979675
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 510,
+      "training_objective_epoch_mean": 0.20949408411979675
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 520,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 530,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 540,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 550,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 560,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 570,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 580,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 590,
+      "training_objective_epoch_mean": 0.20949408411979675
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 600,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 610,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 620,
+      "training_objective_epoch_mean": 0.20949409902095795
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 630,
+      "training_objective_epoch_mean": 0.20949411392211914
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 640,
+      "training_objective_epoch_mean": 0.2095046490430832
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 650,
+      "training_objective_epoch_mean": 0.2281084507703781
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 660,
+      "training_objective_epoch_mean": 0.21765929460525513
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 670,
+      "training_objective_epoch_mean": 0.21226230263710022
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 680,
+      "training_objective_epoch_mean": 0.20971757173538208
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 690,
+      "training_objective_epoch_mean": 0.20953777432441711
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 700,
+      "training_objective_epoch_mean": 0.2096017599105835
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 710,
+      "training_objective_epoch_mean": 0.20954741537570953
+    },
+    {
+      "family": "linear_calc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "training_objective_epoch_mean": 0.2095067799091339
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 1,
+      "training_objective_epoch_mean": 0.3787294924259186
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 10,
+      "training_objective_epoch_mean": 0.21518394351005554
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "training_objective_epoch_mean": 0.17216867208480835
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 30,
+      "training_objective_epoch_mean": 0.1468774676322937
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "training_objective_epoch_mean": 0.13670440018177032
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 50,
+      "training_objective_epoch_mean": 0.1285630315542221
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 60,
+      "training_objective_epoch_mean": 0.12351059913635254
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 70,
+      "training_objective_epoch_mean": 0.12009915709495544
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "training_objective_epoch_mean": 0.11760076880455017
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 90,
+      "training_objective_epoch_mean": 0.11570315808057785
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 100,
+      "training_objective_epoch_mean": 0.11425937712192535
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 110,
+      "training_objective_epoch_mean": 0.11314389109611511
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "training_objective_epoch_mean": 0.11227396875619888
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 130,
+      "training_objective_epoch_mean": 0.11159311234951019
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 140,
+      "training_objective_epoch_mean": 0.11105715483427048
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 150,
+      "training_objective_epoch_mean": 0.11063375324010849
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 160,
+      "training_objective_epoch_mean": 0.11029787361621857
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 170,
+      "training_objective_epoch_mean": 0.11003033816814423
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 180,
+      "training_objective_epoch_mean": 0.10981648415327072
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 190,
+      "training_objective_epoch_mean": 0.10964486747980118
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 200,
+      "training_objective_epoch_mean": 0.10950666666030884
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 210,
+      "training_objective_epoch_mean": 0.10939498245716095
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 220,
+      "training_objective_epoch_mean": 0.10930439829826355
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 230,
+      "training_objective_epoch_mean": 0.10923067480325699
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 240,
+      "training_objective_epoch_mean": 0.10917049646377563
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 250,
+      "training_objective_epoch_mean": 0.1091211661696434
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 260,
+      "training_objective_epoch_mean": 0.10908064991235733
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 270,
+      "training_objective_epoch_mean": 0.10904721170663834
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 280,
+      "training_objective_epoch_mean": 0.10901954770088196
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 290,
+      "training_objective_epoch_mean": 0.10899658501148224
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 300,
+      "training_objective_epoch_mean": 0.10897746682167053
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 310,
+      "training_objective_epoch_mean": 0.10896147042512894
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 320,
+      "training_objective_epoch_mean": 0.10894807428121567
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 330,
+      "training_objective_epoch_mean": 0.10893680155277252
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 340,
+      "training_objective_epoch_mean": 0.10892727971076965
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 350,
+      "training_objective_epoch_mean": 0.10891922563314438
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "training_objective_epoch_mean": 0.1089123785495758
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 370,
+      "training_objective_epoch_mean": 0.10890652239322662
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 380,
+      "training_objective_epoch_mean": 0.10890152305364609
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 390,
+      "training_objective_epoch_mean": 0.10889720916748047
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 400,
+      "training_objective_epoch_mean": 0.1088935062289238
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 410,
+      "training_objective_epoch_mean": 0.10889030992984772
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 420,
+      "training_objective_epoch_mean": 0.10888752341270447
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 430,
+      "training_objective_epoch_mean": 0.10888510942459106
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 440,
+      "training_objective_epoch_mean": 0.10888297855854034
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 450,
+      "training_objective_epoch_mean": 0.10888112336397171
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 460,
+      "training_objective_epoch_mean": 0.10887947678565979
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 470,
+      "training_objective_epoch_mean": 0.10887804627418518
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 480,
+      "training_objective_epoch_mean": 0.1088767796754837
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 490,
+      "training_objective_epoch_mean": 0.10887566208839417
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 500,
+      "training_objective_epoch_mean": 0.10887466371059418
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 510,
+      "training_objective_epoch_mean": 0.10887376219034195
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 520,
+      "training_objective_epoch_mean": 0.10887297987937927
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 530,
+      "training_objective_epoch_mean": 0.10887227952480316
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 540,
+      "training_objective_epoch_mean": 0.10887163877487183
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 550,
+      "training_objective_epoch_mean": 0.10887108743190765
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 560,
+      "training_objective_epoch_mean": 0.10887058824300766
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 570,
+      "training_objective_epoch_mean": 0.10887013375759125
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 580,
+      "training_objective_epoch_mean": 0.10886974632740021
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 590,
+      "training_objective_epoch_mean": 0.10886937379837036
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 600,
+      "training_objective_epoch_mean": 0.10886906832456589
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 610,
+      "training_objective_epoch_mean": 0.10886877775192261
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 620,
+      "training_objective_epoch_mean": 0.10886852443218231
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 630,
+      "training_objective_epoch_mean": 0.1088683009147644
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 640,
+      "training_objective_epoch_mean": 0.10886809229850769
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 650,
+      "training_objective_epoch_mean": 0.10886791348457336
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 660,
+      "training_objective_epoch_mean": 0.10886774957180023
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 670,
+      "training_objective_epoch_mean": 0.1088676005601883
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 680,
+      "training_objective_epoch_mean": 0.10886746644973755
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 690,
+      "training_objective_epoch_mean": 0.10886737704277039
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 700,
+      "training_objective_epoch_mean": 0.10886726528406143
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 710,
+      "training_objective_epoch_mean": 0.10886716842651367
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.001,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "training_objective_epoch_mean": 0.1088670939207077
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 1,
+      "training_objective_epoch_mean": 0.3787294924259186
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 10,
+      "training_objective_epoch_mean": 0.23058336973190308
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "training_objective_epoch_mean": 0.2004341036081314
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 30,
+      "training_objective_epoch_mean": 0.17866428196430206
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "training_objective_epoch_mean": 0.17425528168678284
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 50,
+      "training_objective_epoch_mean": 0.17198240756988525
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 60,
+      "training_objective_epoch_mean": 0.17119230329990387
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 70,
+      "training_objective_epoch_mean": 0.17075368762016296
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "training_objective_epoch_mean": 0.1705491840839386
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 90,
+      "training_objective_epoch_mean": 0.1704690158367157
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 100,
+      "training_objective_epoch_mean": 0.17042787373065948
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 110,
+      "training_objective_epoch_mean": 0.17040276527404785
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 120,
+      "training_objective_epoch_mean": 0.17038939893245697
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 130,
+      "training_objective_epoch_mean": 0.1703806072473526
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 140,
+      "training_objective_epoch_mean": 0.17037518322467804
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 150,
+      "training_objective_epoch_mean": 0.17037168145179749
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 160,
+      "training_objective_epoch_mean": 0.17036941647529602
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 170,
+      "training_objective_epoch_mean": 0.1703680157661438
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 180,
+      "training_objective_epoch_mean": 0.17036712169647217
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 190,
+      "training_objective_epoch_mean": 0.17036660015583038
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 200,
+      "training_objective_epoch_mean": 0.1703662872314453
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 210,
+      "training_objective_epoch_mean": 0.17036612331867218
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 220,
+      "training_objective_epoch_mean": 0.17036603391170502
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 230,
+      "training_objective_epoch_mean": 0.17036597430706024
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 240,
+      "training_objective_epoch_mean": 0.17036592960357666
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 250,
+      "training_objective_epoch_mean": 0.17036594450473785
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 260,
+      "training_objective_epoch_mean": 0.17036592960357666
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 270,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 280,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 290,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 300,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 310,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 320,
+      "training_objective_epoch_mean": 0.17036589980125427
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 330,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 340,
+      "training_objective_epoch_mean": 0.17036589980125427
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 350,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 360,
+      "training_objective_epoch_mean": 0.17036589980125427
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 370,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 380,
+      "training_objective_epoch_mean": 0.17036589980125427
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 390,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 400,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 410,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 420,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 430,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 440,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 450,
+      "training_objective_epoch_mean": 0.17036589980125427
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 460,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 470,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 480,
+      "training_objective_epoch_mean": 0.17036589980125427
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 490,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 500,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 510,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 520,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 530,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 540,
+      "training_objective_epoch_mean": 0.17036589980125427
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 550,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 560,
+      "training_objective_epoch_mean": 0.17036589980125427
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 570,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 580,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 590,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 600,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 610,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 620,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 630,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 640,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 650,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 660,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 670,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 680,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 690,
+      "training_objective_epoch_mean": 0.17036589980125427
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 700,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 710,
+      "training_objective_epoch_mean": 0.17036591470241547
+    },
+    {
+      "family": "linear_textcalc",
+      "config": {
+        "hidden": 0,
+        "regularization": 0.01,
+        "lr": 0.03
+      },
+      "seed": 2026,
+      "epoch": 720,
+      "training_objective_epoch_mean": 0.17036589980125427
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 1,
+      "training_objective_epoch_mean": 0.33734981134361525
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 10,
+      "training_objective_epoch_mean": 0.15310038477025698
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "training_objective_epoch_mean": 0.07938994837358798
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 30,
+      "training_objective_epoch_mean": 0.04699372293899613
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "training_objective_epoch_mean": 0.03260137754659923
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 50,
+      "training_objective_epoch_mean": 0.024401725329983623
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 60,
+      "training_objective_epoch_mean": 0.019658578265963667
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 70,
+      "training_objective_epoch_mean": 0.014795288711895952
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "training_objective_epoch_mean": 0.014085888448362283
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 1,
+      "training_objective_epoch_mean": 0.32335992440440303
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 10,
+      "training_objective_epoch_mean": 0.11828448682490708
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "training_objective_epoch_mean": 0.04723578958794647
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 30,
+      "training_objective_epoch_mean": 0.02427576763592621
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "training_objective_epoch_mean": 0.016020774742986
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 50,
+      "training_objective_epoch_mean": 0.010896801918384656
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 60,
+      "training_objective_epoch_mean": 0.009008026701230732
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 70,
+      "training_objective_epoch_mean": 0.007486067460281882
+    },
+    {
+      "family": "mlp",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "training_objective_epoch_mean": 0.007465626812049361
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 1,
+      "training_objective_epoch_mean": 0.35257110858941304
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 10,
+      "training_objective_epoch_mean": 0.10876331414271354
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "training_objective_epoch_mean": 0.05381968499687192
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 30,
+      "training_objective_epoch_mean": 0.03908559961007471
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "training_objective_epoch_mean": 0.032954379911882145
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 50,
+      "training_objective_epoch_mean": 0.023931041788446916
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 60,
+      "training_objective_epoch_mean": 0.018332037708666236
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 70,
+      "training_objective_epoch_mean": 0.024433277791794918
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "training_objective_epoch_mean": 0.016869185947970763
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 1,
+      "training_objective_epoch_mean": 0.341664475001998
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 10,
+      "training_objective_epoch_mean": 0.08162413124312362
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "training_objective_epoch_mean": 0.03467876818089831
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 30,
+      "training_objective_epoch_mean": 0.02287230980939983
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "training_objective_epoch_mean": 0.020391521668629613
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 50,
+      "training_objective_epoch_mean": 0.012152700044300904
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 60,
+      "training_objective_epoch_mean": 0.014765657019310804
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 70,
+      "training_objective_epoch_mean": 0.010173458952435169
+    },
+    {
+      "family": "context",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "training_objective_epoch_mean": 0.010103109537513161
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 1,
+      "training_objective_epoch_mean": 0.3478313710285913
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 10,
+      "training_objective_epoch_mean": 0.09431233005568808
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "training_objective_epoch_mean": 0.041329034494645464
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 30,
+      "training_objective_epoch_mean": 0.025835033642768578
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "training_objective_epoch_mean": 0.02154878025794192
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 50,
+      "training_objective_epoch_mean": 0.01998703466604937
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 60,
+      "training_objective_epoch_mean": 0.01910295850753032
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 70,
+      "training_objective_epoch_mean": 0.007979062711281387
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 32,
+        "regularization": 0.001,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "training_objective_epoch_mean": 0.006831157916606444
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 1,
+      "training_objective_epoch_mean": 0.3257729537918239
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 10,
+      "training_objective_epoch_mean": 0.05422996596112988
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 20,
+      "training_objective_epoch_mean": 0.024145606831773785
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 30,
+      "training_objective_epoch_mean": 0.012502333418427958
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 40,
+      "training_objective_epoch_mean": 0.015800554348012877
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 50,
+      "training_objective_epoch_mean": 0.008116928921262298
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 60,
+      "training_objective_epoch_mean": 0.007252081003251606
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 70,
+      "training_objective_epoch_mean": 0.006994604815574232
+    },
+    {
+      "family": "context_textcalc",
+      "config": {
+        "hidden": 64,
+        "regularization": 0.01,
+        "lr": 0.001
+      },
+      "seed": 2026,
+      "epoch": 80,
+      "training_objective_epoch_mean": 0.004458071454428137
+    }
+  ],
+  "replications": {
+    "mlp": {
+      "seed": 2027,
+      "epoch": 20,
+      "validation_correct": {
+        "valid_only": 724,
+        "weighted": 730
+      },
+      "policy": "diagnostic only; original seed 2026 retained irrespective of replication result"
+    },
+    "context": {
+      "seed": 2027,
+      "epoch": 20,
+      "validation_correct": {
+        "valid_only": 729,
+        "weighted": 727
+      },
+      "policy": "diagnostic only; original seed 2026 retained irrespective of replication result"
+    },
+    "context_textcalc": {
+      "seed": 2027,
+      "epoch": 80,
+      "validation_correct": {
+        "valid_only": 726,
+        "weighted": 726
+      },
+      "policy": "diagnostic only; original seed 2026 retained irrespective of replication result"
+    }
+  },
+  "search_and_replication_seconds_excluding_startup_imports": 165.07431369999995,
+  "device": "cpu",
+  "threads": 4,
+  "linear_checkpoints": [
+    120,
+    360,
+    720
+  ],
+  "neural_checkpoints": [
+    20,
+    40,
+    80
+  ],
+  "notes": "NN training objective uses dropout and weight decay, linear uses explicit L2; their training loss numbers are not directly comparable."
+}

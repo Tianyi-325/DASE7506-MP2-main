@@ -1,0 +1,41 @@
+{
+  "purpose": "Post-hoc explanation of fixed B, no model selection",
+  "new_subsets": {
+    "R_only": {
+      "semantic": false,
+      "verify": false,
+      "relative": true
+    },
+    "SR_without_direct_V": {
+      "semantic": true,
+      "verify": false,
+      "relative": true
+    },
+    "VR_without_direct_S": {
+      "semantic": false,
+      "verify": true,
+      "relative": true
+    }
+  },
+  "architecture": {
+    "base": "joint",
+    "mode": "residual",
+    "block": "relative",
+    "extra_l2": 0.03,
+    "alpha": 0.0
+  },
+  "two_seeds": [
+    211,
+    509
+  ],
+  "folds": 3,
+  "reuse": "Existing fold-local bases and train/validation feature cache; no historical test rows used",
+  "important": "S/V/R are direct feature blocks. R is derived from S/V evidence, so removing direct S/V does not remove their upstream information.",
+  "additional_control": "evidence_only_relative weights with alpha=0, identical group objective/L2 to B",
+  "source_sha256": {
+    "supplement_final_ablation.py": "2e0e4e0ce64b9bea90647ab8fd16e34b6bfe0caae16d81e2632b45e306280737",
+    "evidence_models.py": "f727ba0550b4828789938f37a5991399125331360e297a6337bb517bf6f830a1",
+    "evidence_training.py": "41157e92983105a082f20bd042ed7b383f750364f5eac9da96282c8e38ad0278",
+    "math_evidence.py": "51d6fcaff4927adc919a186d70a72340b8548c395caa47bb326c36a5077f2af7"
+  }
+}

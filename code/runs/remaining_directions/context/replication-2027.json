@@ -1,0 +1,9 @@
+{
+  "seed": 2027,
+  "epoch": 20,
+  "validation_correct": {
+    "valid_only": 729,
+    "weighted": 727
+  },
+  "policy": "diagnostic only; original seed 2026 retained irrespective of replication result"
+}

@@ -1,0 +1,27 @@
+{
+  "alpha": 0.125,
+  "members": [
+    {
+      "config": {
+        "base": "joint",
+        "mode": "residual",
+        "block": "relative",
+        "extra_l2": 0.03,
+        "alpha": 0.0
+      },
+      "weight": 0.5,
+      "scale": 1.1757522057506682
+    },
+    {
+      "config": {
+        "base": "no_style",
+        "mode": "residual",
+        "block": "relative",
+        "extra_l2": 0.03,
+        "alpha": 0.25
+      },
+      "weight": 0.5,
+      "scale": 1.6333535885553119
+    }
+  ]
+}

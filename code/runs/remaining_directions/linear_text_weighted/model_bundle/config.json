@@ -1,0 +1,54 @@
+{
+  "family": "linear_text",
+  "architecture": "linear",
+  "features": "text",
+  "mode": "weighted",
+  "alpha": 0.25,
+  "training": {
+    "family": "linear_text",
+    "architecture": "linear",
+    "features": "text",
+    "config": {
+      "hidden": 0,
+      "regularization": 0.01,
+      "lr": 0.03
+    },
+    "seed": 2026,
+    "epoch": 120,
+    "validation_correct": {
+      "valid_only": 743,
+      "weighted": 746
+    },
+    "validation_group_loss": 0.17446060478687286,
+    "trajectory_seconds": 1.9193887000001268
+  },
+  "selection": "valid_only validation count, then group loss; seed2026 only",
+  "feature_names": [
+    "log_chars",
+    "log_words",
+    "log_lines",
+    "log_numbers",
+    "log_question_words",
+    "word_overlap",
+    "number_coverage",
+    "new_number_fraction",
+    "hash_marker",
+    "boxed_marker",
+    "log_equal_signs",
+    "log_math_operators",
+    "log_steps",
+    "confidence_words",
+    "revision_words",
+    "has_valid_answer",
+    "answer_signed_log",
+    "answer_integer",
+    "answer_negative",
+    "answer_zero",
+    "answer_in_question",
+    "log_sentence_count"
+  ],
+  "standardization": "train-only",
+  "inference": "numpy",
+  "torch_training": "2.7.1+cu126",
+  "numpy": "2.5.3"
+}

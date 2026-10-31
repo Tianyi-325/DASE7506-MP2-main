@@ -1,0 +1,28 @@
+{
+  "ensemble": true,
+  "alpha": 0.25,
+  "seed": 2026,
+  "threads": 4,
+  "members": [
+    {
+      "config": {
+        "arch": "linear",
+        "design": "gam",
+        "epochs": 180,
+        "l2": 0.02
+      },
+      "weight": 0.5,
+      "score_scale": 1.48890872571938
+    },
+    {
+      "config": {
+        "arch": "fm",
+        "design": "base",
+        "epochs": 60,
+        "l2": 0.01
+      },
+      "weight": 0.5,
+      "score_scale": 1.492625043193204
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "epochs": 60,
+  "curves": [
+    {
+      "epoch": 1,
+      "objective": 0.37869927287101746,
+      "gradient": 0.6584441661834717
+    },
+    {
+      "epoch": 60,
+      "objective": 0.16504979133605957,
+      "gradient": 0.022752756252884865
+    }
+  ],
+  "seconds": 0.42661000000043714,
+  "score_scale": 1.4601842424329907,
+  "fold": 0,
+  "method": "linear_earlystop",
+  "inner": {
+    "epochs": 60,
+    "curves": [
+      {
+        "epoch": 1,
+        "objective": 0.3785417079925537,
+        "gradient": 0.6645627617835999
+      },
+      {
+        "epoch": 60,
+        "objective": 0.15998895466327667,
+        "gradient": 0.018350575119256973
+      },
+      {
+        "epoch": 120,
+        "objective": 0.15918467938899994,
+        "gradient": 0.0014931254554539919
+      },
+      {
+        "epoch": 180,
+        "objective": 0.1591600477695465,
+        "gradient": 0.0001981277164304629
+      },
+      {
+        "epoch": 240,
+        "objective": 0.159158855676651,
+        "gradient": 2.6430963771417737e-05
+      },
+      {
+        "epoch": 300,
+        "objective": 0.159158855676651,
+        "gradient": 1.8920031834568363e-06
+      },
+      {
+        "epoch": 360,
+        "objective": 0.1591588258743286,
+        "gradient": 1.1385948539555102e-07
+      }
+    ],
+    "inner_selected": true,
+    "seconds": 1.6405501999997796,
+    "score_scale": 1.5069535726258385
+  },
+  "held_correct": 1454,
+  "held_n": 1585
+}

@@ -1,0 +1,53 @@
+{
+  "epochs": 1,
+  "curves": [
+    {
+      "epoch": 1,
+      "train_loss": 0.13424598783254624,
+      "contrast_loss": 0.0
+    }
+  ],
+  "seconds": 0.2059216000016022,
+  "score_scale": 1.5146794307252072,
+  "fold": 2,
+  "method": "residual_batch128",
+  "inner": {
+    "epochs": 1,
+    "curves": [
+      {
+        "epoch": 1,
+        "train_loss": 0.12477194162254984,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.11400974169373512,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.043011412701823494,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 12,
+        "train_loss": 0.01012866366231306,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 16,
+        "train_loss": 0.004149156474423679,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 20,
+        "train_loss": 0.0022372101930986073,
+        "contrast_loss": 0.0
+      }
+    ],
+    "seconds": 1.1376361000002362,
+    "score_scale": 1.5541407837857997
+  },
+  "held_correct": 1443,
+  "held_n": 1585
+}

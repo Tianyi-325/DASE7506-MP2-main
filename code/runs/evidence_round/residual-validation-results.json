@@ -1,0 +1,1190 @@
+{
+  "no_style": {
+    "fixed_prior51": 5,
+    "fixed_prior_shared36": 0,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 3
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint": {
+    "fixed_prior51": 4,
+    "fixed_prior_shared36": 1,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 4
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 0
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "feature_selection": {
+    "fixed_prior51": 3,
+    "fixed_prior_shared36": 0,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 1
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_refit_semantic_r3": {
+    "fixed_prior51": 8,
+    "fixed_prior_shared36": 1,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 6
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_refit_semantic_r10": {
+    "fixed_prior51": 5,
+    "fixed_prior_shared36": 0,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 3
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_refit_verify_r3": {
+    "fixed_prior51": 6,
+    "fixed_prior_shared36": 0,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 3
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 3
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_refit_verify_r10": {
+    "fixed_prior51": 4,
+    "fixed_prior_shared36": 0,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 1
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 3
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_refit_both_r3": {
+    "fixed_prior51": 6,
+    "fixed_prior_shared36": 1,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 3
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 3
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_refit_both_r10": {
+    "fixed_prior51": 6,
+    "fixed_prior_shared36": 1,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 3
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 3
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_refit_relative_r3": {
+    "fixed_prior51": 10,
+    "fixed_prior_shared36": 3,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 6
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 4
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_refit_relative_r10": {
+    "fixed_prior51": 9,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 6
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 3
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_residual_semantic_r3": {
+    "fixed_prior51": 6,
+    "fixed_prior_shared36": 1,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 4
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_residual_semantic_r10": {
+    "fixed_prior51": 5,
+    "fixed_prior_shared36": 0,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 3
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_residual_verify_r3": {
+    "fixed_prior51": 5,
+    "fixed_prior_shared36": 1,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 1
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 4
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_residual_verify_r10": {
+    "fixed_prior51": 4,
+    "fixed_prior_shared36": 0,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 1
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 3
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_residual_both_r3": {
+    "fixed_prior51": 7,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 3
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 4
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_residual_both_r10": {
+    "fixed_prior51": 5,
+    "fixed_prior_shared36": 1,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 2
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 3
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_residual_relative_r3": {
+    "fixed_prior51": 9,
+    "fixed_prior_shared36": 3,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 5
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 4
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_residual_relative_r10": {
+    "fixed_prior51": 8,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 4
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 4
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_refit_semantic_r3": {
+    "fixed_prior51": 7,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 7
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 0
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_refit_semantic_r10": {
+    "fixed_prior51": 6,
+    "fixed_prior_shared36": 1,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 6
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 0
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_refit_verify_r3": {
+    "fixed_prior51": 7,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 4
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 3
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_refit_verify_r10": {
+    "fixed_prior51": 5,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 3
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_refit_both_r3": {
+    "fixed_prior51": 10,
+    "fixed_prior_shared36": 4,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 7
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 3
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_refit_both_r10": {
+    "fixed_prior51": 8,
+    "fixed_prior_shared36": 3,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 6
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_refit_relative_r3": {
+    "fixed_prior51": 13,
+    "fixed_prior_shared36": 4,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 8
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 5
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_refit_relative_r10": {
+    "fixed_prior51": 13,
+    "fixed_prior_shared36": 4,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 8
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 5
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_residual_semantic_r3": {
+    "fixed_prior51": 8,
+    "fixed_prior_shared36": 3,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 7
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 1
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_residual_semantic_r10": {
+    "fixed_prior51": 7,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 6
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 1
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_residual_verify_r3": {
+    "fixed_prior51": 8,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 5
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 3
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_residual_verify_r10": {
+    "fixed_prior51": 6,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 4
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_residual_both_r3": {
+    "fixed_prior51": 10,
+    "fixed_prior_shared36": 4,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 7
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 3
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_residual_both_r10": {
+    "fixed_prior51": 5,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 4
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 1
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_residual_relative_r3": {
+    "fixed_prior51": 12,
+    "fixed_prior_shared36": 3,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 7
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 5
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_residual_relative_r10": {
+    "fixed_prior51": 10,
+    "fixed_prior_shared36": 3,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 5
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 5
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_gated_5": {
+    "fixed_prior51": 8,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 4
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 4
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_gated_10": {
+    "fixed_prior51": 8,
+    "fixed_prior_shared36": 1,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 4
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 4
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_gated_5": {
+    "fixed_prior51": 7,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 6
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 1
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_gated_10": {
+    "fixed_prior51": 6,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 4
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "evidence_only_both": {
+    "fixed_prior51": 23,
+    "fixed_prior_shared36": 15,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 16
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 6
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 1
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "evidence_only_relative": {
+    "fixed_prior51": 22,
+    "fixed_prior_shared36": 12,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 15
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 6
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 1
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "old_pair": {
+    "fixed_prior51": 4,
+    "fixed_prior_shared36": 0,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 2
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "old_triple": {
+    "fixed_prior51": 3,
+    "fixed_prior_shared36": 0,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 1
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_newNS_50": {
+    "fixed_prior51": 7,
+    "fixed_prior_shared36": 1,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 5
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_newNS_75": {
+    "fixed_prior51": 4,
+    "fixed_prior_shared36": 1,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 4
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 0
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "NS_newjoint_50": {
+    "fixed_prior51": 9,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 5
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 4
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "NS_newjoint_75": {
+    "fixed_prior51": 5,
+    "fixed_prior_shared36": 0,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 3
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 2
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "new_pair_50": {
+    "fixed_prior51": 11,
+    "fixed_prior_shared36": 3,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 6
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 5
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "new_pair_75": {
+    "fixed_prior51": 12,
+    "fixed_prior_shared36": 3,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 7
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 5
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_evidence_90": {
+    "fixed_prior51": 6,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 5
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 1
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "joint_evidence_75": {
+    "fixed_prior51": 12,
+    "fixed_prior_shared36": 5,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 7
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 5
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_evidence_90": {
+    "fixed_prior51": 8,
+    "fixed_prior_shared36": 1,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 3
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 5
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "no_style_evidence_75": {
+    "fixed_prior51": 15,
+    "fixed_prior_shared36": 5,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 9
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 6
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  },
+  "new_triple": {
+    "fixed_prior51": 9,
+    "fixed_prior_shared36": 2,
+    "by_manual_primary": {
+      "semantic": {
+        "n": 41,
+        "fixed": 5
+      },
+      "arithmetic": {
+        "n": 7,
+        "fixed": 4
+      },
+      "parser": {
+        "n": 1,
+        "fixed": 0
+      },
+      "ambiguous": {
+        "n": 2,
+        "fixed": 0
+      }
+    }
+  }
+}

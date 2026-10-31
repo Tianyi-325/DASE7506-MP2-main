@@ -1,0 +1,27 @@
+{
+  "epochs": 120,
+  "curves": [
+    {
+      "epoch": 1,
+      "objective": 0.37869924306869507,
+      "gradient": 0.6448124051094055
+    },
+    {
+      "epoch": 60,
+      "objective": 0.1654146909713745,
+      "gradient": 0.017833445221185684
+    },
+    {
+      "epoch": 120,
+      "objective": 0.16465221345424652,
+      "gradient": 0.0014673552941530943
+    }
+  ],
+  "seconds": 0.7411203000010573,
+  "score_scale": 1.4646070732362533,
+  "fold": 1,
+  "method": "baseline",
+  "inner": null,
+  "held_correct": 1458,
+  "held_n": 1585
+}

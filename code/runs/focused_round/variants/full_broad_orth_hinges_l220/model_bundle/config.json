@@ -1,0 +1,22 @@
+{
+  "alpha": 0.25,
+  "members": [
+    {
+      "config": {
+        "features": "full",
+        "style": "broad",
+        "basis": "orth_hinges",
+        "l2": 0.02,
+        "policy": "all"
+      },
+      "weight": 1.0,
+      "scale": 1.3666589080374758
+    }
+  ],
+  "seed_folds": [
+    101,
+    307
+  ],
+  "threads": 4,
+  "training_only": true
+}

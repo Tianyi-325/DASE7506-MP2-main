@@ -1,0 +1,40 @@
+{
+  "family": "linear_calc",
+  "architecture": "linear",
+  "features": "calc",
+  "mode": "weighted",
+  "alpha": 0.25,
+  "training": {
+    "family": "linear_calc",
+    "architecture": "linear",
+    "features": "calc",
+    "config": {
+      "hidden": 0,
+      "regularization": 0.01,
+      "lr": 0.03
+    },
+    "seed": 2026,
+    "epoch": 120,
+    "validation_correct": {
+      "valid_only": 735,
+      "weighted": 741
+    },
+    "validation_group_loss": 0.22739243507385254,
+    "trajectory_seconds": 2.00862909999978
+  },
+  "selection": "valid_only validation count, then group loss; seed2026 only",
+  "feature_names": [
+    "log_checked_equations",
+    "log_correct_equations",
+    "log_wrong_equations",
+    "wrong_ratio",
+    "max_relative_error_log",
+    "log_unrecognized_equations",
+    "no_checked_equations",
+    "answer_matches_checked_value"
+  ],
+  "standardization": "train-only",
+  "inference": "numpy",
+  "torch_training": "2.7.1+cu126",
+  "numpy": "2.5.3"
+}

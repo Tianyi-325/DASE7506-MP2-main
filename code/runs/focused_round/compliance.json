@@ -1,0 +1,17 @@
+{
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:37:13) [MSC v.1942 64 bit (AMD64)]",
+    "numpy": "2.5.3",
+    "threads": 4,
+    "training_device": "cpu",
+    "cpu": "12th Gen Intel(R) Core(TM) i9-12900H"
+  },
+  "official_files_unchanged": true,
+  "reference_cpu_tested": false,
+  "all_local_limits_pass": true,
+  "max_asset_bytes": 92946,
+  "max_local_test_seconds": 1.441997200001424,
+  "no_external_data_or_pretrained_weights": true,
+  "selected_before_test": "base_all_linear_l210"
+}

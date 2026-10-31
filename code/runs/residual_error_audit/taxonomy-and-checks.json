@@ -1,0 +1,28 @@
+{
+  "primary_manual_counts": {
+    "semantic": 41,
+    "ambiguous": 2,
+    "arithmetic": 7,
+    "parser": 1
+  },
+  "arithmetic_cases": [
+    52,
+    65,
+    335,
+    499,
+    522,
+    719,
+    757
+  ],
+  "old_checker_flags_arithmetic_primary": 3,
+  "strict_checker_flags_arithmetic_primary": 3,
+  "selected_boxed_official_disagreement_cases": [
+    733
+  ],
+  "all_focused_wrong_by_manual_primary": {
+    "ambiguous": 2,
+    "semantic": 30,
+    "arithmetic": 3,
+    "parser": 1
+  }
+}

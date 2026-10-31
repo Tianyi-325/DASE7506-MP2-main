@@ -1,0 +1,22 @@
+{
+  "original_freeze_sha256": "52c973be49dd49ff489451f186147f8731e9e0e0448de227782db54e693d1b91",
+  "all_frozen_variants_scored_and_checked": true,
+  "selected": "mix_gam_fm_75",
+  "source_sha256": {
+    "broad_models.py": "7f229b40b724bcb1da8d79b1c9b4efeb2b0dc8bf10ba4d74a9e329040aed6fb3",
+    "broad_training.py": "6a7b14c8415c6a90102a290247f60e798fa182e076003a25697531495b32119c",
+    "run_broad_round.py": "cf21b73e0349d7b6f132833b68c9c64559d27a02dbb13acb03f6aeb5ce380da1",
+    "check_broad_round.py": "99cd3b5b8000751e70bccec0e6be88e17647b1713168fe975caab07c683989a8",
+    "report_broad_round.py": "cac30df0f7709409299c003a2dea6b2d04c4c6cc06c6df9c9250a8f494ff28a0",
+    "analyze_broad_round.py": "1f799c4348ce31fe3432c89de5e583b1930c6b35005ecfaa13ef31b111c1cd85",
+    "reasoning_features.py": "bde5cf2d05c354d0acece97ec781280bc41619d69cea996ec3e6d78500969cbb",
+    "vector_vote_fusion.py": "7d2f31652b2020ffc8ca501cc4e85a2cbf772797ab072eb8997a789bbf7985fd",
+    "vector_logistic.py": "747a32d8986504594bcb7e459ff9e52c56e1faf64bb2063b9f099cc4c64f05f6",
+    "common.py": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c",
+    "train_vector.py": "286703b51e7beaaf03e7378618918bb87c5d998cb46925487fc3cc52b432fe3e",
+    "run_fusion_experiments.py": "0fda27f7edbb2399ceb5ecfa66610fde7b9a6557603798f7ce8fee48d8c02258",
+    "predict.py": "e7a627fbdc9ef8d4ab3189a6fa5ac02d56ae703ccd1a81507aea0bd66e042162",
+    "score_predictions.py": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960"
+  },
+  "note": "Supplementary complete source snapshot generated after evaluation; original pre-test freeze preserved."
+}

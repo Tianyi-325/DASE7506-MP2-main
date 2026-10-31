@@ -1,0 +1,63 @@
+{
+  "epochs": 8,
+  "curves": [
+    {
+      "epoch": 1,
+      "train_loss": 0.1388298294373921,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.13396652255739486,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.12489302988563265,
+      "contrast_loss": 0.0
+    }
+  ],
+  "seconds": 0.3924437999994552,
+  "score_scale": 1.653271065910019,
+  "fold": 1,
+  "method": "residual_dropout",
+  "inner": {
+    "epochs": 8,
+    "curves": [
+      {
+        "epoch": 1,
+        "train_loss": 0.12378586083650589,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.12370080749193828,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.12298956513404846,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 12,
+        "train_loss": 0.0985711229344209,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 16,
+        "train_loss": 0.08728394843637943,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 20,
+        "train_loss": 0.06589443360765775,
+        "contrast_loss": 0.0
+      }
+    ],
+    "seconds": 0.6641488000004756,
+    "score_scale": 1.6519116952475976
+  },
+  "held_correct": 1448,
+  "held_n": 1585
+}

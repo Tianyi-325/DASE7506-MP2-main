@@ -1,0 +1,113 @@
+{
+  "epochs": 8,
+  "curves": [
+    {
+      "epoch": 1,
+      "train_loss": 0.14165798255375453,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.12729151653391974,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.08760602452925273,
+      "contrast_loss": 0.0
+    }
+  ],
+  "seconds": 0.42424120000032417,
+  "score_scale": 1.7161138553229665,
+  "fold": 2,
+  "method": "fm",
+  "inner": {
+    "epochs": 8,
+    "curves": [
+      {
+        "epoch": 1,
+        "train_loss": 0.12976371248563132,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.11584932108720143,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.07980108881990115,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 12,
+        "train_loss": 0.060029068340857826,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 16,
+        "train_loss": 0.04527366906404495,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 20,
+        "train_loss": 0.03519362956285477,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 24,
+        "train_loss": 0.027675099360446136,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 28,
+        "train_loss": 0.022233365724484127,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 32,
+        "train_loss": 0.017224966393162806,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 36,
+        "train_loss": 0.013487914421906074,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 40,
+        "train_loss": 0.010874230569849411,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 44,
+        "train_loss": 0.008973077948515614,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 48,
+        "train_loss": 0.007849644869565964,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 52,
+        "train_loss": 0.006657824385911226,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 56,
+        "train_loss": 0.005532369405652086,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 60,
+        "train_loss": 0.004800941756305595,
+        "contrast_loss": 0.0
+      }
+    ],
+    "seconds": 1.8670706000011705,
+    "score_scale": 1.7472998091635668
+  },
+  "held_correct": 1425,
+  "held_n": 1585
+}

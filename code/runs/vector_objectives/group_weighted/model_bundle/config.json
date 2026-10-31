@@ -1,0 +1,28 @@
+{
+  "mode": "weighted",
+  "alpha": 0.25,
+  "objective": "group",
+  "training": {
+    "objective": "group",
+    "lr": 0.03,
+    "l2": 0.001,
+    "epoch": 360,
+    "validation_loss": 0.25707197189331055,
+    "validation_correct": {
+      "valid_only": 733,
+      "weighted": 734
+    },
+    "gradient_norm_before_step": 0.0002410447341389954,
+    "elapsed_path_seconds": 2.7660525999999663
+  },
+  "seed": 2026,
+  "device": "cpu",
+  "threads": 4,
+  "optimizer": "full batch Adam",
+  "selection": "valid_only validation accuracy then objective validation loss",
+  "fusion_alpha": "fixed at 0.25, not retuned",
+  "standardization": "train only, folded into exported weight/bias",
+  "group_formula": "logsumexp(all logits)-logsumexp(correct logits)",
+  "numpy": "2.5.3",
+  "torch_training": "2.7.1+cu126"
+}

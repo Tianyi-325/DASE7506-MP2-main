@@ -1,0 +1,117 @@
+{
+  "split": "validation",
+  "n": 798,
+  "correct": 688,
+  "errors": 110,
+  "error_categories": {
+    "tie_break_lost_correct_answer": 50,
+    "unique_wrong_plurality": 60
+  },
+  "unparseable_candidates": 157,
+  "total_candidates": 3192,
+  "uniform_random_candidate_expected_accuracy": 75.68922305764411,
+  "first_candidate_accuracy": 78.19548872180451,
+  "random_answer_tie_break_expected_accuracy": 85.92314118629909,
+  "groups": {
+    "disagreement=False": {
+      "n": 443,
+      "correct": 443
+    },
+    "disagreement=True": {
+      "n": 355,
+      "correct": 245
+    },
+    "gold_votes=1": {
+      "n": 117,
+      "correct": 27
+    },
+    "gold_votes=2": {
+      "n": 123,
+      "correct": 103
+    },
+    "gold_votes=3": {
+      "n": 179,
+      "correct": 179
+    },
+    "gold_votes=4": {
+      "n": 379,
+      "correct": 379
+    },
+    "leaders=1": {
+      "n": 710,
+      "correct": 650
+    },
+    "leaders=2": {
+      "n": 48,
+      "correct": 22
+    },
+    "leaders=3": {
+      "n": 20,
+      "correct": 11
+    },
+    "leaders=4": {
+      "n": 20,
+      "correct": 5
+    },
+    "pattern=1-1-1-1;valid=4": {
+      "n": 20,
+      "correct": 5
+    },
+    "pattern=1-1-1;valid=3": {
+      "n": 20,
+      "correct": 11
+    },
+    "pattern=1-1;valid=2": {
+      "n": 14,
+      "correct": 8
+    },
+    "pattern=1;valid=1": {
+      "n": 3,
+      "correct": 3
+    },
+    "pattern=2-1-1;valid=4": {
+      "n": 88,
+      "correct": 54
+    },
+    "pattern=2-1;valid=3": {
+      "n": 28,
+      "correct": 24
+    },
+    "pattern=2-2;valid=4": {
+      "n": 34,
+      "correct": 14
+    },
+    "pattern=2;valid=2": {
+      "n": 11,
+      "correct": 11
+    },
+    "pattern=3-1;valid=4": {
+      "n": 151,
+      "correct": 129
+    },
+    "pattern=3;valid=3": {
+      "n": 50,
+      "correct": 50
+    },
+    "pattern=4;valid=4": {
+      "n": 379,
+      "correct": 379
+    },
+    "valid=1": {
+      "n": 3,
+      "correct": 3
+    },
+    "valid=2": {
+      "n": 25,
+      "correct": 19
+    },
+    "valid=3": {
+      "n": 98,
+      "correct": 85
+    },
+    "valid=4": {
+      "n": 672,
+      "correct": 581
+    }
+  }
+}

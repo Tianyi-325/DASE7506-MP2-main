@@ -1,0 +1,98 @@
+{
+  "selection_data": "validation only",
+  "variants": {
+    "bce_valid_only": {
+      "objective": "bce",
+      "mode": "valid_only",
+      "validation_correct": 720,
+      "assets": {
+        "config.json": "5bf3d6528f7dcb412b5ed7394b1e4fb65e282d9f251ce2f5eca8ac4d1f0bcbd7",
+        "model.npz": "0cd4fee926498f8ac97901e76d0ed2f1826b817faa3664ffe031f8dc32523b87"
+      },
+      "asset_bytes": 9527
+    },
+    "bce_weighted": {
+      "objective": "bce",
+      "mode": "weighted",
+      "validation_correct": 723,
+      "assets": {
+        "config.json": "c62216b76a537b709a595b74d21b2ca19515148108cec8993adb3dbcdfc203df",
+        "model.npz": "0cd4fee926498f8ac97901e76d0ed2f1826b817faa3664ffe031f8dc32523b87"
+      },
+      "asset_bytes": 9526
+    },
+    "group_valid_only": {
+      "objective": "group",
+      "mode": "valid_only",
+      "validation_correct": 733,
+      "assets": {
+        "config.json": "d9b59de63dcb60dea0714a63c03572ca748a19cba5a23f0cfbee6f56782a4598",
+        "model.npz": "723c645ddba21b7d55a2c0a878a01dcf889baa623f02afd7beeadb86bb036259"
+      },
+      "asset_bytes": 9535
+    },
+    "group_weighted": {
+      "objective": "group",
+      "mode": "weighted",
+      "validation_correct": 734,
+      "assets": {
+        "config.json": "5dde141cf3c947c3d47d7c5cb27eacc298ff7f4bee7abf5ee78252f7ff76dd54",
+        "model.npz": "723c645ddba21b7d55a2c0a878a01dcf889baa623f02afd7beeadb86bb036259"
+      },
+      "asset_bytes": 9534
+    }
+  },
+  "grid": {
+    "lr": [
+      0.01,
+      0.03
+    ],
+    "l2": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "epochs": [
+      120,
+      360,
+      1000
+    ]
+  },
+  "selected": {
+    "bce": {
+      "objective": "bce",
+      "lr": 0.03,
+      "l2": 0.01,
+      "epoch": 120,
+      "validation_loss": 0.4187485873699188,
+      "validation_correct": {
+        "valid_only": 720,
+        "weighted": 723
+      },
+      "gradient_norm_before_step": 0.003588972147554159,
+      "elapsed_path_seconds": 0.791975199999797
+    },
+    "group": {
+      "objective": "group",
+      "lr": 0.03,
+      "l2": 0.001,
+      "epoch": 360,
+      "validation_loss": 0.25707197189331055,
+      "validation_correct": {
+        "valid_only": 733,
+        "weighted": 734
+      },
+      "gradient_norm_before_step": 0.0002410447341389954,
+      "elapsed_path_seconds": 2.7660525999999663
+    }
+  },
+  "source_sha256": {
+    "train_objectives.py": "4a82296e9bfc4d2a3617ad8c2c27a4e5ca4064cf9f3ba30b07a5d442ef606ac0",
+    "train_vector.py": "286703b51e7beaaf03e7378618918bb87c5d998cb46925487fc3cc52b432fe3e",
+    "vector_vote_fusion.py": "7d2f31652b2020ffc8ca501cc4e85a2cbf772797ab072eb8997a789bbf7985fd",
+    "vector_logistic.py": "747a32d8986504594bcb7e459ff9e52c56e1faf64bb2063b9f099cc4c64f05f6",
+    "evaluate_objectives.py": "46acc528741cf3b60fc18266b382e1b138d80551b8d66679991e2c2aa55264c5",
+    "check_objectives.py": "1091441b12b84c38713419c27f0b0b3340a6ed5aaec6e6efef304eed82542323"
+  },
+  "validation_preferred_variant": "group_weighted"
+}

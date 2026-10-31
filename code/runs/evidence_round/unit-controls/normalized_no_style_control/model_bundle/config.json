@@ -1,0 +1,15 @@
+{
+  "alpha": 0.125,
+  "members": [
+    {
+      "config": {
+        "base": "no_style",
+        "mode": "control",
+        "block": "relative",
+        "alpha": 0.25
+      },
+      "weight": 1.0,
+      "scale": 1.4995876508688106
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "no_style_residual_relative_r3": {
+    "mean_oof_gain": 24.5,
+    "question_bootstrap_95pct_gain": [
+      10.0,
+      39.0
+    ],
+    "descriptive_only_after_search": true
+  },
+  "no_style_refit_semantic_r3": {
+    "mean_oof_gain": 13.5,
+    "question_bootstrap_95pct_gain": [
+      0.4875000000000007,
+      27.0
+    ],
+    "descriptive_only_after_search": true
+  },
+  "no_style_refit_verify_r3": {
+    "mean_oof_gain": 13.5,
+    "question_bootstrap_95pct_gain": [
+      0.0,
+      27.5
+    ],
+    "descriptive_only_after_search": true
+  },
+  "no_style_residual_both_r3": {
+    "mean_oof_gain": 17.5,
+    "question_bootstrap_95pct_gain": [
+      5.0,
+      30.5
+    ],
+    "descriptive_only_after_search": true
+  },
+  "no_style_evidence_90": {
+    "mean_oof_gain": 28.5,
+    "question_bootstrap_95pct_gain": [
+      14.9875,
+      42.0
+    ],
+    "descriptive_only_after_search": true
+  }
+}

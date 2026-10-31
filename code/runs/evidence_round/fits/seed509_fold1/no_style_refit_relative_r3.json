@@ -1,0 +1,19 @@
+{
+  "optimizer": "full-batch Adam",
+  "epochs": 120,
+  "curves": [
+    {
+      "epoch": 1,
+      "objective": 0.37857139110565186
+    },
+    {
+      "epoch": 120,
+      "objective": 0.15154783427715302
+    }
+  ],
+  "seconds": 1.0673644999988028,
+  "parameters": 1131,
+  "extra_features": 70,
+  "probe_max_difference": 1.1259689927101135e-06,
+  "score_scale": 1.5433613747068495
+}

@@ -1,0 +1,29 @@
+{
+  "epochs": 12,
+  "curves": [
+    {
+      "epoch": 1,
+      "train_loss": 0.14470561742782592,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.1437747895717621,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.10148288980126381,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.04882589504122734,
+      "contrast_loss": 0.0
+    }
+  ],
+  "seconds": 1.1530978000009782,
+  "score_scale": 2.981207060655504,
+  "method": "residual_sam",
+  "validation_correct": 729
+}

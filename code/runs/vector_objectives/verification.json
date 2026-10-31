@@ -1,0 +1,12 @@
+{
+  "frozen_sources_assets_verified": true,
+  "official_files_unchanged": true,
+  "input_sizes": [
+    0,
+    1,
+    7
+  ],
+  "variants": 4,
+  "inference_imports_torch": false,
+  "selected_bce_reproduces_original_choices": true
+}

@@ -1,0 +1,10 @@
+{
+  "mode": "vote_first",
+  "alpha": 0.0,
+  "vector_model_sha256": "0cd4fee926498f8ac97901e76d0ed2f1826b817faa3664ffe031f8dc32523b87",
+  "formula": "raw vector logit + alpha*(same parsed answer count - 1)",
+  "invalid_candidates": "excluded; all invalid falls back to zero",
+  "ties": "earliest candidate among equal final scores",
+  "selection": "validation only, accuracy then smaller alpha",
+  "numpy_version": "2.5.3"
+}

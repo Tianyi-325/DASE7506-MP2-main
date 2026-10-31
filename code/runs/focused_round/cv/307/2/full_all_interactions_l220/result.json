@@ -1,0 +1,20 @@
+{
+  "fit_questions": 3170,
+  "loss_questions": 3170,
+  "preprocess_questions": 3170,
+  "disagreement_questions": 1409,
+  "loss_factor": 1.0,
+  "parameters": 1080,
+  "initial_objective": 0.3787900160929505,
+  "final_objective": 0.1762981025547582,
+  "gradient_norm": 2.1551476219795603e-06,
+  "optimizer_iterations": 44,
+  "function_evaluations": 48,
+  "score_scale": 1.3927146392095269,
+  "seconds": 1.2728285000011965,
+  "seed": 307,
+  "fold": 2,
+  "method": "full_all_interactions_l220",
+  "held_correct": 1457,
+  "held_n": 1585
+}

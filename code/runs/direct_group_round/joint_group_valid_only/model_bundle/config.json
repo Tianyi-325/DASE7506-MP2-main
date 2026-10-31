@@ -1,0 +1,35 @@
+{
+  "members": [
+    {
+      "input": "joint",
+      "pool": "mean",
+      "family": "joint_group"
+    }
+  ],
+  "weights": [
+    1.0
+  ],
+  "alpha": 0.0,
+  "metadata": {
+    "selected_training": {
+      "family": "joint_group",
+      "input": "joint",
+      "pool": "mean",
+      "l2": 0.01,
+      "epoch": 360,
+      "validation_correct": {
+        "0.0": 746,
+        "0.25": 741
+      },
+      "validation_objective": 0.17380179464817047
+    }
+  },
+  "seed": 2026,
+  "device": "cpu",
+  "threads": 4,
+  "scaling": "none",
+  "family": "joint_group",
+  "validation_correct": 746,
+  "numpy": "2.5.3",
+  "torch_training": "2.7.1+cu126"
+}

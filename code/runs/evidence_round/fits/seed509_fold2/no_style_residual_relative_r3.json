@@ -1,0 +1,14 @@
+{
+  "optimizer": "LBFGS fixed-base correction",
+  "iterations": 24,
+  "evaluations": 25,
+  "initial_objective": 0.13132098380442517,
+  "final_objective": 0.12140920448175546,
+  "gradient_norm": 1.802775053972995e-06,
+  "active_gate_questions": 3175,
+  "seconds": 0.40750910000133445,
+  "parameters": 1131,
+  "extra_features": 70,
+  "probe_max_difference": 2.220446049250313e-16,
+  "score_scale": 1.6813646829993638
+}

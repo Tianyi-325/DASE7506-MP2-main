@@ -1,0 +1,27 @@
+{
+  "kind": "lexical",
+  "family": "lexical_tfidf",
+  "alpha": 0.0,
+  "selection": {
+    "family": "lexical_tfidf",
+    "kind": "lexical",
+    "metadata": {
+      "hash_dimensions": 16384,
+      "token_l2": 0.01,
+      "base_l2": 0.01,
+      "epoch": 360,
+      "tokenization": "candidate word unigrams/bigrams; numeric identities normalized; CRC32 hashing; train-only IDF"
+    },
+    "validation_correct": {
+      "0.0": 742,
+      "0.25": 746
+    },
+    "validation_group_loss": 0.17345966296546744,
+    "training_objective": 0.172617569565773
+  },
+  "device": "cpu",
+  "threads": 4,
+  "seed": 2026,
+  "numpy": "2.5.3",
+  "torch_training": "2.7.1+cu126"
+}

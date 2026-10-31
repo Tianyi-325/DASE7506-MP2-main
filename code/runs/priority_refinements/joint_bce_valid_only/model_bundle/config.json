@@ -1,0 +1,51 @@
+{
+  "kind": "linear",
+  "family": "joint_bce",
+  "alpha": 0.0,
+  "selection": {
+    "family": "joint_bce",
+    "kind": "linear",
+    "metadata": {
+      "objective": "joint",
+      "embedding_l2": 0.01,
+      "feature_l2": 0.01,
+      "mix": 0.1,
+      "epoch": 360,
+      "feature_columns": [
+        1024,
+        1025,
+        1026,
+        1027,
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039,
+        1040,
+        1041,
+        1042,
+        1043,
+        1044,
+        1045
+      ]
+    },
+    "validation_correct": {
+      "0.0": 740,
+      "0.25": 743
+    },
+    "validation_group_loss": 0.1720355224203526,
+    "training_objective": 0.21658731997013092
+  },
+  "device": "cpu",
+  "threads": 4,
+  "seed": 2026,
+  "numpy": "2.5.3",
+  "torch_training": "2.7.1+cu126"
+}

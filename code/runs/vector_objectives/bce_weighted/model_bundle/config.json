@@ -1,0 +1,28 @@
+{
+  "mode": "weighted",
+  "alpha": 0.25,
+  "objective": "bce",
+  "training": {
+    "objective": "bce",
+    "lr": 0.03,
+    "l2": 0.01,
+    "epoch": 120,
+    "validation_loss": 0.4187485873699188,
+    "validation_correct": {
+      "valid_only": 720,
+      "weighted": 723
+    },
+    "gradient_norm_before_step": 0.003588972147554159,
+    "elapsed_path_seconds": 0.791975199999797
+  },
+  "seed": 2026,
+  "device": "cpu",
+  "threads": 4,
+  "optimizer": "full batch Adam",
+  "selection": "valid_only validation accuracy then objective validation loss",
+  "fusion_alpha": "fixed at 0.25, not retuned",
+  "standardization": "train only, folded into exported weight/bias",
+  "group_formula": "logsumexp(all logits)-logsumexp(correct logits)",
+  "numpy": "2.5.3",
+  "torch_training": "2.7.1+cu126"
+}

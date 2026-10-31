@@ -1,0 +1,42 @@
+{
+  "full_all_orth_hinges_l210": {
+    "original_quantile_hinge_columns": 200,
+    "remaining_source_nonlinear_columns": 64,
+    "binary_source_hinge_columns_remaining": 0
+  },
+  "full_all_orth_hinges_l220": {
+    "original_quantile_hinge_columns": 200,
+    "remaining_source_nonlinear_columns": 64,
+    "binary_source_hinge_columns_remaining": 0
+  },
+  "full_all_orth_both_l210": {
+    "original_quantile_hinge_columns": 200,
+    "remaining_source_nonlinear_columns": 64,
+    "binary_source_hinge_columns_remaining": 0
+  },
+  "full_all_orth_both_l220": {
+    "original_quantile_hinge_columns": 200,
+    "remaining_source_nonlinear_columns": 64,
+    "binary_source_hinge_columns_remaining": 0
+  },
+  "full_broad_orth_hinges_l210": {
+    "original_quantile_hinge_columns": 148,
+    "remaining_source_nonlinear_columns": 30,
+    "binary_source_hinge_columns_remaining": 0
+  },
+  "full_broad_orth_hinges_l220": {
+    "original_quantile_hinge_columns": 148,
+    "remaining_source_nonlinear_columns": 30,
+    "binary_source_hinge_columns_remaining": 0
+  },
+  "full_broad_orth_both_l210": {
+    "original_quantile_hinge_columns": 148,
+    "remaining_source_nonlinear_columns": 30,
+    "binary_source_hinge_columns_remaining": 0
+  },
+  "full_broad_orth_both_l220": {
+    "original_quantile_hinge_columns": 148,
+    "remaining_source_nonlinear_columns": 30,
+    "binary_source_hinge_columns_remaining": 0
+  }
+}

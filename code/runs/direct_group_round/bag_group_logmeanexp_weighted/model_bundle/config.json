@@ -1,0 +1,37 @@
+{
+  "members": [
+    {
+      "input": "base",
+      "pool": "logmeanexp",
+      "family": "group_logmeanexp"
+    },
+    {
+      "input": "base",
+      "pool": "logmeanexp",
+      "family": "group_logmeanexp"
+    },
+    {
+      "input": "base",
+      "pool": "logmeanexp",
+      "family": "group_logmeanexp"
+    }
+  ],
+  "weights": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "alpha": 0.25,
+  "metadata": {
+    "training_subsets": "three 80% train resamples; seeds17,29,43",
+    "stability_note": "individual heldout diagnostics; overlapping resamples are not independent"
+  },
+  "seed": 2026,
+  "device": "cpu",
+  "threads": 4,
+  "scaling": "train within-question centered score std",
+  "family": "bag_group_logmeanexp",
+  "validation_correct": 749,
+  "numpy": "2.5.3",
+  "torch_training": "2.7.1+cu126"
+}

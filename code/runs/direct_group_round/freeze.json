@@ -1,0 +1,281 @@
+{
+  "variants": {
+    "control_valid_only": {
+      "validation_correct": 743,
+      "assets": {
+        "config.json": "45c73d0608bcd2e866412946a72737e461d316acb4dcd3c16bb9b2f88ad8daf3",
+        "model.npz": "067203a88d36e4d9921f4688cc1329c7400c8a33a7e009b4991211a1f9c17fba"
+      },
+      "asset_bytes": 9825
+    },
+    "control_weighted": {
+      "validation_correct": 746,
+      "assets": {
+        "config.json": "b59a082624bc776df3661462a1a202b33e1d72e1ade1260ddb4d1ce74a2a5556",
+        "model.npz": "067203a88d36e4d9921f4688cc1329c7400c8a33a7e009b4991211a1f9c17fba"
+      },
+      "asset_bytes": 9826
+    },
+    "group_mean_valid_only": {
+      "validation_correct": 737,
+      "assets": {
+        "config.json": "0213f001aaafdfadd079e69a5f45eaa4d2e1da6899a15e56ad92a4c43ff8e8b5",
+        "model.npz": "6e154293285959a1ae3ea538e872877bcadb0ada5940f4e34bc055557edd30f7"
+      },
+      "asset_bytes": 9824
+    },
+    "group_mean_weighted": {
+      "validation_correct": 746,
+      "assets": {
+        "config.json": "ff77ddfa2ce3078d17a3e70cff195032c569d33ade11679979cd6c11ac6216bf",
+        "model.npz": "6e154293285959a1ae3ea538e872877bcadb0ada5940f4e34bc055557edd30f7"
+      },
+      "asset_bytes": 9825
+    },
+    "group_max_valid_only": {
+      "validation_correct": 737,
+      "assets": {
+        "config.json": "8f679d9128217dbdf42295f60108538f55cdf02bcfe3fbdcc8bd0ea80f7fe582",
+        "model.npz": "e71d7318ed2094276a52210ec8c867277323066a96e08a2f1fc76f14fa5132b4"
+      },
+      "asset_bytes": 9819
+    },
+    "group_max_weighted": {
+      "validation_correct": 744,
+      "assets": {
+        "config.json": "48ee8c87cd4d458c3c27f2c1c16e4cce87c9eba7d9d04247d1c3026839acdc2b",
+        "model.npz": "e71d7318ed2094276a52210ec8c867277323066a96e08a2f1fc76f14fa5132b4"
+      },
+      "asset_bytes": 9820
+    },
+    "group_logmeanexp_valid_only": {
+      "validation_correct": 743,
+      "assets": {
+        "config.json": "23c541176c0652e5eddd64b1a9e41697e632238b6f97fba67f9239064a867b58",
+        "model.npz": "54fd4fc9d35639f68281ac6c5381714a998063acf931ce10b52177526f8d5851"
+      },
+      "asset_bytes": 9854
+    },
+    "group_logmeanexp_weighted": {
+      "validation_correct": 747,
+      "assets": {
+        "config.json": "2c1cad31154907342c4ed403302c8d8934f5a927008be8467b59fa29817afa35",
+        "model.npz": "54fd4fc9d35639f68281ac6c5381714a998063acf931ce10b52177526f8d5851"
+      },
+      "asset_bytes": 9855
+    },
+    "joint_candidate_valid_only": {
+      "validation_correct": 745,
+      "assets": {
+        "config.json": "283abe7af6506888235df59acdc1a54221c684883a7fc4577f397fe9ef327261",
+        "model.npz": "243223f000a17144c16d2ce4680b5b3ed6e9b3344b5df73570807c6b19493ead"
+      },
+      "asset_bytes": 10042
+    },
+    "joint_candidate_weighted": {
+      "validation_correct": 741,
+      "assets": {
+        "config.json": "8c5418393db03117d750f38ecac1732891270ac62f9e8e598134c8108d535054",
+        "model.npz": "243223f000a17144c16d2ce4680b5b3ed6e9b3344b5df73570807c6b19493ead"
+      },
+      "asset_bytes": 10043
+    },
+    "joint_group_valid_only": {
+      "validation_correct": 746,
+      "assets": {
+        "config.json": "4e95ee9e8d1d5b14e4aaba5b5c390ccd372ede250935aba77a6a1947923ad048",
+        "model.npz": "df98ea2e05dbe5294410fdceab88e9219895533806d8d0726e4434daa7d61725"
+      },
+      "asset_bytes": 10021
+    },
+    "joint_group_weighted": {
+      "validation_correct": 741,
+      "assets": {
+        "config.json": "94ccf778790240bfa5365eecdcaed6fe693a1dde0142042a234cafcbca939a4c",
+        "model.npz": "df98ea2e05dbe5294410fdceab88e9219895533806d8d0726e4434daa7d61725"
+      },
+      "asset_bytes": 10022
+    },
+    "joint_relations_valid_only": {
+      "validation_correct": 745,
+      "assets": {
+        "config.json": "f797783f7dc9f675f341f2e3614df363136357431bd47b844459702c7448588c",
+        "model.npz": "62a1254b374b23deaf1d7ffb492a967870239f5d40d91cb960d3542307a21dd0"
+      },
+      "asset_bytes": 10388
+    },
+    "joint_relations_weighted": {
+      "validation_correct": 742,
+      "assets": {
+        "config.json": "be4b0aee9a963b9845527438368f3e07e4cb73a3eb60af7ff0571330b55faaa3",
+        "model.npz": "62a1254b374b23deaf1d7ffb492a967870239f5d40d91cb960d3542307a21dd0"
+      },
+      "asset_bytes": 10389
+    },
+    "bag_group_logmeanexp_valid_only": {
+      "validation_correct": 746,
+      "assets": {
+        "config.json": "8a05acf4bce8c83401dc9921732916067fbe272ead8ee56c8d865d8e6d1ac89b",
+        "model.npz": "1abab29f34b7636fe94d830a10d61d8a3dc953fda63181e859d3e3f7c71bd516"
+      },
+      "asset_bytes": 27796
+    },
+    "bag_group_logmeanexp_weighted": {
+      "validation_correct": 749,
+      "assets": {
+        "config.json": "b411a88cadfaee083bb0003ac63b6ee7a6c69a8f4b5d4367445eb66f9b5c2568",
+        "model.npz": "1abab29f34b7636fe94d830a10d61d8a3dc953fda63181e859d3e3f7c71bd516"
+      },
+      "asset_bytes": 27797
+    },
+    "bag_joint_group_valid_only": {
+      "validation_correct": 747,
+      "assets": {
+        "config.json": "625bfe3fb760204ff28d1e345ce0fd0f12c3501e6f97780eae53df3553e14b3d",
+        "model.npz": "d0cf375f477e2f09962cc3124dc2773aca9d8365ae883a3b7f798c459c91dd3b"
+      },
+      "asset_bytes": 28337
+    },
+    "bag_joint_group_weighted": {
+      "validation_correct": 744,
+      "assets": {
+        "config.json": "6db00d0e2b8d5e8b1edee24443a3d68385349c7310572b122c9df8be758ff97d",
+        "model.npz": "d0cf375f477e2f09962cc3124dc2773aca9d8365ae883a3b7f798c459c91dd3b"
+      },
+      "asset_bytes": 28338
+    },
+    "group_joint_mix_valid_only": {
+      "validation_correct": 750,
+      "assets": {
+        "config.json": "24ae6941c55fba33fb9aa9c8dcfe69a946ab3a4290cf3645b4e5c73a226f6a7d",
+        "model.npz": "9867bad9ce8f0d1288bf30cef6ef9b2a8f0f40f34a8f116c7b453f1392575a22"
+      },
+      "asset_bytes": 18852
+    },
+    "group_joint_mix_weighted": {
+      "validation_correct": 750,
+      "assets": {
+        "config.json": "f981e31e3319a71ac1effee69afa504a64a49b861af249caa20b753d784a04ec",
+        "model.npz": "9867bad9ce8f0d1288bf30cef6ef9b2a8f0f40f34a8f116c7b453f1392575a22"
+      },
+      "asset_bytes": 18853
+    },
+    "group_text_mix_valid_only": {
+      "validation_correct": 745,
+      "assets": {
+        "config.json": "5f8db5323ab06719ec4f16a7773a01e6b08cb685fde63caebe2de725488e1426",
+        "model.npz": "8a98fe99ddf0bb8b1be9fb25a2be4ed44e1f26b00cff5035b5452b1e9aee6bff"
+      },
+      "asset_bytes": 18658
+    },
+    "group_text_mix_weighted": {
+      "validation_correct": 749,
+      "assets": {
+        "config.json": "4d4aeb24dc81434d175956073a21272518df78cdbc9e6cc12a6529db698c8ecf",
+        "model.npz": "8a98fe99ddf0bb8b1be9fb25a2be4ed44e1f26b00cff5035b5452b1e9aee6bff"
+      },
+      "asset_bytes": 18659
+    }
+  },
+  "selected": {
+    "control": {
+      "family": "control",
+      "input": "base",
+      "pool": "candidate",
+      "l2": 0.01,
+      "epoch": 120,
+      "validation_correct": {
+        "0.0": 743,
+        "0.25": 746
+      },
+      "validation_objective": 0.17446060478687286
+    },
+    "group_mean": {
+      "family": "group_mean",
+      "input": "base",
+      "pool": "mean",
+      "l2": 0.01,
+      "epoch": 120,
+      "validation_correct": {
+        "0.0": 737,
+        "0.25": 746
+      },
+      "validation_objective": 0.19473934173583984
+    },
+    "group_max": {
+      "family": "group_max",
+      "input": "base",
+      "pool": "max",
+      "l2": 0.01,
+      "epoch": 120,
+      "validation_correct": {
+        "0.0": 737,
+        "0.25": 744
+      },
+      "validation_objective": 0.18281199038028717
+    },
+    "group_logmeanexp": {
+      "family": "group_logmeanexp",
+      "input": "base",
+      "pool": "logmeanexp",
+      "l2": 0.01,
+      "epoch": 360,
+      "validation_correct": {
+        "0.0": 743,
+        "0.25": 747
+      },
+      "validation_objective": 0.18904531002044678
+    },
+    "joint_candidate": {
+      "family": "joint_candidate",
+      "input": "joint",
+      "pool": "candidate",
+      "l2": 0.1,
+      "epoch": 360,
+      "validation_correct": {
+        "0.0": 745,
+        "0.25": 741
+      },
+      "validation_objective": 0.19342464208602905
+    },
+    "joint_group": {
+      "family": "joint_group",
+      "input": "joint",
+      "pool": "mean",
+      "l2": 0.01,
+      "epoch": 360,
+      "validation_correct": {
+        "0.0": 746,
+        "0.25": 741
+      },
+      "validation_objective": 0.17380179464817047
+    },
+    "joint_relations": {
+      "family": "joint_relations",
+      "input": "relations",
+      "pool": "logmeanexp",
+      "l2": 0.01,
+      "epoch": 360,
+      "validation_correct": {
+        "0.0": 745,
+        "0.25": 742
+      },
+      "validation_objective": 0.1748485118150711
+    }
+  },
+  "group_branch": "group_logmeanexp",
+  "joint_branch": "joint_group",
+  "source_sha256": {
+    "train_direct_groups.py": "640f05d3d7757db8c7c4a40b9d73e1594bbbf7275f03ef9d7ab490c7d9d6820c",
+    "evaluate_direct_groups.py": "066678dc655b1695b2a6ffe5595aa7216bdc133ea7849d02b0e281c0f0ea2a40",
+    "direct_group_models.py": "2117075d1b2f64e81a156d6bc76a720c3026dfdb8a07349f6afc2e05f42d7aa4",
+    "check_direct_groups.py": "bcd1dc979e35719c06bc1612431087f1bc00b280f48c792c209f3fcf7e4e63ed",
+    "reasoning_features.py": "bde5cf2d05c354d0acece97ec781280bc41619d69cea996ec3e6d78500969cbb",
+    "train_vector.py": "286703b51e7beaaf03e7378618918bb87c5d998cb46925487fc3cc52b432fe3e",
+    "train_objectives.py": "4a82296e9bfc4d2a3617ad8c2c27a4e5ca4064cf9f3ba30b07a5d442ef606ac0",
+    "vector_vote_fusion.py": "7d2f31652b2020ffc8ca501cc4e85a2cbf772797ab072eb8997a789bbf7985fd",
+    "vector_logistic.py": "747a32d8986504594bcb7e459ff9e52c56e1faf64bb2063b9f099cc4c64f05f6",
+    "run_fusion_experiments.py": "0fda27f7edbb2399ceb5ecfa66610fde7b9a6557603798f7ce8fee48d8c02258"
+  },
+  "policy": "All parameters selected by validation before test. Three internal train splits diagnose stability, not an independent final test."
+}

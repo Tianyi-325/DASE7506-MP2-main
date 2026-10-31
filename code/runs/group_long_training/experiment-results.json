@@ -1,0 +1,244 @@
+{
+  "evaluations": {
+    "validation": {
+      "previous_valid_only": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 733,
+        "n": 798,
+        "accuracy": 91.8546365914787,
+        "scoring_seconds": 0.04076309999982186,
+        "fresh_prediction_plus_scoring_seconds": 0.5410836000000927
+      },
+      "previous_weighted": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 734,
+        "n": 798,
+        "accuracy": 91.97994987468671,
+        "scoring_seconds": 0.04071760000078939,
+        "fresh_prediction_plus_scoring_seconds": 0.5775561999998899
+      },
+      "long_valid_only": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 733,
+        "n": 798,
+        "accuracy": 91.8546365914787,
+        "scoring_seconds": 0.043151799999577634,
+        "fresh_prediction_plus_scoring_seconds": 0.5464867000000595
+      },
+      "long_weighted": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 734,
+        "n": 798,
+        "accuracy": 91.97994987468671,
+        "scoring_seconds": 0.041117799999483395,
+        "fresh_prediction_plus_scoring_seconds": 0.5104489999994257
+      }
+    },
+    "test": {
+      "previous_valid_only": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 369,
+        "n": 467,
+        "accuracy": 79.01498929336188,
+        "scoring_seconds": 0.028924199999892153,
+        "fresh_prediction_plus_scoring_seconds": 0.5063577999999325
+      },
+      "previous_weighted": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 371,
+        "n": 467,
+        "accuracy": 79.44325481798715,
+        "scoring_seconds": 0.028386199999658857,
+        "fresh_prediction_plus_scoring_seconds": 0.503891599999406
+      },
+      "long_valid_only": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 369,
+        "n": 467,
+        "accuracy": 79.01498929336188,
+        "scoring_seconds": 0.025697300000501855,
+        "fresh_prediction_plus_scoring_seconds": 0.500670600000376
+      },
+      "long_weighted": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 371,
+        "n": 467,
+        "accuracy": 79.44325481798715,
+        "scoring_seconds": 0.02599000000009255,
+        "fresh_prediction_plus_scoring_seconds": 0.4672926000002917
+      }
+    }
+  },
+  "validation_groups": {
+    "all": {
+      "n": 798,
+      "methods": {
+        "previous_valid_only": {
+          "correct": 733,
+          "accuracy": 91.8546365914787,
+          "vs_previous_weighted": {
+            "fixed": 2,
+            "broken": 3
+          }
+        },
+        "previous_weighted": {
+          "correct": 734,
+          "accuracy": 91.97994987468672,
+          "vs_previous_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "long_valid_only": {
+          "correct": 733,
+          "accuracy": 91.8546365914787,
+          "vs_previous_weighted": {
+            "fixed": 2,
+            "broken": 3
+          }
+        },
+        "long_weighted": {
+          "correct": 734,
+          "accuracy": 91.97994987468672,
+          "vs_previous_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        }
+      }
+    },
+    "answer_disagreement": {
+      "n": 355,
+      "methods": {
+        "previous_valid_only": {
+          "correct": 290,
+          "accuracy": 81.69014084507043,
+          "vs_previous_weighted": {
+            "fixed": 2,
+            "broken": 3
+          }
+        },
+        "previous_weighted": {
+          "correct": 291,
+          "accuracy": 81.97183098591549,
+          "vs_previous_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "long_valid_only": {
+          "correct": 290,
+          "accuracy": 81.69014084507043,
+          "vs_previous_weighted": {
+            "fixed": 2,
+            "broken": 3
+          }
+        },
+        "long_weighted": {
+          "correct": 291,
+          "accuracy": 81.97183098591549,
+          "vs_previous_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        }
+      }
+    },
+    "tied_leaders": {
+      "n": 88,
+      "methods": {
+        "previous_valid_only": {
+          "correct": 65,
+          "accuracy": 73.86363636363636,
+          "vs_previous_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "previous_weighted": {
+          "correct": 65,
+          "accuracy": 73.86363636363636,
+          "vs_previous_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "long_valid_only": {
+          "correct": 65,
+          "accuracy": 73.86363636363636,
+          "vs_previous_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "long_weighted": {
+          "correct": 65,
+          "accuracy": 73.86363636363636,
+          "vs_previous_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        }
+      }
+    },
+    "unique_leader": {
+      "n": 710,
+      "methods": {
+        "previous_valid_only": {
+          "correct": 668,
+          "accuracy": 94.08450704225352,
+          "vs_previous_weighted": {
+            "fixed": 2,
+            "broken": 3
+          }
+        },
+        "previous_weighted": {
+          "correct": 669,
+          "accuracy": 94.22535211267605,
+          "vs_previous_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "long_valid_only": {
+          "correct": 668,
+          "accuracy": 94.08450704225352,
+          "vs_previous_weighted": {
+            "fixed": 2,
+            "broken": 3
+          }
+        },
+        "long_weighted": {
+          "correct": 669,
+          "accuracy": 94.22535211267605,
+          "vs_previous_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        }
+      }
+    }
+  },
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:37:13) [MSC v.1942 64 bit (AMD64)]",
+    "numpy": "2.5.3",
+    "threads": 4,
+    "cpu_name": "12th Gen Intel(R) Core(TM) i9-12900H"
+  },
+  "asset_bytes": {
+    "valid_only": 9475,
+    "weighted": 9474
+  },
+  "recommended": "previous_weighted",
+  "timing": "Single fresh prediction + independent scoring, including startup/import/load; local CPU, not reference machine.",
+  "test_policy": "No test results used for selection or further adjustment in this experiment."
+}

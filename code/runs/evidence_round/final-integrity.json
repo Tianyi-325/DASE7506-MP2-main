@@ -1,0 +1,10 @@
+{
+  "official_package_files_unchanged": 20,
+  "frozen_main_variants": 54,
+  "unit_controls": 2,
+  "all_frozen_sources_and_assets_passed": true,
+  "uncompressed_asset_sizes_passed": true,
+  "no_method_or_selection_changes_after_test": true,
+  "resources_local_passed": true,
+  "reference_Xeon_not_measured": true
+}

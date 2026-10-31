@@ -1,0 +1,3193 @@
+{
+  "selected": "base_all_linear_l210",
+  "representatives": {
+    "hard": "full_broad_hard_full",
+    "nostyle": "full_broad_linear_l220",
+    "additive": "full_all_both_l210"
+  },
+  "records": {
+    "full_all_linear_l210": {
+      "definition": {
+        "members": [
+          "full_all_linear_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4362,
+        "307": 4356
+      },
+      "mean_oof_correct": 4359.0,
+      "seed_gains": [
+        7,
+        0
+      ],
+      "fold_gains": [
+        1,
+        7,
+        -1,
+        -1,
+        -3,
+        4
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 745,
+      "validation_gain": -2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 3.5,
+        "delta_pp": 0.07360672975814932,
+        "bootstrap_95_pp": [
+          -0.22082018927444794,
+          0.35751840168243953
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.2506265664160401,
+        "bootstrap_95_pp": [
+          -1.0025062656641603,
+          0.5012531328320802
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1074
+    },
+    "full_all_linear_l220": {
+      "definition": {
+        "members": [
+          "full_all_linear_l220"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4354,
+        "307": 4364
+      },
+      "mean_oof_correct": 4359.0,
+      "seed_gains": [
+        -1,
+        8
+      ],
+      "fold_gains": [
+        -1,
+        4,
+        -4,
+        4,
+        -2,
+        6
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 744,
+      "validation_gain": -3,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 3.5,
+        "delta_pp": 0.07360672975814932,
+        "bootstrap_95_pp": [
+          -0.241850683491062,
+          0.3785488958990536
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -3.0,
+        "delta_pp": -0.37593984962406013,
+        "bootstrap_95_pp": [
+          -1.2531328320802004,
+          0.37593984962406013
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1074
+    },
+    "full_all_hinges_l210": {
+      "definition": {
+        "members": [
+          "full_all_hinges_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4358,
+        "307": 4367
+      },
+      "mean_oof_correct": 4362.5,
+      "seed_gains": [
+        3,
+        11
+      ],
+      "fold_gains": [
+        -3,
+        5,
+        1,
+        3,
+        3,
+        5
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 743,
+      "validation_gain": -4,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 7.0,
+        "delta_pp": 0.14721345951629863,
+        "bootstrap_95_pp": [
+          -0.2103049421661409,
+          0.483701366982124
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -4.0,
+        "delta_pp": -0.5012531328320802,
+        "bootstrap_95_pp": [
+          -1.3784461152882206,
+          0.37593984962406013
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1274
+    },
+    "full_all_hinges_l220": {
+      "definition": {
+        "members": [
+          "full_all_hinges_l220"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4352,
+        "307": 4368
+      },
+      "mean_oof_correct": 4360.0,
+      "seed_gains": [
+        -3,
+        12
+      ],
+      "fold_gains": [
+        -5,
+        1,
+        1,
+        1,
+        1,
+        10
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 745,
+      "validation_gain": -2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 4.5,
+        "delta_pp": 0.0946372239747634,
+        "bootstrap_95_pp": [
+          -0.28391167192429023,
+          0.4416403785488959
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.2506265664160401,
+        "bootstrap_95_pp": [
+          -1.1278195488721803,
+          0.5012531328320802
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1274
+    },
+    "full_all_interactions_l210": {
+      "definition": {
+        "members": [
+          "full_all_interactions_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4360,
+        "307": 4357
+      },
+      "mean_oof_correct": 4358.5,
+      "seed_gains": [
+        5,
+        1
+      ],
+      "fold_gains": [
+        2,
+        6,
+        -3,
+        -2,
+        -1,
+        4
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 746,
+      "validation_gain": -1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 3.0,
+        "delta_pp": 0.06309148264984228,
+        "bootstrap_95_pp": [
+          -0.24001051524710823,
+          0.36803364879074657
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -1.0,
+        "delta_pp": -0.12531328320802004,
+        "bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1080
+    },
+    "full_all_interactions_l220": {
+      "definition": {
+        "members": [
+          "full_all_interactions_l220"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4357,
+        "307": 4358
+      },
+      "mean_oof_correct": 4357.5,
+      "seed_gains": [
+        2,
+        2
+      ],
+      "fold_gains": [
+        -1,
+        7,
+        -4,
+        3,
+        -4,
+        3
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 745,
+      "validation_gain": -2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 2.0,
+        "delta_pp": 0.042060988433228176,
+        "bootstrap_95_pp": [
+          -0.2733964248159832,
+          0.35751840168243953
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.2506265664160401,
+        "bootstrap_95_pp": [
+          -1.1278195488721803,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1080
+    },
+    "full_all_both_l210": {
+      "definition": {
+        "members": [
+          "full_all_both_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4363,
+        "307": 4368
+      },
+      "mean_oof_correct": 4365.5,
+      "seed_gains": [
+        8,
+        12
+      ],
+      "fold_gains": [
+        -2,
+        9,
+        1,
+        5,
+        3,
+        4
+      ],
+      "cv_gate": true,
+      "eligible": false,
+      "validation_correct": 745,
+      "validation_gain": -2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 10.0,
+        "delta_pp": 0.2103049421661409,
+        "bootstrap_95_pp": [
+          -0.14721345951629863,
+          0.5573080967402734
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.2506265664160401,
+        "bootstrap_95_pp": [
+          -1.1278195488721803,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1280
+    },
+    "full_all_both_l220": {
+      "definition": {
+        "members": [
+          "full_all_both_l220"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4349,
+        "307": 4368
+      },
+      "mean_oof_correct": 4358.5,
+      "seed_gains": [
+        -6,
+        12
+      ],
+      "fold_gains": [
+        -4,
+        0,
+        -2,
+        2,
+        0,
+        10
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 746,
+      "validation_gain": -1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 3.0,
+        "delta_pp": 0.06309148264984228,
+        "bootstrap_95_pp": [
+          -0.3049421661409043,
+          0.4206098843322818
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -1.0,
+        "delta_pp": -0.12531328320802004,
+        "bootstrap_95_pp": [
+          -1.0025062656641603,
+          0.7518796992481203
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1280
+    },
+    "full_broad_linear_l210": {
+      "definition": {
+        "members": [
+          "full_broad_linear_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4360,
+        "307": 4357
+      },
+      "mean_oof_correct": 4358.5,
+      "seed_gains": [
+        5,
+        1
+      ],
+      "fold_gains": [
+        3,
+        4,
+        -2,
+        3,
+        -6,
+        4
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 745,
+      "validation_gain": -2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 3.0,
+        "delta_pp": 0.06309148264984228,
+        "bootstrap_95_pp": [
+          -0.22082018927444794,
+          0.3470031545741325
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.2506265664160401,
+        "bootstrap_95_pp": [
+          -1.1278195488721803,
+          0.5012531328320802
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1061
+    },
+    "full_broad_linear_l220": {
+      "definition": {
+        "members": [
+          "full_broad_linear_l220"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4356,
+        "307": 4362
+      },
+      "mean_oof_correct": 4359.0,
+      "seed_gains": [
+        1,
+        6
+      ],
+      "fold_gains": [
+        0,
+        3,
+        -2,
+        7,
+        -5,
+        4
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 744,
+      "validation_gain": -3,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 3.5,
+        "delta_pp": 0.07360672975814932,
+        "bootstrap_95_pp": [
+          -0.241850683491062,
+          0.3890641430073607
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -3.0,
+        "delta_pp": -0.37593984962406013,
+        "bootstrap_95_pp": [
+          -1.2531328320802004,
+          0.37593984962406013
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1061
+    },
+    "full_broad_hinges_l210": {
+      "definition": {
+        "members": [
+          "full_broad_hinges_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4361,
+        "307": 4368
+      },
+      "mean_oof_correct": 4364.5,
+      "seed_gains": [
+        6,
+        12
+      ],
+      "fold_gains": [
+        -4,
+        10,
+        0,
+        1,
+        0,
+        11
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 744,
+      "validation_gain": -3,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 9.0,
+        "delta_pp": 0.1892744479495268,
+        "bootstrap_95_pp": [
+          -0.1366982124079916,
+          0.502891692954785
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -3.0,
+        "delta_pp": -0.37593984962406013,
+        "bootstrap_95_pp": [
+          -1.2531328320802004,
+          0.5012531328320802
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1209
+    },
+    "full_broad_hinges_l220": {
+      "definition": {
+        "members": [
+          "full_broad_hinges_l220"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4355,
+        "307": 4368
+      },
+      "mean_oof_correct": 4361.5,
+      "seed_gains": [
+        0,
+        12
+      ],
+      "fold_gains": [
+        -3,
+        4,
+        -1,
+        3,
+        -3,
+        12
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 745,
+      "validation_gain": -2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 6.0,
+        "delta_pp": 0.12618296529968456,
+        "bootstrap_95_pp": [
+          -0.23133543638275497,
+          0.47318611987381703
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.2506265664160401,
+        "bootstrap_95_pp": [
+          -1.1278195488721803,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1209
+    },
+    "full_broad_interactions_l210": {
+      "definition": {
+        "members": [
+          "full_broad_interactions_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4355,
+        "307": 4358
+      },
+      "mean_oof_correct": 4356.5,
+      "seed_gains": [
+        0,
+        2
+      ],
+      "fold_gains": [
+        1,
+        3,
+        -4,
+        2,
+        -3,
+        3
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 745,
+      "validation_gain": -2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 1.0,
+        "delta_pp": 0.021030494216614088,
+        "bootstrap_95_pp": [
+          -0.28391167192429023,
+          0.33464773922187213
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.2506265664160401,
+        "bootstrap_95_pp": [
+          -1.1278195488721803,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1067
+    },
+    "full_broad_interactions_l220": {
+      "definition": {
+        "members": [
+          "full_broad_interactions_l220"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4359,
+        "307": 4364
+      },
+      "mean_oof_correct": 4361.5,
+      "seed_gains": [
+        4,
+        8
+      ],
+      "fold_gains": [
+        0,
+        4,
+        0,
+        9,
+        -6,
+        5
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 745,
+      "validation_gain": -2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 6.0,
+        "delta_pp": 0.12618296529968456,
+        "bootstrap_95_pp": [
+          -0.1892744479495268,
+          0.46267087276550994
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.2506265664160401,
+        "bootstrap_95_pp": [
+          -1.1278195488721803,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1067
+    },
+    "full_broad_both_l210": {
+      "definition": {
+        "members": [
+          "full_broad_both_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4353,
+        "307": 4363
+      },
+      "mean_oof_correct": 4358.0,
+      "seed_gains": [
+        -2,
+        7
+      ],
+      "fold_gains": [
+        -2,
+        3,
+        -3,
+        2,
+        0,
+        5
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 747,
+      "validation_gain": 0,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 2.5,
+        "delta_pp": 0.052576235541535225,
+        "bootstrap_95_pp": [
+          -0.2733964248159832,
+          0.3785488958990536
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 0.0,
+        "delta_pp": 0.0,
+        "bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.8771929824561403
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1215
+    },
+    "full_broad_both_l220": {
+      "definition": {
+        "members": [
+          "full_broad_both_l220"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4355,
+        "307": 4364
+      },
+      "mean_oof_correct": 4359.5,
+      "seed_gains": [
+        0,
+        8
+      ],
+      "fold_gains": [
+        -2,
+        4,
+        -2,
+        2,
+        -4,
+        10
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 746,
+      "validation_gain": -1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 4.0,
+        "delta_pp": 0.08412197686645635,
+        "bootstrap_95_pp": [
+          -0.28391167192429023,
+          0.4416403785488959
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -1.0,
+        "delta_pp": -0.12531328320802004,
+        "bootstrap_95_pp": [
+          -1.1058897243107764,
+          0.8771929824561403
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1215
+    },
+    "base_all_linear_l210": {
+      "definition": {
+        "members": [
+          "base_all_linear_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4355,
+        "307": 4356
+      },
+      "mean_oof_correct": 4355.5,
+      "seed_gains": [
+        0,
+        0
+      ],
+      "fold_gains": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 747,
+      "validation_gain": 0,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 0.0,
+        "delta_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 0.0,
+        "delta_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1046
+    },
+    "base_narrow_linear_l210": {
+      "definition": {
+        "members": [
+          "base_narrow_linear_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4355,
+        "307": 4360
+      },
+      "mean_oof_correct": 4357.5,
+      "seed_gains": [
+        0,
+        4
+      ],
+      "fold_gains": [
+        3,
+        0,
+        -3,
+        4,
+        1,
+        -1
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 749,
+      "validation_gain": 2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 2.0,
+        "delta_pp": 0.042060988433228176,
+        "bootstrap_95_pp": [
+          -0.0946372239747634,
+          0.2103049421661409
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 2.0,
+        "delta_pp": 0.2506265664160401,
+        "bootstrap_95_pp": [
+          0.0,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1037
+    },
+    "base_broad_linear_l210": {
+      "definition": {
+        "members": [
+          "base_broad_linear_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4352,
+        "307": 4365
+      },
+      "mean_oof_correct": 4358.5,
+      "seed_gains": [
+        -3,
+        9
+      ],
+      "fold_gains": [
+        2,
+        0,
+        -5,
+        5,
+        1,
+        3
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 748,
+      "validation_gain": 1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 3.0,
+        "delta_pp": 0.06309148264984228,
+        "bootstrap_95_pp": [
+          -0.08412197686645635,
+          0.22082018927444794
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 1.0,
+        "delta_pp": 0.12531328320802004,
+        "bootstrap_95_pp": [
+          0.0,
+          0.37593984962406013
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1033
+    },
+    "base_all_linear_l220": {
+      "definition": {
+        "members": [
+          "base_all_linear_l220"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4347,
+        "307": 4352
+      },
+      "mean_oof_correct": 4349.5,
+      "seed_gains": [
+        -8,
+        -4
+      ],
+      "fold_gains": [
+        -4,
+        1,
+        -5,
+        -1,
+        -5,
+        2
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 745,
+      "validation_gain": -2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": -6.0,
+        "delta_pp": -0.12618296529968456,
+        "bootstrap_95_pp": [
+          -0.3364879074658254,
+          0.06309148264984228
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.2506265664160401,
+        "bootstrap_95_pp": [
+          -0.6265664160401002,
+          0.0
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1046
+    },
+    "full_narrow_linear_l210": {
+      "definition": {
+        "members": [
+          "full_narrow_linear_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4357,
+        "307": 4363
+      },
+      "mean_oof_correct": 4360.0,
+      "seed_gains": [
+        2,
+        7
+      ],
+      "fold_gains": [
+        1,
+        5,
+        -4,
+        3,
+        -4,
+        8
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 747,
+      "validation_gain": 0,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 4.5,
+        "delta_pp": 0.0946372239747634,
+        "bootstrap_95_pp": [
+          -0.1892744479495268,
+          0.3872239747634074
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 0.0,
+        "delta_pp": 0.0,
+        "bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.8771929824561403
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1065
+    },
+    "base_all_informative_full": {
+      "definition": {
+        "members": [
+          "base_all_informative_full"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4355,
+        "307": 4356
+      },
+      "mean_oof_correct": 4355.5,
+      "seed_gains": [
+        0,
+        0
+      ],
+      "fold_gains": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 747,
+      "validation_gain": 0,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 0.0,
+        "delta_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 0.0,
+        "delta_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1046
+    },
+    "base_all_informative_mean": {
+      "definition": {
+        "members": [
+          "base_all_informative_mean"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4344,
+        "307": 4361
+      },
+      "mean_oof_correct": 4352.5,
+      "seed_gains": [
+        -11,
+        5
+      ],
+      "fold_gains": [
+        -5,
+        -2,
+        -4,
+        2,
+        2,
+        1
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 748,
+      "validation_gain": 1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": -3.0,
+        "delta_pp": -0.06309148264984228,
+        "bootstrap_95_pp": [
+          -0.2523659305993691,
+          0.1366982124079916
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 1.0,
+        "delta_pp": 0.12531328320802004,
+        "bootstrap_95_pp": [
+          -0.6265664160401002,
+          0.8771929824561403
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1046
+    },
+    "base_all_hard_full": {
+      "definition": {
+        "members": [
+          "base_all_hard_full"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4354,
+        "307": 4355
+      },
+      "mean_oof_correct": 4354.5,
+      "seed_gains": [
+        -1,
+        -1
+      ],
+      "fold_gains": [
+        -2,
+        0,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 747,
+      "validation_gain": 0,
+      "oof_vs_baseline": {
+        "mean_delta_questions": -1.0,
+        "delta_pp": -0.021030494216614088,
+        "bootstrap_95_pp": [
+          -0.1366982124079916,
+          0.08412197686645635
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 0.0,
+        "delta_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1046
+    },
+    "base_all_hard_mean": {
+      "definition": {
+        "members": [
+          "base_all_hard_mean"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4341,
+        "307": 4361
+      },
+      "mean_oof_correct": 4351.0,
+      "seed_gains": [
+        -14,
+        5
+      ],
+      "fold_gains": [
+        -7,
+        -3,
+        -4,
+        2,
+        1,
+        2
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 746,
+      "validation_gain": -1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": -4.5,
+        "delta_pp": -0.0946372239747634,
+        "bootstrap_95_pp": [
+          -0.29442691903259727,
+          0.11566771819137749
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -1.0,
+        "delta_pp": -0.12531328320802004,
+        "bootstrap_95_pp": [
+          -1.0025062656641603,
+          0.7518796992481203
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1046
+    },
+    "base_all_hard_mask_full": {
+      "definition": {
+        "members": [
+          "base_all_hard_mask_full"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4352,
+        "307": 4354
+      },
+      "mean_oof_correct": 4353.0,
+      "seed_gains": [
+        -3,
+        -2
+      ],
+      "fold_gains": [
+        -2,
+        0,
+        -1,
+        -2,
+        0,
+        0
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 749,
+      "validation_gain": 2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": -2.5,
+        "delta_pp": -0.052576235541535225,
+        "bootstrap_95_pp": [
+          -0.1892744479495268,
+          0.08412197686645635
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 2.0,
+        "delta_pp": 0.2506265664160401,
+        "bootstrap_95_pp": [
+          0.0,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1046
+    },
+    "base_all_all_mask_full": {
+      "definition": {
+        "members": [
+          "base_all_all_mask_full"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4352,
+        "307": 4354
+      },
+      "mean_oof_correct": 4353.0,
+      "seed_gains": [
+        -3,
+        -2
+      ],
+      "fold_gains": [
+        -2,
+        0,
+        -1,
+        -2,
+        0,
+        0
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 749,
+      "validation_gain": 2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": -2.5,
+        "delta_pp": -0.052576235541535225,
+        "bootstrap_95_pp": [
+          -0.1892744479495268,
+          0.08412197686645635
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 2.0,
+        "delta_pp": 0.2506265664160401,
+        "bootstrap_95_pp": [
+          0.0,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1046
+    },
+    "base_all_hard_prep_mean": {
+      "definition": {
+        "members": [
+          "base_all_hard_prep_mean"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4343,
+        "307": 4358
+      },
+      "mean_oof_correct": 4350.5,
+      "seed_gains": [
+        -12,
+        2
+      ],
+      "fold_gains": [
+        -6,
+        -2,
+        -4,
+        2,
+        1,
+        -1
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 747,
+      "validation_gain": 0,
+      "oof_vs_baseline": {
+        "mean_delta_questions": -5.0,
+        "delta_pp": -0.10515247108307045,
+        "bootstrap_95_pp": [
+          -0.31545741324921134,
+          0.11566771819137749
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 0.0,
+        "delta_pp": 0.0,
+        "bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.8771929824561403
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1046
+    },
+    "full_broad_informative_full": {
+      "definition": {
+        "members": [
+          "full_broad_informative_full"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4360,
+        "307": 4357
+      },
+      "mean_oof_correct": 4358.5,
+      "seed_gains": [
+        5,
+        1
+      ],
+      "fold_gains": [
+        3,
+        4,
+        -2,
+        3,
+        -6,
+        4
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 745,
+      "validation_gain": -2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 3.0,
+        "delta_pp": 0.06309148264984228,
+        "bootstrap_95_pp": [
+          -0.22082018927444794,
+          0.3470031545741325
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.2506265664160401,
+        "bootstrap_95_pp": [
+          -1.1278195488721803,
+          0.5012531328320802
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1061
+    },
+    "full_broad_informative_mean": {
+      "definition": {
+        "members": [
+          "full_broad_informative_mean"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4368,
+        "307": 4358
+      },
+      "mean_oof_correct": 4363.0,
+      "seed_gains": [
+        13,
+        2
+      ],
+      "fold_gains": [
+        7,
+        7,
+        -1,
+        0,
+        -6,
+        8
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 746,
+      "validation_gain": -1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 7.5,
+        "delta_pp": 0.15772870662460567,
+        "bootstrap_95_pp": [
+          -0.14721345951629863,
+          0.4713459516298638
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -1.0,
+        "delta_pp": -0.12531328320802004,
+        "bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1061
+    },
+    "full_broad_hard_full": {
+      "definition": {
+        "members": [
+          "full_broad_hard_full"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4362,
+        "307": 4362
+      },
+      "mean_oof_correct": 4362.0,
+      "seed_gains": [
+        7,
+        6
+      ],
+      "fold_gains": [
+        2,
+        4,
+        1,
+        3,
+        -3,
+        6
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 747,
+      "validation_gain": 0,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 6.5,
+        "delta_pp": 0.1366982124079916,
+        "bootstrap_95_pp": [
+          -0.1558885383806519,
+          0.42928496319663567
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 0.0,
+        "delta_pp": 0.0,
+        "bootstrap_95_pp": [
+          -0.7518796992481203,
+          0.7518796992481203
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1061
+    },
+    "full_broad_hard_mean": {
+      "definition": {
+        "members": [
+          "full_broad_hard_mean"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4365,
+        "307": 4352
+      },
+      "mean_oof_correct": 4358.5,
+      "seed_gains": [
+        10,
+        -4
+      ],
+      "fold_gains": [
+        4,
+        6,
+        0,
+        -3,
+        -6,
+        5
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 745,
+      "validation_gain": -2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 3.0,
+        "delta_pp": 0.06309148264984228,
+        "bootstrap_95_pp": [
+          -0.2505257623554153,
+          0.3767087276551004
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.2506265664160401,
+        "bootstrap_95_pp": [
+          -1.1278195488721803,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1061
+    },
+    "full_broad_hard_mask_full": {
+      "definition": {
+        "members": [
+          "full_broad_hard_mask_full"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4364,
+        "307": 4355
+      },
+      "mean_oof_correct": 4359.5,
+      "seed_gains": [
+        9,
+        -1
+      ],
+      "fold_gains": [
+        2,
+        7,
+        0,
+        -1,
+        -6,
+        6
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 746,
+      "validation_gain": -1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 4.0,
+        "delta_pp": 0.08412197686645635,
+        "bootstrap_95_pp": [
+          -0.19978969505783387,
+          0.35751840168243953
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -1.0,
+        "delta_pp": -0.12531328320802004,
+        "bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1061
+    },
+    "full_broad_all_mask_full": {
+      "definition": {
+        "members": [
+          "full_broad_all_mask_full"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4364,
+        "307": 4355
+      },
+      "mean_oof_correct": 4359.5,
+      "seed_gains": [
+        9,
+        -1
+      ],
+      "fold_gains": [
+        2,
+        7,
+        0,
+        -1,
+        -6,
+        6
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 746,
+      "validation_gain": -1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 4.0,
+        "delta_pp": 0.08412197686645635,
+        "bootstrap_95_pp": [
+          -0.19978969505783387,
+          0.35751840168243953
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -1.0,
+        "delta_pp": -0.12531328320802004,
+        "bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1061
+    },
+    "full_broad_hard_prep_mean": {
+      "definition": {
+        "members": [
+          "full_broad_hard_prep_mean"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4367,
+        "307": 4356
+      },
+      "mean_oof_correct": 4361.5,
+      "seed_gains": [
+        12,
+        0
+      ],
+      "fold_gains": [
+        7,
+        5,
+        0,
+        -1,
+        -5,
+        6
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 745,
+      "validation_gain": -2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 6.0,
+        "delta_pp": 0.12618296529968456,
+        "bootstrap_95_pp": [
+          -0.17875920084121977,
+          0.4311251314405889
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.2506265664160401,
+        "bootstrap_95_pp": [
+          -1.1278195488721803,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1061
+    },
+    "full_all_orth_hinges_l210": {
+      "definition": {
+        "members": [
+          "full_all_orth_hinges_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4350,
+        "307": 4366
+      },
+      "mean_oof_correct": 4358.0,
+      "seed_gains": [
+        -5,
+        10
+      ],
+      "fold_gains": [
+        -2,
+        1,
+        -4,
+        3,
+        3,
+        4
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 744,
+      "validation_gain": -3,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 2.5,
+        "delta_pp": 0.052576235541535225,
+        "bootstrap_95_pp": [
+          -0.3049421661409043,
+          0.3785488958990536
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -3.0,
+        "delta_pp": -0.37593984962406013,
+        "bootstrap_95_pp": [
+          -1.3784461152882206,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1138
+    },
+    "full_all_orth_hinges_l220": {
+      "definition": {
+        "members": [
+          "full_all_orth_hinges_l220"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4347,
+        "307": 4360
+      },
+      "mean_oof_correct": 4353.5,
+      "seed_gains": [
+        -8,
+        4
+      ],
+      "fold_gains": [
+        -4,
+        0,
+        -4,
+        -2,
+        -2,
+        8
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 742,
+      "validation_gain": -5,
+      "oof_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.042060988433228176,
+        "bootstrap_95_pp": [
+          -0.4100946372239748,
+          0.3049421661409043
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -5.0,
+        "delta_pp": -0.6265664160401002,
+        "bootstrap_95_pp": [
+          -1.6290726817042605,
+          0.2506265664160401
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1138
+    },
+    "full_all_orth_both_l210": {
+      "definition": {
+        "members": [
+          "full_all_orth_both_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4350,
+        "307": 4361
+      },
+      "mean_oof_correct": 4355.5,
+      "seed_gains": [
+        -5,
+        5
+      ],
+      "fold_gains": [
+        -5,
+        1,
+        -1,
+        -1,
+        4,
+        2
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 743,
+      "validation_gain": -4,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 0.0,
+        "delta_pp": 0.0,
+        "bootstrap_95_pp": [
+          -0.3470031545741325,
+          0.3451629863301792
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -4.0,
+        "delta_pp": -0.5012531328320802,
+        "bootstrap_95_pp": [
+          -1.5037593984962405,
+          0.5012531328320802
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1144
+    },
+    "full_all_orth_both_l220": {
+      "definition": {
+        "members": [
+          "full_all_orth_both_l220"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4347,
+        "307": 4366
+      },
+      "mean_oof_correct": 4356.5,
+      "seed_gains": [
+        -8,
+        10
+      ],
+      "fold_gains": [
+        -6,
+        1,
+        -3,
+        0,
+        0,
+        10
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 741,
+      "validation_gain": -6,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 1.0,
+        "delta_pp": 0.021030494216614088,
+        "bootstrap_95_pp": [
+          -0.3364879074658254,
+          0.3661934805467933
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -6.0,
+        "delta_pp": -0.7518796992481203,
+        "bootstrap_95_pp": [
+          -1.7543859649122806,
+          0.2506265664160401
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1144
+    },
+    "full_broad_orth_hinges_l210": {
+      "definition": {
+        "members": [
+          "full_broad_orth_hinges_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4353,
+        "307": 4371
+      },
+      "mean_oof_correct": 4362.0,
+      "seed_gains": [
+        -2,
+        15
+      ],
+      "fold_gains": [
+        -2,
+        4,
+        -4,
+        1,
+        4,
+        10
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 744,
+      "validation_gain": -3,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 6.5,
+        "delta_pp": 0.1366982124079916,
+        "bootstrap_95_pp": [
+          -0.17875920084121977,
+          0.4311251314405889
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -3.0,
+        "delta_pp": -0.37593984962406013,
+        "bootstrap_95_pp": [
+          -1.2531328320802004,
+          0.5012531328320802
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1091
+    },
+    "full_broad_orth_hinges_l220": {
+      "definition": {
+        "members": [
+          "full_broad_orth_hinges_l220"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4345,
+        "307": 4358
+      },
+      "mean_oof_correct": 4351.5,
+      "seed_gains": [
+        -10,
+        2
+      ],
+      "fold_gains": [
+        -7,
+        2,
+        -5,
+        -4,
+        1,
+        5
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 744,
+      "validation_gain": -3,
+      "oof_vs_baseline": {
+        "mean_delta_questions": -4.0,
+        "delta_pp": -0.08412197686645635,
+        "bootstrap_95_pp": [
+          -0.4311251314405889,
+          0.2523659305993691
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -3.0,
+        "delta_pp": -0.37593984962406013,
+        "bootstrap_95_pp": [
+          -1.3784461152882206,
+          0.5012531328320802
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1091
+    },
+    "full_broad_orth_both_l210": {
+      "definition": {
+        "members": [
+          "full_broad_orth_both_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4353,
+        "307": 4362
+      },
+      "mean_oof_correct": 4357.5,
+      "seed_gains": [
+        -2,
+        6
+      ],
+      "fold_gains": [
+        -2,
+        3,
+        -3,
+        -2,
+        4,
+        4
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 744,
+      "validation_gain": -3,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 2.0,
+        "delta_pp": 0.042060988433228176,
+        "bootstrap_95_pp": [
+          -0.3031019978969505,
+          0.35751840168243953
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -3.0,
+        "delta_pp": -0.37593984962406013,
+        "bootstrap_95_pp": [
+          -1.2531328320802004,
+          0.5012531328320802
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1097
+    },
+    "full_broad_orth_both_l220": {
+      "definition": {
+        "members": [
+          "full_broad_orth_both_l220"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4347,
+        "307": 4369
+      },
+      "mean_oof_correct": 4358.0,
+      "seed_gains": [
+        -8,
+        13
+      ],
+      "fold_gains": [
+        -9,
+        4,
+        -3,
+        4,
+        2,
+        7
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 744,
+      "validation_gain": -3,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 2.5,
+        "delta_pp": 0.052576235541535225,
+        "bootstrap_95_pp": [
+          -0.2925867507886435,
+          0.39957939011566773
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -3.0,
+        "delta_pp": -0.37593984962406013,
+        "bootstrap_95_pp": [
+          -1.3784461152882206,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1097
+    },
+    "mix1_50": {
+      "definition": {
+        "members": [
+          "base_all_linear_l210",
+          "full_broad_hard_full"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4355,
+        "307": 4365
+      },
+      "mean_oof_correct": 4360.0,
+      "seed_gains": [
+        0,
+        9
+      ],
+      "fold_gains": [
+        0,
+        4,
+        -4,
+        3,
+        -1,
+        7
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 748,
+      "validation_gain": 1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 4.5,
+        "delta_pp": 0.0946372239747634,
+        "bootstrap_95_pp": [
+          -0.09279705573080964,
+          0.28391167192429023
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 1.0,
+        "delta_pp": 0.12531328320802004,
+        "bootstrap_95_pp": [
+          -0.5012531328320802,
+          0.7518796992481203
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 2107
+    },
+    "mix1_75": {
+      "definition": {
+        "members": [
+          "base_all_linear_l210",
+          "full_broad_hard_full"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4356,
+        "307": 4358
+      },
+      "mean_oof_correct": 4357.0,
+      "seed_gains": [
+        1,
+        2
+      ],
+      "fold_gains": [
+        2,
+        3,
+        -4,
+        2,
+        -2,
+        2
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 747,
+      "validation_gain": 0,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 1.5,
+        "delta_pp": 0.03154574132492114,
+        "bootstrap_95_pp": [
+          -0.08412197686645635,
+          0.15588853838065242
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 0.0,
+        "delta_pp": 0.0,
+        "bootstrap_95_pp": [
+          -0.5012531328320802,
+          0.5012531328320802
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 2107
+    },
+    "mix2_50": {
+      "definition": {
+        "members": [
+          "base_all_linear_l210",
+          "full_broad_linear_l220"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4351,
+        "307": 4358
+      },
+      "mean_oof_correct": 4354.5,
+      "seed_gains": [
+        -4,
+        2
+      ],
+      "fold_gains": [
+        -6,
+        4,
+        -2,
+        2,
+        -3,
+        3
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 746,
+      "validation_gain": -1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": -1.0,
+        "delta_pp": -0.021030494216614088,
+        "bootstrap_95_pp": [
+          -0.2523659305993691,
+          0.1892744479495268
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -1.0,
+        "delta_pp": -0.12531328320802004,
+        "bootstrap_95_pp": [
+          -0.7518796992481203,
+          0.5012531328320802
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 2107
+    },
+    "mix2_75": {
+      "definition": {
+        "members": [
+          "base_all_linear_l210",
+          "full_broad_linear_l220"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4353,
+        "307": 4359
+      },
+      "mean_oof_correct": 4356.0,
+      "seed_gains": [
+        -2,
+        3
+      ],
+      "fold_gains": [
+        1,
+        -1,
+        -2,
+        1,
+        0,
+        2
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 748,
+      "validation_gain": 1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 0.5,
+        "delta_pp": 0.010515247108307044,
+        "bootstrap_95_pp": [
+          -0.12434279705573077,
+          0.14721345951629863
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 1.0,
+        "delta_pp": 0.12531328320802004,
+        "bootstrap_95_pp": [
+          -0.2506265664160401,
+          0.6046365914787024
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 2107
+    },
+    "mix3_50": {
+      "definition": {
+        "members": [
+          "base_all_linear_l210",
+          "full_all_both_l210"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4355,
+        "307": 4365
+      },
+      "mean_oof_correct": 4360.0,
+      "seed_gains": [
+        0,
+        9
+      ],
+      "fold_gains": [
+        3,
+        2,
+        -5,
+        1,
+        0,
+        8
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 749,
+      "validation_gain": 2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 4.5,
+        "delta_pp": 0.0946372239747634,
+        "bootstrap_95_pp": [
+          -0.12434279705573077,
+          0.31545741324921134
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 2.0,
+        "delta_pp": 0.2506265664160401,
+        "bootstrap_95_pp": [
+          -0.37593984962406013,
+          1.0025062656641603
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 2326
+    },
+    "mix3_75": {
+      "definition": {
+        "members": [
+          "base_all_linear_l210",
+          "full_all_both_l210"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4361,
+        "307": 4361
+      },
+      "mean_oof_correct": 4361.0,
+      "seed_gains": [
+        6,
+        5
+      ],
+      "fold_gains": [
+        2,
+        5,
+        -1,
+        0,
+        2,
+        3
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 749,
+      "validation_gain": 2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 5.5,
+        "delta_pp": 0.11566771819137749,
+        "bootstrap_95_pp": [
+          -0.021030494216614088,
+          0.26288117770767616
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 2.0,
+        "delta_pp": 0.2506265664160401,
+        "bootstrap_95_pp": [
+          -0.12531328320802004,
+          0.7518796992481203
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 2326
+    },
+    "mix4_50": {
+      "definition": {
+        "members": [
+          "full_broad_hard_full",
+          "full_all_both_l210"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4358,
+        "307": 4363
+      },
+      "mean_oof_correct": 4360.5,
+      "seed_gains": [
+        3,
+        7
+      ],
+      "fold_gains": [
+        -1,
+        7,
+        -3,
+        2,
+        -4,
+        9
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 745,
+      "validation_gain": -2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 5.0,
+        "delta_pp": 0.10515247108307045,
+        "bootstrap_95_pp": [
+          -0.1892744479495268,
+          0.4100946372239748
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -2.0,
+        "delta_pp": -0.2506265664160401,
+        "bootstrap_95_pp": [
+          -1.1278195488721803,
+          0.6265664160401002
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 2341
+    },
+    "mix4_75": {
+      "definition": {
+        "members": [
+          "full_broad_hard_full",
+          "full_all_both_l210"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4357,
+        "307": 4361
+      },
+      "mean_oof_correct": 4359.0,
+      "seed_gains": [
+        2,
+        5
+      ],
+      "fold_gains": [
+        0,
+        2,
+        0,
+        3,
+        -3,
+        5
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 747,
+      "validation_gain": 0,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 3.5,
+        "delta_pp": 0.07360672975814932,
+        "bootstrap_95_pp": [
+          -0.22082018927444794,
+          0.36803364879074657
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 0.0,
+        "delta_pp": 0.0,
+        "bootstrap_95_pp": [
+          -0.7518796992481203,
+          0.7518796992481203
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 2341
+    },
+    "mix5_50": {
+      "definition": {
+        "members": [
+          "full_broad_linear_l220",
+          "full_all_both_l210"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4352,
+        "307": 4365
+      },
+      "mean_oof_correct": 4358.5,
+      "seed_gains": [
+        -3,
+        9
+      ],
+      "fold_gains": [
+        -3,
+        3,
+        -3,
+        2,
+        -3,
+        10
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 746,
+      "validation_gain": -1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 3.0,
+        "delta_pp": 0.06309148264984228,
+        "bootstrap_95_pp": [
+          -0.26288117770767616,
+          0.39957939011566773
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -1.0,
+        "delta_pp": -0.12531328320802004,
+        "bootstrap_95_pp": [
+          -1.0025062656641603,
+          0.7518796992481203
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 2341
+    },
+    "mix5_75": {
+      "definition": {
+        "members": [
+          "full_broad_linear_l220",
+          "full_all_both_l210"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4355,
+        "307": 4359
+      },
+      "mean_oof_correct": 4357.0,
+      "seed_gains": [
+        0,
+        3
+      ],
+      "fold_gains": [
+        -1,
+        2,
+        -1,
+        3,
+        -7,
+        7
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 743,
+      "validation_gain": -4,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 1.5,
+        "delta_pp": 0.03154574132492114,
+        "bootstrap_95_pp": [
+          -0.3049421661409043,
+          0.35751840168243953
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -4.0,
+        "delta_pp": -0.5012531328320802,
+        "bootstrap_95_pp": [
+          -1.3784461152882206,
+          0.2506265664160401
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 2341
+    },
+    "triple": {
+      "definition": {
+        "members": [
+          "base_all_linear_l210",
+          "full_broad_hard_full",
+          "full_all_both_l210"
+        ],
+        "weights": [
+          0.5,
+          0.25,
+          0.25
+        ],
+        "normalized": true,
+        "alpha": 0.25,
+        "selectable": true
+      },
+      "oof_correct_by_seed": {
+        "101": 4352,
+        "307": 4363
+      },
+      "mean_oof_correct": 4357.5,
+      "seed_gains": [
+        -3,
+        7
+      ],
+      "fold_gains": [
+        1,
+        1,
+        -5,
+        1,
+        -1,
+        7
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 749,
+      "validation_gain": 2,
+      "oof_vs_baseline": {
+        "mean_delta_questions": 2.0,
+        "delta_pp": 0.042060988433228176,
+        "bootstrap_95_pp": [
+          -0.15772870662460567,
+          0.241850683491062
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": 2.0,
+        "delta_pp": 0.2506265664160401,
+        "bootstrap_95_pp": [
+          -0.37593984962406013,
+          1.0025062656641603
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 3387
+    },
+    "baseline_native_vote": {
+      "definition": {
+        "members": [
+          "base_all_linear_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": false,
+        "alpha": 0.25,
+        "selectable": false
+      },
+      "oof_correct_by_seed": {
+        "101": 4350,
+        "307": 4352
+      },
+      "mean_oof_correct": 4351.0,
+      "seed_gains": [
+        -5,
+        -4
+      ],
+      "fold_gains": [
+        -3,
+        -1,
+        -1,
+        1,
+        -4,
+        -1
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 746,
+      "validation_gain": -1,
+      "oof_vs_baseline": {
+        "mean_delta_questions": -4.5,
+        "delta_pp": -0.0946372239747634,
+        "bootstrap_95_pp": [
+          -0.2523659305993691,
+          0.06309148264984228
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -1.0,
+        "delta_pp": -0.12531328320802004,
+        "bootstrap_95_pp": [
+          -0.37593984962406013,
+          0.0
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1046
+    },
+    "baseline_normalized_plain": {
+      "definition": {
+        "members": [
+          "base_all_linear_l210"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalized": true,
+        "alpha": 0.0,
+        "selectable": false
+      },
+      "oof_correct_by_seed": {
+        "101": 4334,
+        "307": 4331
+      },
+      "mean_oof_correct": 4332.5,
+      "seed_gains": [
+        -21,
+        -25
+      ],
+      "fold_gains": [
+        -7,
+        -6,
+        -8,
+        -12,
+        -5,
+        -8
+      ],
+      "cv_gate": false,
+      "eligible": false,
+      "validation_correct": 742,
+      "validation_gain": -5,
+      "oof_vs_baseline": {
+        "mean_delta_questions": -23.0,
+        "delta_pp": -0.483701366982124,
+        "bootstrap_95_pp": [
+          -0.8201892744479496,
+          -0.1366982124079916
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "validation_vs_baseline": {
+        "mean_delta_questions": -5.0,
+        "delta_pp": -0.6265664160401002,
+        "bootstrap_95_pp": [
+          -1.5037593984962405,
+          0.12531328320802004
+        ],
+        "note": "question-paired exploratory interval; unadjusted model search and overlapping CV fits"
+      },
+      "parameters": 1046
+    }
+  },
+  "baseline_counts_by_seed": [
+    4355,
+    4356
+  ],
+  "baseline_validation": 747,
+  "eligible": [],
+  "validation_strata": {
+    "all": {
+      "n": 798,
+      "methods": {
+        "full_all_linear_l210": 745,
+        "full_all_linear_l220": 744,
+        "full_all_hinges_l210": 743,
+        "full_all_hinges_l220": 745,
+        "full_all_interactions_l210": 746,
+        "full_all_interactions_l220": 745,
+        "full_all_both_l210": 745,
+        "full_all_both_l220": 746,
+        "full_broad_linear_l210": 745,
+        "full_broad_linear_l220": 744,
+        "full_broad_hinges_l210": 744,
+        "full_broad_hinges_l220": 745,
+        "full_broad_interactions_l210": 745,
+        "full_broad_interactions_l220": 745,
+        "full_broad_both_l210": 747,
+        "full_broad_both_l220": 746,
+        "base_all_linear_l210": 747,
+        "base_narrow_linear_l210": 749,
+        "base_broad_linear_l210": 748,
+        "base_all_linear_l220": 745,
+        "full_narrow_linear_l210": 747,
+        "base_all_informative_full": 747,
+        "base_all_informative_mean": 748,
+        "base_all_hard_full": 747,
+        "base_all_hard_mean": 746,
+        "base_all_hard_mask_full": 749,
+        "base_all_all_mask_full": 749,
+        "base_all_hard_prep_mean": 747,
+        "full_broad_informative_full": 745,
+        "full_broad_informative_mean": 746,
+        "full_broad_hard_full": 747,
+        "full_broad_hard_mean": 745,
+        "full_broad_hard_mask_full": 746,
+        "full_broad_all_mask_full": 746,
+        "full_broad_hard_prep_mean": 745,
+        "full_all_orth_hinges_l210": 744,
+        "full_all_orth_hinges_l220": 742,
+        "full_all_orth_both_l210": 743,
+        "full_all_orth_both_l220": 741,
+        "full_broad_orth_hinges_l210": 744,
+        "full_broad_orth_hinges_l220": 744,
+        "full_broad_orth_both_l210": 744,
+        "full_broad_orth_both_l220": 744,
+        "mix1_50": 748,
+        "mix1_75": 747,
+        "mix2_50": 746,
+        "mix2_75": 748,
+        "mix3_50": 749,
+        "mix3_75": 749,
+        "mix4_50": 745,
+        "mix4_75": 747,
+        "mix5_50": 746,
+        "mix5_75": 743,
+        "triple": 749,
+        "baseline_native_vote": 746,
+        "baseline_normalized_plain": 742
+      }
+    },
+    "disagreement": {
+      "n": 355,
+      "methods": {
+        "full_all_linear_l210": 302,
+        "full_all_linear_l220": 301,
+        "full_all_hinges_l210": 300,
+        "full_all_hinges_l220": 302,
+        "full_all_interactions_l210": 303,
+        "full_all_interactions_l220": 302,
+        "full_all_both_l210": 302,
+        "full_all_both_l220": 303,
+        "full_broad_linear_l210": 302,
+        "full_broad_linear_l220": 301,
+        "full_broad_hinges_l210": 301,
+        "full_broad_hinges_l220": 302,
+        "full_broad_interactions_l210": 302,
+        "full_broad_interactions_l220": 302,
+        "full_broad_both_l210": 304,
+        "full_broad_both_l220": 303,
+        "base_all_linear_l210": 304,
+        "base_narrow_linear_l210": 306,
+        "base_broad_linear_l210": 305,
+        "base_all_linear_l220": 302,
+        "full_narrow_linear_l210": 304,
+        "base_all_informative_full": 304,
+        "base_all_informative_mean": 305,
+        "base_all_hard_full": 304,
+        "base_all_hard_mean": 303,
+        "base_all_hard_mask_full": 306,
+        "base_all_all_mask_full": 306,
+        "base_all_hard_prep_mean": 304,
+        "full_broad_informative_full": 302,
+        "full_broad_informative_mean": 303,
+        "full_broad_hard_full": 304,
+        "full_broad_hard_mean": 302,
+        "full_broad_hard_mask_full": 303,
+        "full_broad_all_mask_full": 303,
+        "full_broad_hard_prep_mean": 302,
+        "full_all_orth_hinges_l210": 301,
+        "full_all_orth_hinges_l220": 299,
+        "full_all_orth_both_l210": 300,
+        "full_all_orth_both_l220": 298,
+        "full_broad_orth_hinges_l210": 301,
+        "full_broad_orth_hinges_l220": 301,
+        "full_broad_orth_both_l210": 301,
+        "full_broad_orth_both_l220": 301,
+        "mix1_50": 305,
+        "mix1_75": 304,
+        "mix2_50": 303,
+        "mix2_75": 305,
+        "mix3_50": 306,
+        "mix3_75": 306,
+        "mix4_50": 302,
+        "mix4_75": 304,
+        "mix5_50": 303,
+        "mix5_75": 300,
+        "triple": 306,
+        "baseline_native_vote": 303,
+        "baseline_normalized_plain": 299
+      }
+    },
+    "one_correct": {
+      "n": 117,
+      "methods": {
+        "full_all_linear_l210": 73,
+        "full_all_linear_l220": 71,
+        "full_all_hinges_l210": 72,
+        "full_all_hinges_l220": 73,
+        "full_all_interactions_l210": 74,
+        "full_all_interactions_l220": 72,
+        "full_all_both_l210": 73,
+        "full_all_both_l220": 73,
+        "full_broad_linear_l210": 74,
+        "full_broad_linear_l220": 72,
+        "full_broad_hinges_l210": 73,
+        "full_broad_hinges_l220": 72,
+        "full_broad_interactions_l210": 73,
+        "full_broad_interactions_l220": 73,
+        "full_broad_both_l210": 74,
+        "full_broad_both_l220": 72,
+        "base_all_linear_l210": 75,
+        "base_narrow_linear_l210": 76,
+        "base_broad_linear_l210": 76,
+        "base_all_linear_l220": 73,
+        "full_narrow_linear_l210": 74,
+        "base_all_informative_full": 75,
+        "base_all_informative_mean": 76,
+        "base_all_hard_full": 75,
+        "base_all_hard_mean": 75,
+        "base_all_hard_mask_full": 77,
+        "base_all_all_mask_full": 77,
+        "base_all_hard_prep_mean": 76,
+        "full_broad_informative_full": 74,
+        "full_broad_informative_mean": 73,
+        "full_broad_hard_full": 75,
+        "full_broad_hard_mean": 72,
+        "full_broad_hard_mask_full": 75,
+        "full_broad_all_mask_full": 75,
+        "full_broad_hard_prep_mean": 72,
+        "full_all_orth_hinges_l210": 71,
+        "full_all_orth_hinges_l220": 70,
+        "full_all_orth_both_l210": 70,
+        "full_all_orth_both_l220": 69,
+        "full_broad_orth_hinges_l210": 73,
+        "full_broad_orth_hinges_l220": 72,
+        "full_broad_orth_both_l210": 73,
+        "full_broad_orth_both_l220": 71,
+        "mix1_50": 75,
+        "mix1_75": 73,
+        "mix2_50": 74,
+        "mix2_75": 74,
+        "mix3_50": 76,
+        "mix3_75": 75,
+        "mix4_50": 74,
+        "mix4_75": 75,
+        "mix5_50": 74,
+        "mix5_75": 71,
+        "triple": 76,
+        "baseline_native_vote": 75,
+        "baseline_normalized_plain": 78
+      }
+    }
+  }
+}

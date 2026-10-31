@@ -1,0 +1,28 @@
+{
+  "epochs": 100,
+  "curves": [
+    {
+      "epoch": 25,
+      "candidate_bce": 0.25092952347045216
+    },
+    {
+      "epoch": 50,
+      "candidate_bce": 0.21758147828106833
+    },
+    {
+      "epoch": 75,
+      "candidate_bce": 0.20731157440587333
+    },
+    {
+      "epoch": 100,
+      "candidate_bce": 0.20183481095743241
+    }
+  ],
+  "seconds": 5.17176980000113,
+  "score_scale": 1.5486162669028973,
+  "fold": 1,
+  "method": "gbdt",
+  "inner": null,
+  "held_correct": 1405,
+  "held_n": 1585
+}

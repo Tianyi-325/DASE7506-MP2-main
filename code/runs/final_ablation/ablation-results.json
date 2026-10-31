@@ -1,0 +1,177 @@
+{
+  "rows": [
+    {
+      "block": "none",
+      "variant": "joint",
+      "origin": "复用",
+      "direct_dimensions": 0,
+      "oof_correct": [
+        4364,
+        4353
+      ],
+      "validation_correct": 746,
+      "test_correct": 391,
+      "test_accuracy": 83.72591006423983,
+      "test_complete_seconds": 3.243613099999493,
+      "asset_bytes": 19953,
+      "B_vs_variant_validation": {
+        "fixed": 8,
+        "broken": 3
+      }
+    },
+    {
+      "block": "S",
+      "variant": "joint_residual_semantic_r3",
+      "origin": "复用",
+      "direct_dimensions": 28,
+      "oof_correct": [
+        4378,
+        4375
+      ],
+      "validation_correct": 748,
+      "test_correct": 394,
+      "test_accuracy": 84.36830835117773,
+      "test_complete_seconds": 3.1823877999995602,
+      "asset_bytes": 21391,
+      "B_vs_variant_validation": {
+        "fixed": 6,
+        "broken": 3
+      }
+    },
+    {
+      "block": "V",
+      "variant": "joint_residual_verify_r3",
+      "origin": "复用",
+      "direct_dimensions": 22,
+      "oof_correct": [
+        4380,
+        4364
+      ],
+      "validation_correct": 745,
+      "test_correct": 392,
+      "test_accuracy": 83.94004282655246,
+      "test_complete_seconds": 3.1398210000006657,
+      "asset_bytes": 21245,
+      "B_vs_variant_validation": {
+        "fixed": 8,
+        "broken": 2
+      }
+    },
+    {
+      "block": "R",
+      "variant": "R_only",
+      "origin": "补充",
+      "direct_dimensions": 20,
+      "oof_correct": [
+        4382,
+        4382
+      ],
+      "validation_correct": 749,
+      "test_correct": 396,
+      "test_accuracy": 84.79657387580299,
+      "test_complete_seconds": 3.096533099997032,
+      "asset_bytes": 22399,
+      "B_vs_variant_validation": {
+        "fixed": 3,
+        "broken": 1
+      }
+    },
+    {
+      "block": "S+V",
+      "variant": "joint_residual_both_r3",
+      "origin": "复用",
+      "direct_dimensions": 50,
+      "oof_correct": [
+        4382,
+        4373
+      ],
+      "validation_correct": 747,
+      "test_correct": 394,
+      "test_accuracy": 84.36830835117773,
+      "test_complete_seconds": 3.1831753000005847,
+      "asset_bytes": 21915,
+      "B_vs_variant_validation": {
+        "fixed": 8,
+        "broken": 4
+      }
+    },
+    {
+      "block": "S+R",
+      "variant": "SR_without_direct_V",
+      "origin": "补充",
+      "direct_dimensions": 48,
+      "oof_correct": [
+        4384,
+        4389
+      ],
+      "validation_correct": 750,
+      "test_correct": 398,
+      "test_accuracy": 85.22483940042827,
+      "test_complete_seconds": 3.112848799999483,
+      "asset_bytes": 22399,
+      "B_vs_variant_validation": {
+        "fixed": 1,
+        "broken": 0
+      }
+    },
+    {
+      "block": "V+R",
+      "variant": "VR_without_direct_S",
+      "origin": "补充",
+      "direct_dimensions": 42,
+      "oof_correct": [
+        4390,
+        4379
+      ],
+      "validation_correct": 748,
+      "test_correct": 399,
+      "test_accuracy": 85.4389721627409,
+      "test_complete_seconds": 2.8641418000006524,
+      "asset_bytes": 22399,
+      "B_vs_variant_validation": {
+        "fixed": 3,
+        "broken": 0
+      }
+    },
+    {
+      "block": "S+V+R (B)",
+      "variant": "joint_residual_relative_r3",
+      "origin": "复用",
+      "direct_dimensions": 70,
+      "oof_correct": [
+        4388,
+        4393
+      ],
+      "validation_correct": 751,
+      "test_correct": 401,
+      "test_accuracy": 85.86723768736617,
+      "test_complete_seconds": 3.047185100000206,
+      "asset_bytes": 22399,
+      "B_vs_variant_validation": {
+        "fixed": 0,
+        "broken": 0
+      }
+    },
+    {
+      "block": "S+V+R, no backbone",
+      "variant": "evidence_only_alpha0",
+      "origin": "复用拟合/补充alpha控制",
+      "direct_dimensions": 70,
+      "oof_correct": [
+        4099,
+        4100
+      ],
+      "validation_correct": 690,
+      "test_correct": 328,
+      "test_accuracy": 70.2355460385439,
+      "test_complete_seconds": 3.253085700001975,
+      "asset_bytes": 2702,
+      "B_vs_variant_validation": {
+        "fixed": 76,
+        "broken": 15
+      }
+    }
+  ],
+  "post_hoc": true,
+  "selection_changed": false
+}

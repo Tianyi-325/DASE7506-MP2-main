@@ -1,0 +1,38 @@
+{
+  "ensemble": true,
+  "alpha": 0.25,
+  "seed": 2026,
+  "threads": 4,
+  "members": [
+    {
+      "config": {
+        "arch": "linear",
+        "design": "gam",
+        "epochs": 180,
+        "l2": 0.02
+      },
+      "weight": 0.3333333333333333,
+      "score_scale": 1.48890872571938
+    },
+    {
+      "config": {
+        "arch": "linear",
+        "design": "nostyle",
+        "epochs": 120,
+        "l2": 0.01
+      },
+      "weight": 0.3333333333333333,
+      "score_scale": 1.4995876176502507
+    },
+    {
+      "config": {
+        "arch": "linear",
+        "design": "full",
+        "epochs": 120,
+        "l2": 0.01
+      },
+      "weight": 0.3333333333333333,
+      "score_scale": 1.5034813267144376
+    }
+  ]
+}

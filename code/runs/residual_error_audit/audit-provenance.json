@@ -1,0 +1,12 @@
+{
+  "no_test_cases_or_references_read": true,
+  "focused_frozen_sources_unchanged": true,
+  "official_files_unchanged": true,
+  "validation_cases": 51,
+  "training_persistent_sample": 12,
+  "source_sha256": {
+    "analyze_residual_errors.py": "4e88db0feadf4ed0f6c2dd34da375cb4b1c86e8e4f3d9a6f1bf4117f241fcda5",
+    "report_residual_errors.py": "42bfb92ad1419da5854ab18f6b3a529e4a607e2bdda0c15cd051b46d58218d54"
+  },
+  "manual_annotation_sha256": "0e0eb4c1273ac325c1b3ba53a89502fa50d1364b50672000272ebdaa60e8c2af"
+}

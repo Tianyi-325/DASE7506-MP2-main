@@ -1,0 +1,441 @@
+{
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:37:13) [MSC v.1942 64 bit (AMD64)]",
+    "threads": 4,
+    "numpy": "2.5.3",
+    "cpu_name": "12th Gen Intel(R) Core(TM) i9-12900H"
+  },
+  "evaluations": {
+    "validation": {
+      "original_valid_only": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 720,
+        "n": 798,
+        "accuracy": 90.22556390977444,
+        "scoring_seconds": 0.04590920000009646,
+        "fresh_prediction_plus_scoring_seconds": 0.5771113999999216
+      },
+      "original_weighted": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 723,
+        "n": 798,
+        "accuracy": 90.6015037593985,
+        "scoring_seconds": 0.03867579999950976,
+        "fresh_prediction_plus_scoring_seconds": 0.5708813000001101
+      },
+      "bce_valid_only": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 720,
+        "n": 798,
+        "accuracy": 90.22556390977444,
+        "scoring_seconds": 0.041519200000038836,
+        "fresh_prediction_plus_scoring_seconds": 0.5004056999996465
+      },
+      "bce_weighted": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 723,
+        "n": 798,
+        "accuracy": 90.6015037593985,
+        "scoring_seconds": 0.03776720000041678,
+        "fresh_prediction_plus_scoring_seconds": 0.4774638999997478
+      },
+      "group_valid_only": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 733,
+        "n": 798,
+        "accuracy": 91.8546365914787,
+        "scoring_seconds": 0.040850200000022596,
+        "fresh_prediction_plus_scoring_seconds": 0.5060099000002083
+      },
+      "group_weighted": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 734,
+        "n": 798,
+        "accuracy": 91.97994987468671,
+        "scoring_seconds": 0.03723019999961252,
+        "fresh_prediction_plus_scoring_seconds": 0.48567540000021836
+      }
+    },
+    "test": {
+      "original_valid_only": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 361,
+        "n": 467,
+        "accuracy": 77.30192719486081,
+        "scoring_seconds": 0.02193410000018048,
+        "fresh_prediction_plus_scoring_seconds": 0.4381218999997145
+      },
+      "original_weighted": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 369,
+        "n": 467,
+        "accuracy": 79.01498929336188,
+        "scoring_seconds": 0.02342529999987164,
+        "fresh_prediction_plus_scoring_seconds": 0.4356711999998879
+      },
+      "bce_valid_only": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 361,
+        "n": 467,
+        "accuracy": 77.30192719486081,
+        "scoring_seconds": 0.027219700000387093,
+        "fresh_prediction_plus_scoring_seconds": 0.434831700000359
+      },
+      "bce_weighted": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 369,
+        "n": 467,
+        "accuracy": 79.01498929336188,
+        "scoring_seconds": 0.027338300000337767,
+        "fresh_prediction_plus_scoring_seconds": 0.4601810000003752
+      },
+      "group_valid_only": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 369,
+        "n": 467,
+        "accuracy": 79.01498929336188,
+        "scoring_seconds": 0.02781779999986611,
+        "fresh_prediction_plus_scoring_seconds": 0.4417733000000226
+      },
+      "group_weighted": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 371,
+        "n": 467,
+        "accuracy": 79.44325481798715,
+        "scoring_seconds": 0.027565899999899557,
+        "fresh_prediction_plus_scoring_seconds": 0.45313809999970545
+      }
+    }
+  },
+  "validation_groups": {
+    "all": {
+      "n": 798,
+      "methods": {
+        "original_valid_only": {
+          "correct": 720,
+          "accuracy": 90.22556390977444,
+          "vs_original_valid_only": {
+            "fixed": 0,
+            "broken": 0
+          },
+          "vs_original_weighted": {
+            "fixed": 9,
+            "broken": 12
+          }
+        },
+        "original_weighted": {
+          "correct": 723,
+          "accuracy": 90.6015037593985,
+          "vs_original_valid_only": {
+            "fixed": 12,
+            "broken": 9
+          },
+          "vs_original_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "bce_valid_only": {
+          "correct": 720,
+          "accuracy": 90.22556390977444,
+          "vs_original_valid_only": {
+            "fixed": 0,
+            "broken": 0
+          },
+          "vs_original_weighted": {
+            "fixed": 9,
+            "broken": 12
+          }
+        },
+        "bce_weighted": {
+          "correct": 723,
+          "accuracy": 90.6015037593985,
+          "vs_original_valid_only": {
+            "fixed": 12,
+            "broken": 9
+          },
+          "vs_original_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "group_valid_only": {
+          "correct": 733,
+          "accuracy": 91.8546365914787,
+          "vs_original_valid_only": {
+            "fixed": 35,
+            "broken": 22
+          },
+          "vs_original_weighted": {
+            "fixed": 31,
+            "broken": 21
+          }
+        },
+        "group_weighted": {
+          "correct": 734,
+          "accuracy": 91.97994987468672,
+          "vs_original_valid_only": {
+            "fixed": 33,
+            "broken": 19
+          },
+          "vs_original_weighted": {
+            "fixed": 29,
+            "broken": 18
+          }
+        }
+      }
+    },
+    "answer_disagreement": {
+      "n": 355,
+      "methods": {
+        "original_valid_only": {
+          "correct": 277,
+          "accuracy": 78.0281690140845,
+          "vs_original_valid_only": {
+            "fixed": 0,
+            "broken": 0
+          },
+          "vs_original_weighted": {
+            "fixed": 9,
+            "broken": 12
+          }
+        },
+        "original_weighted": {
+          "correct": 280,
+          "accuracy": 78.87323943661971,
+          "vs_original_valid_only": {
+            "fixed": 12,
+            "broken": 9
+          },
+          "vs_original_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "bce_valid_only": {
+          "correct": 277,
+          "accuracy": 78.0281690140845,
+          "vs_original_valid_only": {
+            "fixed": 0,
+            "broken": 0
+          },
+          "vs_original_weighted": {
+            "fixed": 9,
+            "broken": 12
+          }
+        },
+        "bce_weighted": {
+          "correct": 280,
+          "accuracy": 78.87323943661971,
+          "vs_original_valid_only": {
+            "fixed": 12,
+            "broken": 9
+          },
+          "vs_original_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "group_valid_only": {
+          "correct": 290,
+          "accuracy": 81.69014084507043,
+          "vs_original_valid_only": {
+            "fixed": 35,
+            "broken": 22
+          },
+          "vs_original_weighted": {
+            "fixed": 31,
+            "broken": 21
+          }
+        },
+        "group_weighted": {
+          "correct": 291,
+          "accuracy": 81.97183098591549,
+          "vs_original_valid_only": {
+            "fixed": 33,
+            "broken": 19
+          },
+          "vs_original_weighted": {
+            "fixed": 29,
+            "broken": 18
+          }
+        }
+      }
+    },
+    "tied_leaders": {
+      "n": 88,
+      "methods": {
+        "original_valid_only": {
+          "correct": 58,
+          "accuracy": 65.9090909090909,
+          "vs_original_valid_only": {
+            "fixed": 0,
+            "broken": 0
+          },
+          "vs_original_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "original_weighted": {
+          "correct": 58,
+          "accuracy": 65.9090909090909,
+          "vs_original_valid_only": {
+            "fixed": 0,
+            "broken": 0
+          },
+          "vs_original_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "bce_valid_only": {
+          "correct": 58,
+          "accuracy": 65.9090909090909,
+          "vs_original_valid_only": {
+            "fixed": 0,
+            "broken": 0
+          },
+          "vs_original_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "bce_weighted": {
+          "correct": 58,
+          "accuracy": 65.9090909090909,
+          "vs_original_valid_only": {
+            "fixed": 0,
+            "broken": 0
+          },
+          "vs_original_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "group_valid_only": {
+          "correct": 65,
+          "accuracy": 73.86363636363636,
+          "vs_original_valid_only": {
+            "fixed": 13,
+            "broken": 6
+          },
+          "vs_original_weighted": {
+            "fixed": 13,
+            "broken": 6
+          }
+        },
+        "group_weighted": {
+          "correct": 65,
+          "accuracy": 73.86363636363636,
+          "vs_original_valid_only": {
+            "fixed": 13,
+            "broken": 6
+          },
+          "vs_original_weighted": {
+            "fixed": 13,
+            "broken": 6
+          }
+        }
+      }
+    },
+    "unique_leader": {
+      "n": 710,
+      "methods": {
+        "original_valid_only": {
+          "correct": 662,
+          "accuracy": 93.2394366197183,
+          "vs_original_valid_only": {
+            "fixed": 0,
+            "broken": 0
+          },
+          "vs_original_weighted": {
+            "fixed": 9,
+            "broken": 12
+          }
+        },
+        "original_weighted": {
+          "correct": 665,
+          "accuracy": 93.66197183098592,
+          "vs_original_valid_only": {
+            "fixed": 12,
+            "broken": 9
+          },
+          "vs_original_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "bce_valid_only": {
+          "correct": 662,
+          "accuracy": 93.2394366197183,
+          "vs_original_valid_only": {
+            "fixed": 0,
+            "broken": 0
+          },
+          "vs_original_weighted": {
+            "fixed": 9,
+            "broken": 12
+          }
+        },
+        "bce_weighted": {
+          "correct": 665,
+          "accuracy": 93.66197183098592,
+          "vs_original_valid_only": {
+            "fixed": 12,
+            "broken": 9
+          },
+          "vs_original_weighted": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        "group_valid_only": {
+          "correct": 668,
+          "accuracy": 94.08450704225352,
+          "vs_original_valid_only": {
+            "fixed": 22,
+            "broken": 16
+          },
+          "vs_original_weighted": {
+            "fixed": 18,
+            "broken": 15
+          }
+        },
+        "group_weighted": {
+          "correct": 669,
+          "accuracy": 94.22535211267605,
+          "vs_original_valid_only": {
+            "fixed": 20,
+            "broken": 13
+          },
+          "vs_original_weighted": {
+            "fixed": 16,
+            "broken": 12
+          }
+        }
+      }
+    }
+  },
+  "validation_preferred_variant": "group_weighted",
+  "asset_bytes": {
+    "bce_valid_only": 9527,
+    "bce_weighted": 9526,
+    "group_valid_only": 9535,
+    "group_weighted": 9534
+  },
+  "note": "Each scorer selected by valid-only validation accuracy; alpha fixed 0.25. Test scored only after freeze. Local CPU timing, not reference-machine certification."
+}

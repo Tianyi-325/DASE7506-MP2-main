@@ -1,0 +1,82 @@
+{
+  "R_only": {
+    "validation": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "validation",
+      "correct": 749,
+      "n": 798,
+      "accuracy": 93.85964912280701,
+      "scoring_seconds": 0.040263999999297084,
+      "fresh_prediction_plus_scoring_seconds": 4.464008500002819
+    },
+    "test": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "test",
+      "correct": 396,
+      "n": 467,
+      "accuracy": 84.79657387580299,
+      "scoring_seconds": 0.02645249999841326,
+      "fresh_prediction_plus_scoring_seconds": 3.096533099997032
+    }
+  },
+  "SR_without_direct_V": {
+    "validation": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "validation",
+      "correct": 750,
+      "n": 798,
+      "accuracy": 93.98496240601504,
+      "scoring_seconds": 0.04521790000217152,
+      "fresh_prediction_plus_scoring_seconds": 4.4658967000032135
+    },
+    "test": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "test",
+      "correct": 398,
+      "n": 467,
+      "accuracy": 85.22483940042827,
+      "scoring_seconds": 0.0290458999988914,
+      "fresh_prediction_plus_scoring_seconds": 3.112848799999483
+    }
+  },
+  "VR_without_direct_S": {
+    "validation": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "validation",
+      "correct": 748,
+      "n": 798,
+      "accuracy": 93.734335839599,
+      "scoring_seconds": 0.03539860000091721,
+      "fresh_prediction_plus_scoring_seconds": 4.380847500000527
+    },
+    "test": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "test",
+      "correct": 399,
+      "n": 467,
+      "accuracy": 85.4389721627409,
+      "scoring_seconds": 0.027164800001628464,
+      "fresh_prediction_plus_scoring_seconds": 2.8641418000006524
+    }
+  },
+  "evidence_only_alpha0": {
+    "validation": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "validation",
+      "correct": 690,
+      "n": 798,
+      "accuracy": 86.46616541353383,
+      "scoring_seconds": 0.03656760000012582,
+      "fresh_prediction_plus_scoring_seconds": 4.375883699998667
+    },
+    "test": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "test",
+      "correct": 328,
+      "n": 467,
+      "accuracy": 70.2355460385439,
+      "scoring_seconds": 0.027627200001006713,
+      "fresh_prediction_plus_scoring_seconds": 3.253085700001975
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "latest": {
+    "family": "context_textcalc",
+    "architecture": "context",
+    "features": "textcalc",
+    "config": {
+      "hidden": 64,
+      "regularization": 0.01,
+      "lr": 0.001
+    },
+    "seed": 2026,
+    "epoch": 80,
+    "validation_correct": {
+      "valid_only": 737,
+      "weighted": 738
+    },
+    "validation_group_loss": 0.5429133772850037,
+    "trajectory_seconds": 11.079412299999603
+  },
+  "completed_checkpoints": 39
+}

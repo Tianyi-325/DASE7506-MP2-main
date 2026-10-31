@@ -1,0 +1,17 @@
+{
+  "epochs": 60,
+  "curves": [
+    {
+      "epoch": 60,
+      "objective": 0.1621367186307907,
+      "gradient": 3.8122965634102e-05
+    }
+  ],
+  "seconds": 0.3227219000000332,
+  "score_scale": 1.5102124472688774,
+  "fold": 2,
+  "method": "linear_lbfgs",
+  "inner": null,
+  "held_correct": 1445,
+  "held_n": 1585
+}

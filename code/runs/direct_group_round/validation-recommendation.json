@@ -1,0 +1,7 @@
+{
+  "method": "group_joint_mix_valid_only",
+  "correct": 750,
+  "method_file": "direct_group_models.py",
+  "checkpoint": "runs\\direct_group_round\\group_joint_mix_valid_only\\model_bundle",
+  "basis": "validation accuracy; ties retain earlier/previous variant"
+}

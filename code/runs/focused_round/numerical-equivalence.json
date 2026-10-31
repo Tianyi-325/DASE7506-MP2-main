@@ -1,0 +1,26 @@
+{
+  "base_all_linear_l210__base_all_informative_full": {
+    "max_weight_difference": 6.164957433441032e-12,
+    "objective_difference": 5.551115123125783e-17,
+    "validation_correct_difference": 0,
+    "test_correct_difference": 0
+  },
+  "base_all_all_mask_full__base_all_hard_mask_full": {
+    "max_weight_difference": 1.1058740728708827e-12,
+    "objective_difference": 5.551115123125783e-17,
+    "validation_correct_difference": 0,
+    "test_correct_difference": 0
+  },
+  "full_broad_linear_l210__full_broad_informative_full": {
+    "max_weight_difference": 1.3348350202946335e-13,
+    "objective_difference": 0.0,
+    "validation_correct_difference": 0,
+    "test_correct_difference": 0
+  },
+  "full_broad_all_mask_full__full_broad_hard_mask_full": {
+    "max_weight_difference": 1.616623501732306e-13,
+    "objective_difference": 5.551115123125783e-17,
+    "validation_correct_difference": 0,
+    "test_correct_difference": 0
+  }
+}

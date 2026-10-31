@@ -1,0 +1,62 @@
+{
+  "semantic": {
+    "variant": "no_style_refit_semantic_r3",
+    "base": "no_style",
+    "seed_oof_gain": [
+      14,
+      13
+    ],
+    "validation_fixed": 3,
+    "validation_broken": 0,
+    "validation_gain": 3,
+    "test_records_only": {
+      "method": 385,
+      "base": 390
+    }
+  },
+  "verify": {
+    "variant": "no_style_refit_verify_r3",
+    "base": "no_style",
+    "seed_oof_gain": [
+      10,
+      17
+    ],
+    "validation_fixed": 5,
+    "validation_broken": 3,
+    "validation_gain": 2,
+    "test_records_only": {
+      "method": 392,
+      "base": 390
+    }
+  },
+  "both": {
+    "variant": "no_style_residual_both_r3",
+    "base": "no_style",
+    "seed_oof_gain": [
+      14,
+      21
+    ],
+    "validation_fixed": 4,
+    "validation_broken": 3,
+    "validation_gain": 1,
+    "test_records_only": {
+      "method": 390,
+      "base": 390
+    }
+  },
+  "relative": {
+    "variant": "no_style_residual_relative_r3",
+    "base": "no_style",
+    "seed_oof_gain": [
+      22,
+      27
+    ],
+    "validation_fixed": 5,
+    "validation_broken": 2,
+    "validation_gain": 3,
+    "test_records_only": {
+      "method": 398,
+      "base": 390
+    }
+  }
+}

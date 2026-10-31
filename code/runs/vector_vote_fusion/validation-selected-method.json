@@ -1,0 +1,5 @@
+{
+  "method": "weighted",
+  "basis": "validation accuracy, ties prefer earlier simpler strategy",
+  "checkpoint": "runs\\vector_vote_fusion\\weighted\\model_bundle"
+}

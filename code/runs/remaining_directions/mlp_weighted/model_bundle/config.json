@@ -1,0 +1,31 @@
+{
+  "family": "mlp",
+  "architecture": "mlp",
+  "features": "none",
+  "mode": "weighted",
+  "alpha": 0.25,
+  "training": {
+    "family": "mlp",
+    "architecture": "mlp",
+    "features": "none",
+    "config": {
+      "hidden": 32,
+      "regularization": 0.001,
+      "lr": 0.001
+    },
+    "seed": 2026,
+    "epoch": 20,
+    "validation_correct": {
+      "valid_only": 731,
+      "weighted": 732
+    },
+    "validation_group_loss": 0.27006447315216064,
+    "trajectory_seconds": 1.0940209000000323
+  },
+  "selection": "valid_only validation count, then group loss; seed2026 only",
+  "feature_names": [],
+  "standardization": "train-only",
+  "inference": "numpy",
+  "torch_training": "2.7.1+cu126",
+  "numpy": "2.5.3"
+}

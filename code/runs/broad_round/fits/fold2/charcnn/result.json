@@ -1,0 +1,53 @@
+{
+  "epochs": 8,
+  "curves": [
+    {
+      "epoch": 1,
+      "train_loss": 0.13648991802564034,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.13345026052915132,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.12074806082707185,
+      "contrast_loss": 0.0
+    }
+  ],
+  "seconds": 7.95347540000148,
+  "score_scale": 1.5561991739722834,
+  "fold": 2,
+  "method": "charcnn",
+  "inner": {
+    "epochs": 8,
+    "curves": [
+      {
+        "epoch": 1,
+        "train_loss": 0.12899727509780365,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.1274642592126673,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.11942977729168805,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 12,
+        "train_loss": 0.10800922120159323,
+        "contrast_loss": 0.0
+      }
+    ],
+    "seconds": 9.458872400000473,
+    "score_scale": 1.586759715563353
+  },
+  "held_correct": 1439,
+  "held_n": 1585
+}

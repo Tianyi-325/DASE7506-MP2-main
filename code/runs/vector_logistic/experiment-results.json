@@ -1,0 +1,178 @@
+{
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "",
+    "logical_cpus": 20,
+    "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:37:13) [MSC v.1942 64 bit (AMD64)]",
+    "threads": 4,
+    "cpu_name": "12th Gen Intel(R) Core(TM) i9-12900H"
+  },
+  "evaluations": {
+    "baseline_validation": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "validation",
+      "correct": 688,
+      "n": 798,
+      "accuracy": 86.2155388471178,
+      "scoring_seconds": 0.0392679000001408,
+      "fresh_prediction_plus_scoring_seconds": 0.5395997999999054
+    },
+    "vector_validation": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "validation",
+      "correct": 716,
+      "n": 798,
+      "accuracy": 89.72431077694236,
+      "scoring_seconds": 0.04551790000004985,
+      "fresh_prediction_plus_scoring_seconds": 0.5162747000003947
+    },
+    "baseline_test": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "test",
+      "correct": 323,
+      "n": 467,
+      "accuracy": 69.16488222698072,
+      "scoring_seconds": 0.027398600000196893,
+      "fresh_prediction_plus_scoring_seconds": 0.4713435000003301
+    },
+    "vector_test": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "test",
+      "correct": 358,
+      "n": 467,
+      "accuracy": 76.65952890792292,
+      "scoring_seconds": 0.025870100000247476,
+      "fresh_prediction_plus_scoring_seconds": 0.4197451000000001
+    }
+  },
+  "validation_diagnostics": {
+    "groups": {
+      "all": {
+        "n": 798,
+        "vector_correct": 716,
+        "baseline_correct": 688,
+        "fixed": 68,
+        "broken": 40
+      },
+      "answer_disagreement": {
+        "n": 355,
+        "vector_correct": 275,
+        "baseline_correct": 245,
+        "fixed": 68,
+        "broken": 38
+      },
+      "tied_leaders": {
+        "n": 88,
+        "vector_correct": 56,
+        "baseline_correct": 38,
+        "fixed": 36,
+        "broken": 18
+      },
+      "unique_leader": {
+        "n": 710,
+        "vector_correct": 660,
+        "baseline_correct": 650,
+        "fixed": 32,
+        "broken": 22
+      }
+    },
+    "candidate_brier": 0.13477540013867648,
+    "candidate_ece_10_bins": 0.02256146007926522,
+    "candidate_probability_bins": [
+      {
+        "lower": 0.0,
+        "n": 55,
+        "mean_probability": 0.061167739414346965,
+        "actual_correct_fraction": 0.1090909093618393
+      },
+      {
+        "lower": 0.1,
+        "n": 97,
+        "mean_probability": 0.14767211517441423,
+        "actual_correct_fraction": 0.24742268025875092
+      },
+      {
+        "lower": 0.2,
+        "n": 119,
+        "mean_probability": 0.2559148855047066,
+        "actual_correct_fraction": 0.2857142984867096
+      },
+      {
+        "lower": 0.30000000000000004,
+        "n": 110,
+        "mean_probability": 0.3513463143790147,
+        "actual_correct_fraction": 0.4000000059604645
+      },
+      {
+        "lower": 0.4,
+        "n": 164,
+        "mean_probability": 0.44863886748768034,
+        "actual_correct_fraction": 0.49390244483947754
+      },
+      {
+        "lower": 0.5,
+        "n": 208,
+        "mean_probability": 0.5527015831676766,
+        "actual_correct_fraction": 0.5913461446762085
+      },
+      {
+        "lower": 0.6000000000000001,
+        "n": 288,
+        "mean_probability": 0.6531226419754574,
+        "actual_correct_fraction": 0.6944444179534912
+      },
+      {
+        "lower": 0.7000000000000001,
+        "n": 419,
+        "mean_probability": 0.7533481034003907,
+        "actual_correct_fraction": 0.7350835204124451
+      },
+      {
+        "lower": 0.8,
+        "n": 672,
+        "mean_probability": 0.8540485199548618,
+        "actual_correct_fraction": 0.8541666865348816
+      },
+      {
+        "lower": 0.9,
+        "n": 1060,
+        "mean_probability": 0.9493280123656263,
+        "actual_correct_fraction": 0.9641509652137756
+      }
+    ],
+    "selection_margin_quartiles": [
+      {
+        "quartile_low_to_high": 1,
+        "n": 200,
+        "accuracy": 90.0,
+        "min_logit_margin": 0.0,
+        "max_logit_margin": 0.13071275363180135
+      },
+      {
+        "quartile_low_to_high": 2,
+        "n": 200,
+        "accuracy": 90.5,
+        "min_logit_margin": 0.13101197047712,
+        "max_logit_margin": 0.29138201055291546
+      },
+      {
+        "quartile_low_to_high": 3,
+        "n": 199,
+        "accuracy": 88.44221105527639,
+        "min_logit_margin": 0.29558760273682205,
+        "max_logit_margin": 0.6054870757119168
+      },
+      {
+        "quartile_low_to_high": 4,
+        "n": 199,
+        "accuracy": 89.9497487437186,
+        "min_logit_margin": 0.6084093782201645,
+        "max_logit_margin": 2.5822922905936725
+      }
+    ],
+    "note": "Raw sigmoid probabilities are not calibrated selection probabilities; ECE is descriptive and bin-dependent."
+  },
+  "asset_bytes": 9717,
+  "asset_MiB": 0.009266853332519531,
+  "timing_note": "Single fresh prediction process + fresh official scoring process; includes startup/loading/imports, four-thread environment. Local CPU, not reference eligibility certification."
+}

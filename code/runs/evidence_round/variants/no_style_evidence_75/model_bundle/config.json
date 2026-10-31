@@ -1,0 +1,26 @@
+{
+  "alpha": 0.125,
+  "members": [
+    {
+      "config": {
+        "base": "no_style",
+        "mode": "control",
+        "block": "relative",
+        "alpha": 0.25
+      },
+      "weight": 0.75,
+      "scale": 1.4995876508688106
+    },
+    {
+      "config": {
+        "base": "none",
+        "mode": "evidence",
+        "block": "relative",
+        "extra_l2": 0.03,
+        "alpha": 0.25
+      },
+      "weight": 0.25,
+      "scale": 0.4578579916924437
+    }
+  ]
+}

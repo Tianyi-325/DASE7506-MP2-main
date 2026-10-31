@@ -1,0 +1,39 @@
+{
+  "kind": "linear",
+  "family": "no_style",
+  "alpha": 0.0,
+  "selection": {
+    "family": "no_style",
+    "kind": "linear",
+    "metadata": {
+      "objective": "group",
+      "embedding_l2": 0.01,
+      "feature_l2": 0.01,
+      "mix": 0.0,
+      "epoch": 360,
+      "feature_columns": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1039,
+        1040,
+        1041,
+        1042,
+        1043,
+        1044
+      ]
+    },
+    "validation_correct": {
+      "0.0": 744,
+      "0.25": 746
+    },
+    "validation_group_loss": 0.17498847738858003,
+    "training_objective": 0.17340430617332458
+  },
+  "device": "cpu",
+  "threads": 4,
+  "seed": 2026,
+  "numpy": "2.5.3",
+  "torch_training": "2.7.1+cu126"
+}

@@ -1,0 +1,6 @@
+{
+  "method": "previous_weighted",
+  "correct": 734,
+  "basis": "validation accuracy; ties preserve previous model, then valid_only",
+  "checkpoint": "runs\\vector_objectives\\group_weighted\\model_bundle"
+}

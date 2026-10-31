@@ -1,0 +1,412 @@
+{
+  "train_oof": {
+    "all": {
+      "n": 4755,
+      "methods": {
+        "baseline": {
+          "correct": 4356,
+          "accuracy": 91.60883280757098,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 4374,
+          "accuracy": 91.98738170347002,
+          "fixed_vs_base": 66,
+          "broken_vs_base": 48
+        },
+        "no_style": {
+          "correct": 4373,
+          "accuracy": 91.96635120925342,
+          "fixed_vs_base": 62,
+          "broken_vs_base": 45
+        },
+        "selected": {
+          "correct": 4366,
+          "accuracy": 91.81913774973712,
+          "fixed_vs_base": 57,
+          "broken_vs_base": 47
+        }
+      }
+    },
+    "one_answer": {
+      "n": 2641,
+      "methods": {
+        "baseline": {
+          "correct": 2641,
+          "accuracy": 100.0,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 2641,
+          "accuracy": 100.0,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "no_style": {
+          "correct": 2641,
+          "accuracy": 100.0,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "selected": {
+          "correct": 2641,
+          "accuracy": 100.0,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        }
+      }
+    },
+    "disagreement": {
+      "n": 2114,
+      "methods": {
+        "baseline": {
+          "correct": 1715,
+          "accuracy": 81.12582781456953,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 1733,
+          "accuracy": 81.97729422894986,
+          "fixed_vs_base": 66,
+          "broken_vs_base": 48
+        },
+        "no_style": {
+          "correct": 1732,
+          "accuracy": 81.92999053926206,
+          "fixed_vs_base": 62,
+          "broken_vs_base": 45
+        },
+        "selected": {
+          "correct": 1725,
+          "accuracy": 81.59886471144749,
+          "fixed_vs_base": 57,
+          "broken_vs_base": 47
+        }
+      }
+    },
+    "tied_leaders": {
+      "n": 545,
+      "methods": {
+        "baseline": {
+          "correct": 396,
+          "accuracy": 72.6605504587156,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 405,
+          "accuracy": 74.31192660550458,
+          "fixed_vs_base": 22,
+          "broken_vs_base": 13
+        },
+        "no_style": {
+          "correct": 401,
+          "accuracy": 73.57798165137615,
+          "fixed_vs_base": 17,
+          "broken_vs_base": 12
+        },
+        "selected": {
+          "correct": 401,
+          "accuracy": 73.57798165137615,
+          "fixed_vs_base": 15,
+          "broken_vs_base": 10
+        }
+      }
+    },
+    "unique_leader": {
+      "n": 4210,
+      "methods": {
+        "baseline": {
+          "correct": 3960,
+          "accuracy": 94.06175771971496,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 3969,
+          "accuracy": 94.27553444180523,
+          "fixed_vs_base": 44,
+          "broken_vs_base": 35
+        },
+        "no_style": {
+          "correct": 3972,
+          "accuracy": 94.34679334916865,
+          "fixed_vs_base": 45,
+          "broken_vs_base": 33
+        },
+        "selected": {
+          "correct": 3965,
+          "accuracy": 94.18052256532067,
+          "fixed_vs_base": 42,
+          "broken_vs_base": 37
+        }
+      }
+    },
+    "one_correct_candidate": {
+      "n": 711,
+      "methods": {
+        "baseline": {
+          "correct": 434,
+          "accuracy": 61.04078762306611,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 426,
+          "accuracy": 59.91561181434599,
+          "fixed_vs_base": 28,
+          "broken_vs_base": 36
+        },
+        "no_style": {
+          "correct": 422,
+          "accuracy": 59.353023909985936,
+          "fixed_vs_base": 25,
+          "broken_vs_base": 37
+        },
+        "selected": {
+          "correct": 409,
+          "accuracy": 57.52461322081576,
+          "fixed_vs_base": 17,
+          "broken_vs_base": 42
+        }
+      }
+    },
+    "has_invalid": {
+      "n": 736,
+      "methods": {
+        "baseline": {
+          "correct": 658,
+          "accuracy": 89.40217391304348,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 661,
+          "accuracy": 89.80978260869566,
+          "fixed_vs_base": 11,
+          "broken_vs_base": 8
+        },
+        "no_style": {
+          "correct": 663,
+          "accuracy": 90.08152173913044,
+          "fixed_vs_base": 11,
+          "broken_vs_base": 6
+        },
+        "selected": {
+          "correct": 660,
+          "accuracy": 89.67391304347827,
+          "fixed_vs_base": 10,
+          "broken_vs_base": 8
+        }
+      }
+    }
+  },
+  "validation": {
+    "all": {
+      "n": 798,
+      "methods": {
+        "baseline": {
+          "correct": 746,
+          "accuracy": 93.48370927318295,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 748,
+          "accuracy": 93.734335839599,
+          "fixed_vs_base": 7,
+          "broken_vs_base": 5
+        },
+        "no_style": {
+          "correct": 747,
+          "accuracy": 93.60902255639097,
+          "fixed_vs_base": 6,
+          "broken_vs_base": 5
+        },
+        "selected": {
+          "correct": 749,
+          "accuracy": 93.85964912280701,
+          "fixed_vs_base": 6,
+          "broken_vs_base": 3
+        }
+      }
+    },
+    "one_answer": {
+      "n": 443,
+      "methods": {
+        "baseline": {
+          "correct": 443,
+          "accuracy": 100.0,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 443,
+          "accuracy": 100.0,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "no_style": {
+          "correct": 443,
+          "accuracy": 100.0,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "selected": {
+          "correct": 443,
+          "accuracy": 100.0,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        }
+      }
+    },
+    "disagreement": {
+      "n": 355,
+      "methods": {
+        "baseline": {
+          "correct": 303,
+          "accuracy": 85.35211267605634,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 305,
+          "accuracy": 85.91549295774648,
+          "fixed_vs_base": 7,
+          "broken_vs_base": 5
+        },
+        "no_style": {
+          "correct": 304,
+          "accuracy": 85.63380281690141,
+          "fixed_vs_base": 6,
+          "broken_vs_base": 5
+        },
+        "selected": {
+          "correct": 306,
+          "accuracy": 86.19718309859155,
+          "fixed_vs_base": 6,
+          "broken_vs_base": 3
+        }
+      }
+    },
+    "tied_leaders": {
+      "n": 88,
+      "methods": {
+        "baseline": {
+          "correct": 70,
+          "accuracy": 79.54545454545455,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 68,
+          "accuracy": 77.27272727272727,
+          "fixed_vs_base": 3,
+          "broken_vs_base": 5
+        },
+        "no_style": {
+          "correct": 69,
+          "accuracy": 78.4090909090909,
+          "fixed_vs_base": 3,
+          "broken_vs_base": 4
+        },
+        "selected": {
+          "correct": 70,
+          "accuracy": 79.54545454545455,
+          "fixed_vs_base": 3,
+          "broken_vs_base": 3
+        }
+      }
+    },
+    "unique_leader": {
+      "n": 710,
+      "methods": {
+        "baseline": {
+          "correct": 676,
+          "accuracy": 95.2112676056338,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 680,
+          "accuracy": 95.77464788732394,
+          "fixed_vs_base": 4,
+          "broken_vs_base": 0
+        },
+        "no_style": {
+          "correct": 678,
+          "accuracy": 95.49295774647887,
+          "fixed_vs_base": 3,
+          "broken_vs_base": 1
+        },
+        "selected": {
+          "correct": 679,
+          "accuracy": 95.63380281690141,
+          "fixed_vs_base": 3,
+          "broken_vs_base": 0
+        }
+      }
+    },
+    "one_correct_candidate": {
+      "n": 117,
+      "methods": {
+        "baseline": {
+          "correct": 75,
+          "accuracy": 64.1025641025641,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 77,
+          "accuracy": 65.8119658119658,
+          "fixed_vs_base": 4,
+          "broken_vs_base": 2
+        },
+        "no_style": {
+          "correct": 76,
+          "accuracy": 64.95726495726495,
+          "fixed_vs_base": 3,
+          "broken_vs_base": 2
+        },
+        "selected": {
+          "correct": 77,
+          "accuracy": 65.8119658119658,
+          "fixed_vs_base": 3,
+          "broken_vs_base": 1
+        }
+      }
+    },
+    "has_invalid": {
+      "n": 126,
+      "methods": {
+        "baseline": {
+          "correct": 115,
+          "accuracy": 91.26984126984127,
+          "fixed_vs_base": 0,
+          "broken_vs_base": 0
+        },
+        "gam": {
+          "correct": 115,
+          "accuracy": 91.26984126984127,
+          "fixed_vs_base": 1,
+          "broken_vs_base": 1
+        },
+        "no_style": {
+          "correct": 115,
+          "accuracy": 91.26984126984127,
+          "fixed_vs_base": 1,
+          "broken_vs_base": 1
+        },
+        "selected": {
+          "correct": 115,
+          "accuracy": 91.26984126984127,
+          "fixed_vs_base": 1,
+          "broken_vs_base": 1
+        }
+      }
+    }
+  }
+}

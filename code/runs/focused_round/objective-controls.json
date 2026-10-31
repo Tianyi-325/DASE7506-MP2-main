@@ -1,0 +1,10 @@
+{
+  "drop_all_positive_fixed_denominator": {
+    "max_gradient_difference": 0.0,
+    "loss_difference": 0.0
+  },
+  "valid_mask_hard_fixed_denominator": {
+    "max_gradient_difference": 0.0,
+    "loss_difference": 0.0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "family": "context",
+  "architecture": "context",
+  "features": "none",
+  "mode": "valid_only",
+  "alpha": 0.0,
+  "training": {
+    "family": "context",
+    "architecture": "context",
+    "features": "none",
+    "config": {
+      "hidden": 64,
+      "regularization": 0.01,
+      "lr": 0.001
+    },
+    "seed": 2026,
+    "epoch": 20,
+    "validation_correct": {
+      "valid_only": 729,
+      "weighted": 732
+    },
+    "validation_group_loss": 0.43002820014953613,
+    "trajectory_seconds": 2.7793675000002622
+  },
+  "selection": "valid_only validation count, then group loss; seed2026 only",
+  "feature_names": [],
+  "standardization": "train-only",
+  "inference": "numpy",
+  "torch_training": "2.7.1+cu126",
+  "numpy": "2.5.3"
+}

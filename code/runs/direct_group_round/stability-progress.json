@@ -1,0 +1,98 @@
+[
+  {
+    "seed": 17,
+    "fit_questions": 3804,
+    "held_questions": 951,
+    "baseline_correct": 882,
+    "methods": {
+      "group_logmeanexp": {
+        "0.0": {
+          "correct": 869,
+          "fixed": 13,
+          "broken": 26
+        },
+        "0.25": {
+          "correct": 877,
+          "fixed": 8,
+          "broken": 13
+        }
+      },
+      "joint_group": {
+        "0.0": {
+          "correct": 876,
+          "fixed": 5,
+          "broken": 11
+        },
+        "0.25": {
+          "correct": 873,
+          "fixed": 8,
+          "broken": 17
+        }
+      }
+    }
+  },
+  {
+    "seed": 29,
+    "fit_questions": 3804,
+    "held_questions": 951,
+    "baseline_correct": 859,
+    "methods": {
+      "group_logmeanexp": {
+        "0.0": {
+          "correct": 852,
+          "fixed": 20,
+          "broken": 27
+        },
+        "0.25": {
+          "correct": 863,
+          "fixed": 14,
+          "broken": 10
+        }
+      },
+      "joint_group": {
+        "0.0": {
+          "correct": 863,
+          "fixed": 12,
+          "broken": 8
+        },
+        "0.25": {
+          "correct": 866,
+          "fixed": 16,
+          "broken": 9
+        }
+      }
+    }
+  },
+  {
+    "seed": 43,
+    "fit_questions": 3804,
+    "held_questions": 951,
+    "baseline_correct": 866,
+    "methods": {
+      "group_logmeanexp": {
+        "0.0": {
+          "correct": 843,
+          "fixed": 9,
+          "broken": 32
+        },
+        "0.25": {
+          "correct": 857,
+          "fixed": 5,
+          "broken": 14
+        }
+      },
+      "joint_group": {
+        "0.0": {
+          "correct": 863,
+          "fixed": 8,
+          "broken": 11
+        },
+        "0.25": {
+          "correct": 862,
+          "fixed": 11,
+          "broken": 15
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "epochs": 4,
+  "curves": [
+    {
+      "epoch": 1,
+      "train_loss": 0.14482026770710946,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.13249605074524878,
+      "contrast_loss": 0.0
+    }
+  ],
+  "seconds": 0.4320748999998614,
+  "score_scale": 1.6541118118498443,
+  "method": "residual_width32",
+  "validation_correct": 745
+}

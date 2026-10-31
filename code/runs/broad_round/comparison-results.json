@@ -1,0 +1,3616 @@
+{
+  "records": {
+    "baseline_plain": {
+      "definition": {
+        "members": [
+          "baseline"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4340,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        -12,
+        -7
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 742,
+      "validation_gain": -4,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 28,
+        "broken": 44,
+        "delta_questions": -16,
+        "delta_pp": -0.3364879074658254,
+        "paired_bootstrap_95_pp": [
+          -0.6729758149316508,
+          0.021030494216614088
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 7,
+        "delta_questions": -4,
+        "delta_pp": -0.5012531328320802,
+        "paired_bootstrap_95_pp": [
+          -1.3784461152882206,
+          0.2506265664160401
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "baseline_vote": {
+      "definition": {
+        "members": [
+          "baseline"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4356,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        0,
+        0
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 746,
+      "validation_gain": 0,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 0,
+        "broken": 0,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 0,
+        "broken": 0,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "gbdt_plain": {
+      "definition": {
+        "members": [
+          "gbdt"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4214,
+      "oof_n": 4755,
+      "fold_gains": [
+        -48,
+        -51,
+        -43
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 710,
+      "validation_gain": -36,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 148,
+        "broken": 290,
+        "delta_questions": -142,
+        "delta_pp": -2.986330178759201,
+        "paired_bootstrap_95_pp": [
+          -3.8485804416403786,
+          -2.166140904311251
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 10,
+        "broken": 46,
+        "delta_questions": -36,
+        "delta_pp": -4.511278195488721,
+        "paired_bootstrap_95_pp": [
+          -6.265664160401002,
+          -2.7537593984962574
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "gbdt_vote": {
+      "definition": {
+        "members": [
+          "gbdt"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4208,
+      "oof_n": 4755,
+      "fold_gains": [
+        -50,
+        -53,
+        -45
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 709,
+      "validation_gain": -37,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 148,
+        "broken": 296,
+        "delta_questions": -148,
+        "delta_pp": -3.1125131440588856,
+        "paired_bootstrap_95_pp": [
+          -3.9963196635120926,
+          -2.271293375394322
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 10,
+        "broken": 47,
+        "delta_questions": -37,
+        "delta_pp": -4.636591478696742,
+        "paired_bootstrap_95_pp": [
+          -6.390977443609022,
+          -2.756892230576441
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "lambdamart_plain": {
+      "definition": {
+        "members": [
+          "lambdamart"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4282,
+      "oof_n": 4755,
+      "fold_gains": [
+        -28,
+        -18,
+        -28
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 718,
+      "validation_gain": -28,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 151,
+        "broken": 225,
+        "delta_questions": -74,
+        "delta_pp": -1.5562565720294428,
+        "paired_bootstrap_95_pp": [
+          -2.355415352260778,
+          -0.7991587802313355
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 10,
+        "broken": 38,
+        "delta_questions": -28,
+        "delta_pp": -3.508771929824561,
+        "paired_bootstrap_95_pp": [
+          -5.263157894736842,
+          -1.8796992481203008
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "lambdamart_vote": {
+      "definition": {
+        "members": [
+          "lambdamart"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4264,
+      "oof_n": 4755,
+      "fold_gains": [
+        -33,
+        -33,
+        -26
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 718,
+      "validation_gain": -28,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 141,
+        "broken": 233,
+        "delta_questions": -92,
+        "delta_pp": -1.934805467928496,
+        "paired_bootstrap_95_pp": [
+          -2.734490010515247,
+          -1.177707676130389
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 10,
+        "broken": 38,
+        "delta_questions": -28,
+        "delta_pp": -3.508771929824561,
+        "paired_bootstrap_95_pp": [
+          -5.263157894736842,
+          -1.8796992481203008
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "gam_plain": {
+      "definition": {
+        "members": [
+          "gam"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4367,
+      "oof_n": 4755,
+      "fold_gains": [
+        5,
+        0,
+        6
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 747,
+      "validation_gain": 1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 65,
+        "broken": 54,
+        "delta_questions": 11,
+        "delta_pp": 0.23133543638275497,
+        "paired_bootstrap_95_pp": [
+          -0.2108307045215562,
+          0.6729758149316508
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 10,
+        "broken": 9,
+        "delta_questions": 1,
+        "delta_pp": 0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          -1.0025062656641603,
+          1.1278195488721803
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "gam_vote": {
+      "definition": {
+        "members": [
+          "gam"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4374,
+      "oof_n": 4755,
+      "fold_gains": [
+        6,
+        7,
+        5
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 748,
+      "validation_gain": 2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 66,
+        "broken": 48,
+        "delta_questions": 18,
+        "delta_pp": 0.3785488958990536,
+        "paired_bootstrap_95_pp": [
+          -0.06309148264984228,
+          0.8201892744479496
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 7,
+        "broken": 5,
+        "delta_questions": 2,
+        "delta_pp": 0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -0.6265664160401002,
+          1.1278195488721803
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "fm_plain": {
+      "definition": {
+        "members": [
+          "fm"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4324,
+      "oof_n": 4755,
+      "fold_gains": [
+        7,
+        -11,
+        -28
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 729,
+      "validation_gain": -17,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 67,
+        "broken": 99,
+        "delta_questions": -32,
+        "delta_pp": -0.6729758149316508,
+        "paired_bootstrap_95_pp": [
+          -1.177707676130389,
+          -0.14668769716088614
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 7,
+        "broken": 24,
+        "delta_questions": -17,
+        "delta_pp": -2.1303258145363406,
+        "paired_bootstrap_95_pp": [
+          -3.634085213032581,
+          -0.7518796992481203
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "fm_vote": {
+      "definition": {
+        "members": [
+          "fm"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4340,
+      "oof_n": 4755,
+      "fold_gains": [
+        7,
+        -4,
+        -19
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 737,
+      "validation_gain": -9,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 54,
+        "broken": 70,
+        "delta_questions": -16,
+        "delta_pp": -0.3364879074658254,
+        "paired_bootstrap_95_pp": [
+          -0.7991587802313355,
+          0.12618296529968456
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 6,
+        "broken": 15,
+        "delta_questions": -9,
+        "delta_pp": -1.1278195488721803,
+        "paired_bootstrap_95_pp": [
+          -2.2556390977443606,
+          0.0
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "rff_plain": {
+      "definition": {
+        "members": [
+          "rff"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4344,
+      "oof_n": 4755,
+      "fold_gains": [
+        5,
+        -11,
+        -6
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 742,
+      "validation_gain": -4,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 31,
+        "broken": 43,
+        "delta_questions": -12,
+        "delta_pp": -0.2523659305993691,
+        "paired_bootstrap_95_pp": [
+          -0.5893796004206099,
+          0.10515247108307045
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 7,
+        "delta_questions": -4,
+        "delta_pp": -0.5012531328320802,
+        "paired_bootstrap_95_pp": [
+          -1.3784461152882206,
+          0.2506265664160401
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "rff_vote": {
+      "definition": {
+        "members": [
+          "rff"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4355,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        0,
+        -1
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 746,
+      "validation_gain": 0,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 5,
+        "broken": 6,
+        "delta_questions": -1,
+        "delta_pp": -0.021030494216614088,
+        "paired_bootstrap_95_pp": [
+          -0.14721345951629863,
+          0.10567823343848293
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 0,
+        "broken": 0,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "charcnn_plain": {
+      "definition": {
+        "members": [
+          "charcnn"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4334,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        -16,
+        -9
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 745,
+      "validation_gain": -1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 39,
+        "broken": 61,
+        "delta_questions": -22,
+        "delta_pp": -0.46267087276550994,
+        "paired_bootstrap_95_pp": [
+          -0.8412197686645636,
+          -0.042060988433228176
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 7,
+        "broken": 8,
+        "delta_questions": -1,
+        "delta_pp": -0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          -1.1278195488721803,
+          0.7518796992481203
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "charcnn_vote": {
+      "definition": {
+        "members": [
+          "charcnn"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4355,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        4,
+        -5
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 749,
+      "validation_gain": 3,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 27,
+        "broken": 28,
+        "delta_questions": -1,
+        "delta_pp": -0.021030494216614088,
+        "paired_bootstrap_95_pp": [
+          -0.3364879074658254,
+          0.2733964248159832
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 5,
+        "broken": 2,
+        "delta_questions": 3,
+        "delta_pp": 0.37593984962406013,
+        "paired_bootstrap_95_pp": [
+          -0.2506265664160401,
+          1.0025062656641603
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "supcon_plain": {
+      "definition": {
+        "members": [
+          "supcon"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4342,
+      "oof_n": 4755,
+      "fold_gains": [
+        -1,
+        -8,
+        -5
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 736,
+      "validation_gain": -10,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 45,
+        "broken": 59,
+        "delta_questions": -14,
+        "delta_pp": -0.29442691903259727,
+        "paired_bootstrap_95_pp": [
+          -0.7150368033648791,
+          0.10515247108307045
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 6,
+        "broken": 16,
+        "delta_questions": -10,
+        "delta_pp": -1.2531328320802004,
+        "paired_bootstrap_95_pp": [
+          -2.384085213032581,
+          -0.12531328320802004
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "supcon_vote": {
+      "definition": {
+        "members": [
+          "supcon"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4362,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        -3,
+        6
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 739,
+      "validation_gain": -7,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 40,
+        "broken": 34,
+        "delta_questions": 6,
+        "delta_pp": 0.12618296529968456,
+        "paired_bootstrap_95_pp": [
+          -0.23133543638275497,
+          0.483701366982124
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 5,
+        "broken": 12,
+        "delta_questions": -7,
+        "delta_pp": -0.8771929824561403,
+        "paired_bootstrap_95_pp": [
+          -1.8796992481203008,
+          0.12531328320802004
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "extended_features_plain": {
+      "definition": {
+        "members": [
+          "extended_features"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4365,
+      "oof_n": 4755,
+      "fold_gains": [
+        2,
+        3,
+        4
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 745,
+      "validation_gain": -1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 49,
+        "broken": 40,
+        "delta_questions": 9,
+        "delta_pp": 0.1892744479495268,
+        "paired_bootstrap_95_pp": [
+          -0.2108307045215562,
+          0.5678233438485805
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 4,
+        "broken": 5,
+        "delta_questions": -1,
+        "delta_pp": -0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.6265664160401002
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "extended_features_vote": {
+      "definition": {
+        "members": [
+          "extended_features"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4365,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        5,
+        1
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 747,
+      "validation_gain": 1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 54,
+        "broken": 45,
+        "delta_questions": 9,
+        "delta_pp": 0.1892744479495268,
+        "paired_bootstrap_95_pp": [
+          -0.23133543638275497,
+          0.6098843322818086
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 5,
+        "broken": 4,
+        "delta_questions": 1,
+        "delta_pp": 0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          -0.6265664160401002,
+          0.8771929824561403
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "supervision_balanced_plain": {
+      "definition": {
+        "members": [
+          "supervision_balanced"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4334,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        -17,
+        -5
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 746,
+      "validation_gain": 0,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 43,
+        "broken": 65,
+        "delta_questions": -22,
+        "delta_pp": -0.46267087276550994,
+        "paired_bootstrap_95_pp": [
+          -0.8622502628811778,
+          -0.021030494216614088
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 6,
+        "broken": 6,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.8771929824561403
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "supervision_balanced_vote": {
+      "definition": {
+        "members": [
+          "supervision_balanced"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4356,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        -9,
+        6
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 745,
+      "validation_gain": -1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 33,
+        "broken": 33,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          -0.31598317560462663,
+          0.3364879074658254
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 4,
+        "broken": 5,
+        "delta_questions": -1,
+        "delta_pp": -0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.6265664160401002
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "valid_training_mask_plain": {
+      "definition": {
+        "members": [
+          "valid_training_mask"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4340,
+      "oof_n": 4755,
+      "fold_gains": [
+        2,
+        -12,
+        -6
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 744,
+      "validation_gain": -2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 31,
+        "broken": 47,
+        "delta_questions": -16,
+        "delta_pp": -0.3364879074658254,
+        "paired_bootstrap_95_pp": [
+          -0.7150368033648791,
+          0.021030494216614088
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 4,
+        "broken": 6,
+        "delta_questions": -2,
+        "delta_pp": -0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -1.0025062656641603,
+          0.5012531328320802
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "valid_training_mask_vote": {
+      "definition": {
+        "members": [
+          "valid_training_mask"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4351,
+      "oof_n": 4755,
+      "fold_gains": [
+        -2,
+        -2,
+        -1
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 747,
+      "validation_gain": 1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 4,
+        "broken": 9,
+        "delta_questions": -5,
+        "delta_pp": -0.10515247108307045,
+        "paired_bootstrap_95_pp": [
+          -0.2523659305993691,
+          0.042060988433228176
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 1,
+        "broken": 0,
+        "delta_questions": 1,
+        "delta_pp": 0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          0.0,
+          0.37593984962406013
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "stable_features_plain": {
+      "definition": {
+        "members": [
+          "stable_features"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4364,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        1,
+        4
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 744,
+      "validation_gain": -2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 50,
+        "broken": 42,
+        "delta_questions": 8,
+        "delta_pp": 0.1682439537329127,
+        "paired_bootstrap_95_pp": [
+          -0.23133543638275497,
+          0.5678233438485805
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 5,
+        "delta_questions": -2,
+        "delta_pp": -0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -1.0025062656641603,
+          0.37593984962406013
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "stable_features_vote": {
+      "definition": {
+        "members": [
+          "stable_features"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4363,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        3,
+        1
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 746,
+      "validation_gain": 0,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 53,
+        "broken": 46,
+        "delta_questions": 7,
+        "delta_pp": 0.14721345951629863,
+        "paired_bootstrap_95_pp": [
+          -0.2523659305993691,
+          0.5678233438485805
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 4,
+        "broken": 4,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          -0.6265664160401002,
+          0.6265664160401002
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "no_style_plain": {
+      "definition": {
+        "members": [
+          "no_style"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4366,
+      "oof_n": 4755,
+      "fold_gains": [
+        1,
+        2,
+        7
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 745,
+      "validation_gain": -1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 52,
+        "broken": 42,
+        "delta_questions": 10,
+        "delta_pp": 0.2103049421661409,
+        "paired_bootstrap_95_pp": [
+          -0.1892744479495268,
+          0.6309148264984227
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 5,
+        "broken": 6,
+        "delta_questions": -1,
+        "delta_pp": -0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          -1.0025062656641603,
+          0.6265664160401002
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "no_style_vote": {
+      "definition": {
+        "members": [
+          "no_style"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4373,
+      "oof_n": 4755,
+      "fold_gains": [
+        2,
+        8,
+        7
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 747,
+      "validation_gain": 1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 62,
+        "broken": 45,
+        "delta_questions": 17,
+        "delta_pp": 0.35751840168243953,
+        "paired_bootstrap_95_pp": [
+          -0.08412197686645635,
+          0.7781282860147214
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 6,
+        "broken": 5,
+        "delta_questions": 1,
+        "delta_pp": 0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          -0.6265664160401002,
+          0.8771929824561403
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "numeric_quality_plain": {
+      "definition": {
+        "members": [
+          "numeric_quality"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4349,
+      "oof_n": 4755,
+      "fold_gains": [
+        2,
+        -2,
+        -7
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 746,
+      "validation_gain": 0,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 26,
+        "broken": 33,
+        "delta_questions": -7,
+        "delta_pp": -0.14721345951629863,
+        "paired_bootstrap_95_pp": [
+          -0.46267087276550994,
+          0.1682439537329127
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 5,
+        "broken": 5,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          -0.7518796992481203,
+          0.7518796992481203
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "numeric_quality_vote": {
+      "definition": {
+        "members": [
+          "numeric_quality"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4365,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        8,
+        1
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 747,
+      "validation_gain": 1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 43,
+        "broken": 34,
+        "delta_questions": 9,
+        "delta_pp": 0.1892744479495268,
+        "paired_bootstrap_95_pp": [
+          -0.1682439537329127,
+          0.5678233438485805
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 5,
+        "broken": 4,
+        "delta_questions": 1,
+        "delta_pp": 0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          -0.5012531328320802,
+          0.8771929824561403
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_plain": {
+      "definition": {
+        "members": [
+          "residual"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4331,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        -24,
+        -4
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 742,
+      "validation_gain": -4,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 46,
+        "broken": 71,
+        "delta_questions": -25,
+        "delta_pp": -0.5257623554153523,
+        "paired_bootstrap_95_pp": [
+          -0.967402733964248,
+          -0.08412197686645635
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 4,
+        "broken": 8,
+        "delta_questions": -4,
+        "delta_pp": -0.5012531328320802,
+        "paired_bootstrap_95_pp": [
+          -1.3784461152882206,
+          0.2506265664160401
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_vote": {
+      "definition": {
+        "members": [
+          "residual"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4335,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        -22,
+        1
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 748,
+      "validation_gain": 2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 23,
+        "broken": 44,
+        "delta_questions": -21,
+        "delta_pp": -0.4416403785488959,
+        "paired_bootstrap_95_pp": [
+          -0.7570977917981072,
+          -0.12618296529968456
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 1,
+        "delta_questions": 2,
+        "delta_pp": 0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -0.2506265664160401,
+          0.7518796992481203
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_width32_plain": {
+      "definition": {
+        "members": [
+          "residual_width32"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4323,
+      "oof_n": 4755,
+      "fold_gains": [
+        -15,
+        -12,
+        -6
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 738,
+      "validation_gain": -8,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 46,
+        "broken": 79,
+        "delta_questions": -33,
+        "delta_pp": -0.694006309148265,
+        "paired_bootstrap_95_pp": [
+          -1.1566771819137749,
+          -0.2523659305993691
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 6,
+        "broken": 14,
+        "delta_questions": -8,
+        "delta_pp": -1.0025062656641603,
+        "paired_bootstrap_95_pp": [
+          -2.1334586466165413,
+          0.0
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_width32_vote": {
+      "definition": {
+        "members": [
+          "residual_width32"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4343,
+      "oof_n": 4755,
+      "fold_gains": [
+        -11,
+        -1,
+        -1
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 745,
+      "validation_gain": -1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 29,
+        "broken": 42,
+        "delta_questions": -13,
+        "delta_pp": -0.2733964248159832,
+        "paired_bootstrap_95_pp": [
+          -0.6309148264984227,
+          0.08412197686645635
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 4,
+        "delta_questions": -1,
+        "delta_pp": -0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          -0.7518796992481203,
+          0.5012531328320802
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_dropout_plain": {
+      "definition": {
+        "members": [
+          "residual_dropout"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4335,
+      "oof_n": 4755,
+      "fold_gains": [
+        -4,
+        -12,
+        -5
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 737,
+      "validation_gain": -9,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 43,
+        "broken": 64,
+        "delta_questions": -21,
+        "delta_pp": -0.4416403785488959,
+        "paired_bootstrap_95_pp": [
+          -0.8622502628811778,
+          -0.021030494216614088
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 4,
+        "broken": 13,
+        "delta_questions": -9,
+        "delta_pp": -1.1278195488721803,
+        "paired_bootstrap_95_pp": [
+          -2.2556390977443606,
+          -0.12531328320802004
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_dropout_vote": {
+      "definition": {
+        "members": [
+          "residual_dropout"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4341,
+      "oof_n": 4755,
+      "fold_gains": [
+        -3,
+        -10,
+        -2
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 744,
+      "validation_gain": -2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 23,
+        "broken": 38,
+        "delta_questions": -15,
+        "delta_pp": -0.31545741324921134,
+        "paired_bootstrap_95_pp": [
+          -0.6309148264984227,
+          0.0
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 5,
+        "delta_questions": -2,
+        "delta_pp": -0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -1.0025062656641603,
+          0.37593984962406013
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_adam_l2_plain": {
+      "definition": {
+        "members": [
+          "residual_adam_l2"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4327,
+      "oof_n": 4755,
+      "fold_gains": [
+        -9,
+        -14,
+        -6
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 744,
+      "validation_gain": -2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 38,
+        "broken": 67,
+        "delta_questions": -29,
+        "delta_pp": -0.6098843322818086,
+        "paired_bootstrap_95_pp": [
+          -1.0515247108307046,
+          -0.1892744479495268
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 5,
+        "broken": 7,
+        "delta_questions": -2,
+        "delta_pp": -0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -1.1278195488721803,
+          0.6265664160401002
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_adam_l2_vote": {
+      "definition": {
+        "members": [
+          "residual_adam_l2"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4348,
+      "oof_n": 4755,
+      "fold_gains": [
+        -4,
+        -5,
+        1
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 745,
+      "validation_gain": -1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 19,
+        "broken": 27,
+        "delta_questions": -8,
+        "delta_pp": -0.1682439537329127,
+        "paired_bootstrap_95_pp": [
+          -0.46267087276550994,
+          0.12618296529968456
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 1,
+        "broken": 2,
+        "delta_questions": -1,
+        "delta_pp": -0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          -0.6265664160401002,
+          0.2506265664160401
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "linear_lbfgs_plain": {
+      "definition": {
+        "members": [
+          "linear_lbfgs"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4341,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        -11,
+        -7
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 742,
+      "validation_gain": -4,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 28,
+        "broken": 43,
+        "delta_questions": -15,
+        "delta_pp": -0.31545741324921134,
+        "paired_bootstrap_95_pp": [
+          -0.6519453207150367,
+          0.042060988433228176
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 7,
+        "delta_questions": -4,
+        "delta_pp": -0.5012531328320802,
+        "paired_bootstrap_95_pp": [
+          -1.3784461152882206,
+          0.2506265664160401
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "linear_lbfgs_vote": {
+      "definition": {
+        "members": [
+          "linear_lbfgs"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4356,
+      "oof_n": 4755,
+      "fold_gains": [
+        -1,
+        0,
+        1
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 746,
+      "validation_gain": 0,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 2,
+        "broken": 2,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          -0.08412197686645635,
+          0.08412197686645635
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 0,
+        "broken": 0,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "linear_earlystop_plain": {
+      "definition": {
+        "members": [
+          "linear_earlystop"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4338,
+      "oof_n": 4755,
+      "fold_gains": [
+        -1,
+        -10,
+        -7
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 742,
+      "validation_gain": -4,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 36,
+        "broken": 54,
+        "delta_questions": -18,
+        "delta_pp": -0.3785488958990536,
+        "paired_bootstrap_95_pp": [
+          -0.7570977917981072,
+          0.021030494216614088
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 5,
+        "broken": 9,
+        "delta_questions": -4,
+        "delta_pp": -0.5012531328320802,
+        "paired_bootstrap_95_pp": [
+          -1.5037593984962405,
+          0.37593984962406013
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "linear_earlystop_vote": {
+      "definition": {
+        "members": [
+          "linear_earlystop"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4357,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        -2,
+        3
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 746,
+      "validation_gain": 0,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 17,
+        "broken": 16,
+        "delta_questions": 1,
+        "delta_pp": 0.021030494216614088,
+        "paired_bootstrap_95_pp": [
+          -0.2103049421661409,
+          0.2523659305993691
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 2,
+        "broken": 2,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          -0.5012531328320802,
+          0.5012531328320802
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_batch128_plain": {
+      "definition": {
+        "members": [
+          "residual_batch128"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4280,
+      "oof_n": 4755,
+      "fold_gains": [
+        -25,
+        -47,
+        -4
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 724,
+      "validation_gain": -22,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 56,
+        "broken": 132,
+        "delta_questions": -76,
+        "delta_pp": -1.598317560462671,
+        "paired_bootstrap_95_pp": [
+          -2.145110410094637,
+          -1.0304942166140905
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 12,
+        "broken": 34,
+        "delta_questions": -22,
+        "delta_pp": -2.756892230576441,
+        "paired_bootstrap_95_pp": [
+          -4.385964912280701,
+          -1.2531328320802004
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_batch128_vote": {
+      "definition": {
+        "members": [
+          "residual_batch128"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4289,
+      "oof_n": 4755,
+      "fold_gains": [
+        -21,
+        -45,
+        -1
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 724,
+      "validation_gain": -22,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 46,
+        "broken": 113,
+        "delta_questions": -67,
+        "delta_pp": -1.409043112513144,
+        "paired_bootstrap_95_pp": [
+          -1.9137749737118823,
+          -0.9043112513144059
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 8,
+        "broken": 30,
+        "delta_questions": -22,
+        "delta_pp": -2.756892230576441,
+        "paired_bootstrap_95_pp": [
+          -4.260651629072681,
+          -1.3784461152882206
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_ema_plain": {
+      "definition": {
+        "members": [
+          "residual_ema"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4336,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        -19,
+        -4
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 742,
+      "validation_gain": -4,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 46,
+        "broken": 66,
+        "delta_questions": -20,
+        "delta_pp": -0.4206098843322818,
+        "paired_bootstrap_95_pp": [
+          -0.8412197686645636,
+          0.021030494216614088
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 4,
+        "broken": 8,
+        "delta_questions": -4,
+        "delta_pp": -0.5012531328320802,
+        "paired_bootstrap_95_pp": [
+          -1.3784461152882206,
+          0.2506265664160401
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_ema_vote": {
+      "definition": {
+        "members": [
+          "residual_ema"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4341,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        -16,
+        1
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 748,
+      "validation_gain": 2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 22,
+        "broken": 37,
+        "delta_questions": -15,
+        "delta_pp": -0.31545741324921134,
+        "paired_bootstrap_95_pp": [
+          -0.6098843322818086,
+          -0.021030494216614088
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 1,
+        "delta_questions": 2,
+        "delta_pp": 0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -0.2506265664160401,
+          0.7518796992481203
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_swa_plain": {
+      "definition": {
+        "members": [
+          "residual_swa"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4338,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        -17,
+        -4
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 742,
+      "validation_gain": -4,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 49,
+        "broken": 67,
+        "delta_questions": -18,
+        "delta_pp": -0.3785488958990536,
+        "paired_bootstrap_95_pp": [
+          -0.7991587802313355,
+          0.06309148264984228
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 4,
+        "broken": 8,
+        "delta_questions": -4,
+        "delta_pp": -0.5012531328320802,
+        "paired_bootstrap_95_pp": [
+          -1.3784461152882206,
+          0.2506265664160401
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_swa_vote": {
+      "definition": {
+        "members": [
+          "residual_swa"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4338,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        -19,
+        1
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 748,
+      "validation_gain": 2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 23,
+        "broken": 41,
+        "delta_questions": -18,
+        "delta_pp": -0.3785488958990536,
+        "paired_bootstrap_95_pp": [
+          -0.6945320715036803,
+          -0.06256572029442979
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 1,
+        "delta_questions": 2,
+        "delta_pp": 0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -0.2506265664160401,
+          0.7518796992481203
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_sam_plain": {
+      "definition": {
+        "members": [
+          "residual_sam"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.0
+      },
+      "oof_correct": 4307,
+      "oof_n": 4755,
+      "fold_gains": [
+        4,
+        -35,
+        -18
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 728,
+      "validation_gain": -18,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 65,
+        "broken": 114,
+        "delta_questions": -49,
+        "delta_pp": -1.0304942166140905,
+        "paired_bootstrap_95_pp": [
+          -1.5772870662460567,
+          -0.483701366982124
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 14,
+        "broken": 32,
+        "delta_questions": -18,
+        "delta_pp": -2.2556390977443606,
+        "paired_bootstrap_95_pp": [
+          -4.010025062656641,
+          -0.6265664160401002
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "residual_sam_vote": {
+      "definition": {
+        "members": [
+          "residual_sam"
+        ],
+        "weights": [
+          1.0
+        ],
+        "normalize": false,
+        "alpha": 0.25
+      },
+      "oof_correct": 4325,
+      "oof_n": 4755,
+      "fold_gains": [
+        5,
+        -21,
+        -15
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 729,
+      "validation_gain": -17,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 59,
+        "broken": 90,
+        "delta_questions": -31,
+        "delta_pp": -0.6519453207150367,
+        "paired_bootstrap_95_pp": [
+          -1.1566771819137749,
+          -0.12618296529968456
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 12,
+        "broken": 29,
+        "delta_questions": -17,
+        "delta_pp": -2.1303258145363406,
+        "paired_bootstrap_95_pp": [
+          -3.7593984962406015,
+          -0.6265664160401002
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_gbdt_50": {
+      "definition": {
+        "members": [
+          "baseline",
+          "gbdt"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4312,
+      "oof_n": 4755,
+      "fold_gains": [
+        -14,
+        -17,
+        -13
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 734,
+      "validation_gain": -12,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 86,
+        "broken": 130,
+        "delta_questions": -44,
+        "delta_pp": -0.9253417455310199,
+        "paired_bootstrap_95_pp": [
+          -1.5357518401682437,
+          -0.3364879074658254
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 7,
+        "broken": 19,
+        "delta_questions": -12,
+        "delta_pp": -1.5037593984962405,
+        "paired_bootstrap_95_pp": [
+          -2.756892230576441,
+          -0.2506265664160401
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_gbdt_75": {
+      "definition": {
+        "members": [
+          "baseline",
+          "gbdt"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4347,
+      "oof_n": 4755,
+      "fold_gains": [
+        -2,
+        0,
+        -7
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 742,
+      "validation_gain": -4,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 65,
+        "broken": 74,
+        "delta_questions": -9,
+        "delta_pp": -0.1892744479495268,
+        "paired_bootstrap_95_pp": [
+          -0.694006309148265,
+          0.27392218717139566
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 4,
+        "broken": 8,
+        "delta_questions": -4,
+        "delta_pp": -0.5012531328320802,
+        "paired_bootstrap_95_pp": [
+          -1.3784461152882206,
+          0.37593984962406013
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_lambdamart_50": {
+      "definition": {
+        "members": [
+          "baseline",
+          "lambdamart"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4343,
+      "oof_n": 4755,
+      "fold_gains": [
+        1,
+        -7,
+        -7
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 740,
+      "validation_gain": -6,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 91,
+        "broken": 104,
+        "delta_questions": -13,
+        "delta_pp": -0.2733964248159832,
+        "paired_bootstrap_95_pp": [
+          -0.8412197686645636,
+          0.29442691903259727
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 7,
+        "broken": 13,
+        "delta_questions": -6,
+        "delta_pp": -0.7518796992481203,
+        "paired_bootstrap_95_pp": [
+          -1.8796992481203008,
+          0.37593984962406013
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_lambdamart_75": {
+      "definition": {
+        "members": [
+          "baseline",
+          "lambdamart"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4361,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        6,
+        -4
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 746,
+      "validation_gain": 0,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 57,
+        "broken": 52,
+        "delta_questions": 5,
+        "delta_pp": 0.10515247108307045,
+        "paired_bootstrap_95_pp": [
+          -0.31545741324921134,
+          0.5257623554153523
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 6,
+        "broken": 6,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.8771929824561403
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_gam_50": {
+      "definition": {
+        "members": [
+          "baseline",
+          "gam"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4360,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        3,
+        -2
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 749,
+      "validation_gain": 3,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 42,
+        "broken": 38,
+        "delta_questions": 4,
+        "delta_pp": 0.08412197686645635,
+        "paired_bootstrap_95_pp": [
+          -0.2733964248159832,
+          0.483701366982124
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 5,
+        "broken": 2,
+        "delta_questions": 3,
+        "delta_pp": 0.37593984962406013,
+        "paired_bootstrap_95_pp": [
+          -0.2506265664160401,
+          1.0025062656641603
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_gam_75": {
+      "definition": {
+        "members": [
+          "baseline",
+          "gam"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4356,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        -1,
+        -2
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 747,
+      "validation_gain": 1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 29,
+        "broken": 29,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          -0.29495268138801256,
+          0.31545741324921134
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 2,
+        "broken": 1,
+        "delta_questions": 1,
+        "delta_pp": 0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          -0.2506265664160401,
+          0.6265664160401002
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_fm_50": {
+      "definition": {
+        "members": [
+          "baseline",
+          "fm"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4359,
+      "oof_n": 4755,
+      "fold_gains": [
+        4,
+        0,
+        -1
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 746,
+      "validation_gain": 0,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 41,
+        "broken": 38,
+        "delta_questions": 3,
+        "delta_pp": 0.06309148264984228,
+        "paired_bootstrap_95_pp": [
+          -0.2733964248159832,
+          0.4416403785488959
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 5,
+        "broken": 5,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          -0.7518796992481203,
+          0.8771929824561403
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_fm_75": {
+      "definition": {
+        "members": [
+          "baseline",
+          "fm"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4359,
+      "oof_n": 4755,
+      "fold_gains": [
+        2,
+        2,
+        -1
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 748,
+      "validation_gain": 2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 31,
+        "broken": 28,
+        "delta_questions": 3,
+        "delta_pp": 0.06309148264984228,
+        "paired_bootstrap_95_pp": [
+          -0.2318611987381703,
+          0.3785488958990536
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 1,
+        "delta_questions": 2,
+        "delta_pp": 0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -0.2506265664160401,
+          0.7518796992481203
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_rff_50": {
+      "definition": {
+        "members": [
+          "baseline",
+          "rff"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4363,
+      "oof_n": 4755,
+      "fold_gains": [
+        1,
+        4,
+        2
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 747,
+      "validation_gain": 1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 23,
+        "broken": 16,
+        "delta_questions": 7,
+        "delta_pp": 0.14721345951629863,
+        "paired_bootstrap_95_pp": [
+          -0.10515247108307045,
+          0.4206098843322818
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 1,
+        "broken": 0,
+        "delta_questions": 1,
+        "delta_pp": 0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          0.0,
+          0.37593984962406013
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_rff_75": {
+      "definition": {
+        "members": [
+          "baseline",
+          "rff"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4364,
+      "oof_n": 4755,
+      "fold_gains": [
+        1,
+        4,
+        3
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 747,
+      "validation_gain": 1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 23,
+        "broken": 15,
+        "delta_questions": 8,
+        "delta_pp": 0.1682439537329127,
+        "paired_bootstrap_95_pp": [
+          -0.06309148264984228,
+          0.4416403785488959
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 1,
+        "broken": 0,
+        "delta_questions": 1,
+        "delta_pp": 0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          0.0,
+          0.37593984962406013
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_charcnn_50": {
+      "definition": {
+        "members": [
+          "baseline",
+          "charcnn"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4355,
+      "oof_n": 4755,
+      "fold_gains": [
+        1,
+        2,
+        -4
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 748,
+      "validation_gain": 2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 23,
+        "broken": 24,
+        "delta_questions": -1,
+        "delta_pp": -0.021030494216614088,
+        "paired_bootstrap_95_pp": [
+          -0.29442691903259727,
+          0.2523659305993691
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 1,
+        "delta_questions": 2,
+        "delta_pp": 0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -0.2506265664160401,
+          0.7518796992481203
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_charcnn_75": {
+      "definition": {
+        "members": [
+          "baseline",
+          "charcnn"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4358,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        5,
+        -3
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 746,
+      "validation_gain": 0,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 21,
+        "broken": 19,
+        "delta_questions": 2,
+        "delta_pp": 0.042060988433228176,
+        "paired_bootstrap_95_pp": [
+          -0.2103049421661409,
+          0.31545741324921134
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 1,
+        "broken": 1,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          -0.37593984962406013,
+          0.37593984962406013
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_supcon_50": {
+      "definition": {
+        "members": [
+          "baseline",
+          "supcon"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4359,
+      "oof_n": 4755,
+      "fold_gains": [
+        -3,
+        3,
+        3
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 744,
+      "validation_gain": -2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 29,
+        "broken": 26,
+        "delta_questions": 3,
+        "delta_pp": 0.06309148264984228,
+        "paired_bootstrap_95_pp": [
+          -0.23133543638275497,
+          0.35751840168243953
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 5,
+        "delta_questions": -2,
+        "delta_pp": -0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.5012531328320802
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_supcon_75": {
+      "definition": {
+        "members": [
+          "baseline",
+          "supcon"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4362,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        3,
+        3
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 748,
+      "validation_gain": 2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 24,
+        "broken": 18,
+        "delta_questions": 6,
+        "delta_pp": 0.12618296529968456,
+        "paired_bootstrap_95_pp": [
+          -0.12618296529968456,
+          0.39957939011566773
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 1,
+        "delta_questions": 2,
+        "delta_pp": 0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -0.2506265664160401,
+          0.7518796992481203
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_numeric_quality_50": {
+      "definition": {
+        "members": [
+          "baseline",
+          "numeric_quality"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4359,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        3,
+        0
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 748,
+      "validation_gain": 2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 36,
+        "broken": 33,
+        "delta_questions": 3,
+        "delta_pp": 0.06309148264984228,
+        "paired_bootstrap_95_pp": [
+          -0.2523659305993691,
+          0.39957939011566773
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 4,
+        "broken": 2,
+        "delta_questions": 2,
+        "delta_pp": 0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -0.2506265664160401,
+          0.8771929824561403
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_numeric_quality_75": {
+      "definition": {
+        "members": [
+          "baseline",
+          "numeric_quality"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4359,
+      "oof_n": 4755,
+      "fold_gains": [
+        2,
+        2,
+        -1
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 750,
+      "validation_gain": 4,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 25,
+        "broken": 22,
+        "delta_questions": 3,
+        "delta_pp": 0.06309148264984228,
+        "paired_bootstrap_95_pp": [
+          -0.2103049421661409,
+          0.35751840168243953
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 4,
+        "broken": 0,
+        "delta_questions": 4,
+        "delta_pp": 0.5012531328320802,
+        "paired_bootstrap_95_pp": [
+          0.12531328320802004,
+          1.0025062656641603
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_no_style_50": {
+      "definition": {
+        "members": [
+          "baseline",
+          "no_style"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4366,
+      "oof_n": 4755,
+      "fold_gains": [
+        2,
+        6,
+        2
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 748,
+      "validation_gain": 2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 44,
+        "broken": 34,
+        "delta_questions": 10,
+        "delta_pp": 0.2103049421661409,
+        "paired_bootstrap_95_pp": [
+          -0.14721345951629863,
+          0.5678233438485805
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 5,
+        "broken": 3,
+        "delta_questions": 2,
+        "delta_pp": 0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          -0.37593984962406013,
+          0.8771929824561403
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_no_style_75": {
+      "definition": {
+        "members": [
+          "baseline",
+          "no_style"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4360,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        1,
+        3
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 747,
+      "validation_gain": 1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 33,
+        "broken": 29,
+        "delta_questions": 4,
+        "delta_pp": 0.08412197686645635,
+        "paired_bootstrap_95_pp": [
+          -0.23133543638275497,
+          0.4206098843322818
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 2,
+        "delta_questions": 1,
+        "delta_pp": 0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          -0.37593984962406013,
+          0.6265664160401002
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_residual_swa_50": {
+      "definition": {
+        "members": [
+          "baseline",
+          "residual_swa"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4347,
+      "oof_n": 4755,
+      "fold_gains": [
+        -1,
+        -8,
+        0
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 749,
+      "validation_gain": 3,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 23,
+        "broken": 32,
+        "delta_questions": -9,
+        "delta_pp": -0.1892744479495268,
+        "paired_bootstrap_95_pp": [
+          -0.483701366982124,
+          0.12618296529968456
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 0,
+        "delta_questions": 3,
+        "delta_pp": 0.37593984962406013,
+        "paired_bootstrap_95_pp": [
+          0.0,
+          0.8771929824561403
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_residual_swa_75": {
+      "definition": {
+        "members": [
+          "baseline",
+          "residual_swa"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4351,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        -6,
+        1
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 748,
+      "validation_gain": 2,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 20,
+        "broken": 25,
+        "delta_questions": -5,
+        "delta_pp": -0.10515247108307045,
+        "paired_bootstrap_95_pp": [
+          -0.35804416403785483,
+          0.1892744479495268
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 2,
+        "broken": 0,
+        "delta_questions": 2,
+        "delta_pp": 0.2506265664160401,
+        "paired_bootstrap_95_pp": [
+          0.0,
+          0.6265664160401002
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_gbdt_lambdamart_50": {
+      "definition": {
+        "members": [
+          "gbdt",
+          "lambdamart"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4243,
+      "oof_n": 4755,
+      "fold_gains": [
+        -39,
+        -41,
+        -33
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 713,
+      "validation_gain": -33,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 142,
+        "broken": 255,
+        "delta_questions": -113,
+        "delta_pp": -2.376445846477392,
+        "paired_bootstrap_95_pp": [
+          -3.175604626708728,
+          -1.5772870662460567
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 9,
+        "broken": 42,
+        "delta_questions": -33,
+        "delta_pp": -4.135338345864661,
+        "paired_bootstrap_95_pp": [
+          -5.889724310776942,
+          -2.506265664160401
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_gbdt_lambdamart_75": {
+      "definition": {
+        "members": [
+          "gbdt",
+          "lambdamart"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4234,
+      "oof_n": 4755,
+      "fold_gains": [
+        -42,
+        -44,
+        -36
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 711,
+      "validation_gain": -35,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 149,
+        "broken": 271,
+        "delta_questions": -122,
+        "delta_pp": -2.565720294426919,
+        "paired_bootstrap_95_pp": [
+          -3.385909568874869,
+          -1.7245005257623556
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 9,
+        "broken": 44,
+        "delta_questions": -35,
+        "delta_pp": -4.385964912280701,
+        "paired_bootstrap_95_pp": [
+          -6.140350877192982,
+          -2.631578947368421
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_gam_fm_50": {
+      "definition": {
+        "members": [
+          "gam",
+          "fm"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4368,
+      "oof_n": 4755,
+      "fold_gains": [
+        12,
+        2,
+        -2
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 746,
+      "validation_gain": 0,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 58,
+        "broken": 46,
+        "delta_questions": 12,
+        "delta_pp": 0.2523659305993691,
+        "paired_bootstrap_95_pp": [
+          -0.14721345951629863,
+          0.6729758149316508
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 6,
+        "broken": 6,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.8771929824561403
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_gam_fm_75": {
+      "definition": {
+        "members": [
+          "gam",
+          "fm"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4366,
+      "oof_n": 4755,
+      "fold_gains": [
+        9,
+        4,
+        -3
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 749,
+      "validation_gain": 3,
+      "promotion_eligible": true,
+      "oof_vs_baseline": {
+        "fixed": 57,
+        "broken": 47,
+        "delta_questions": 10,
+        "delta_pp": 0.2103049421661409,
+        "paired_bootstrap_95_pp": [
+          -0.1892744479495268,
+          0.6519453207150367
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 6,
+        "broken": 3,
+        "delta_questions": 3,
+        "delta_pp": 0.37593984962406013,
+        "paired_bootstrap_95_pp": [
+          -0.37593984962406013,
+          1.1278195488721803
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_gbdt_numeric_quality_50": {
+      "definition": {
+        "members": [
+          "gbdt",
+          "numeric_quality"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4311,
+      "oof_n": 4755,
+      "fold_gains": [
+        -13,
+        -16,
+        -16
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 734,
+      "validation_gain": -12,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 95,
+        "broken": 140,
+        "delta_questions": -45,
+        "delta_pp": -0.9463722397476341,
+        "paired_bootstrap_95_pp": [
+          -1.598317560462671,
+          -0.31545741324921134
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 8,
+        "broken": 20,
+        "delta_questions": -12,
+        "delta_pp": -1.5037593984962405,
+        "paired_bootstrap_95_pp": [
+          -2.756892230576441,
+          -0.2506265664160401
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_gbdt_numeric_quality_75": {
+      "definition": {
+        "members": [
+          "gbdt",
+          "numeric_quality"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4274,
+      "oof_n": 4755,
+      "fold_gains": [
+        -32,
+        -28,
+        -22
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 731,
+      "validation_gain": -15,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 106,
+        "broken": 188,
+        "delta_questions": -82,
+        "delta_pp": -1.7245005257623556,
+        "paired_bootstrap_95_pp": [
+          -2.460567823343849,
+          -1.0304942166140905
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 8,
+        "broken": 23,
+        "delta_questions": -15,
+        "delta_pp": -1.8796992481203008,
+        "paired_bootstrap_95_pp": [
+          -3.258145363408521,
+          -0.6234335839599169
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_extended_features_50": {
+      "definition": {
+        "members": [
+          "baseline",
+          "extended_features"
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4365,
+      "oof_n": 4755,
+      "fold_gains": [
+        2,
+        4,
+        3
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 749,
+      "validation_gain": 3,
+      "promotion_eligible": true,
+      "oof_vs_baseline": {
+        "fixed": 47,
+        "broken": 38,
+        "delta_questions": 9,
+        "delta_pp": 0.1892744479495268,
+        "paired_bootstrap_95_pp": [
+          -0.1892744479495268,
+          0.5678233438485805
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 5,
+        "broken": 2,
+        "delta_questions": 3,
+        "delta_pp": 0.37593984962406013,
+        "paired_bootstrap_95_pp": [
+          -0.2506265664160401,
+          1.0025062656641603
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "mix_baseline_extended_features_75": {
+      "definition": {
+        "members": [
+          "baseline",
+          "extended_features"
+        ],
+        "weights": [
+          0.75,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4363,
+      "oof_n": 4755,
+      "fold_gains": [
+        3,
+        3,
+        1
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 747,
+      "validation_gain": 1,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 31,
+        "broken": 24,
+        "delta_questions": 7,
+        "delta_pp": 0.14721345951629863,
+        "paired_bootstrap_95_pp": [
+          -0.14721345951629863,
+          0.4416403785488959
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 3,
+        "broken": 2,
+        "delta_questions": 1,
+        "delta_pp": 0.12531328320802004,
+        "paired_bootstrap_95_pp": [
+          -0.37593984962406013,
+          0.6265664160401002
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "triple_linear_tree_gam": {
+      "definition": {
+        "members": [
+          "baseline",
+          "gbdt",
+          "gam"
+        ],
+        "weights": [
+          0.5,
+          0.25,
+          0.25
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4344,
+      "oof_n": 4755,
+      "fold_gains": [
+        0,
+        -4,
+        -8
+      ],
+      "cv_gate_pass": false,
+      "validation_correct": 742,
+      "validation_gain": -4,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 71,
+        "broken": 83,
+        "delta_questions": -12,
+        "delta_pp": -0.2523659305993691,
+        "paired_bootstrap_95_pp": [
+          -0.7781282860147214,
+          0.2733964248159832
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 6,
+        "broken": 10,
+        "delta_questions": -4,
+        "delta_pp": -0.5012531328320802,
+        "paired_bootstrap_95_pp": [
+          -1.5037593984962405,
+          0.5012531328320802
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    },
+    "triple_top_oof": {
+      "definition": {
+        "members": [
+          "gam",
+          "no_style",
+          "extended_features"
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "normalize": true,
+        "alpha": 0.25
+      },
+      "oof_correct": 4371,
+      "oof_n": 4755,
+      "fold_gains": [
+        2,
+        10,
+        3
+      ],
+      "cv_gate_pass": true,
+      "validation_correct": 746,
+      "validation_gain": 0,
+      "promotion_eligible": false,
+      "oof_vs_baseline": {
+        "fixed": 69,
+        "broken": 54,
+        "delta_questions": 15,
+        "delta_pp": 0.31545741324921134,
+        "paired_bootstrap_95_pp": [
+          -0.12618296529968456,
+          0.7570977917981072
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      },
+      "validation_vs_baseline": {
+        "fixed": 6,
+        "broken": 6,
+        "delta_questions": 0,
+        "delta_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          -0.8771929824561403,
+          0.8771929824561403
+        ],
+        "note": "exploratory; not adjusted for searching many models"
+      }
+    }
+  },
+  "selected": "mix_gam_fm_75",
+  "baseline_oof_correct": 4356,
+  "baseline_validation_correct": 746,
+  "eligible": [
+    "mix_gam_fm_75",
+    "mix_baseline_extended_features_50"
+  ],
+  "oof_family_ranking": [
+    "gam",
+    "no_style",
+    "extended_features",
+    "numeric_quality",
+    "stable_features",
+    "supcon",
+    "linear_earlystop",
+    "baseline",
+    "supervision_balanced",
+    "linear_lbfgs",
+    "rff",
+    "charcnn",
+    "valid_training_mask",
+    "residual_adam_l2",
+    "residual_width32",
+    "residual_dropout",
+    "residual_ema",
+    "fm",
+    "residual_swa",
+    "residual",
+    "residual_sam",
+    "residual_batch128",
+    "lambdamart",
+    "gbdt"
+  ],
+  "notes": [
+    "CV and validation reused for selection; exploratory uncertainty only.",
+    "Fixed combinations normalized by each training fit score std; no test inputs or labels read.",
+    "No automatic promotion merely for highest validation count."
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "source_bundle": "E:\\DASE7506-MP2-main\\code\\runs\\vector_logistic\\model_bundle",
+  "vector_asset_sha256": "0cd4fee926498f8ac97901e76d0ed2f1826b817faa3664ffe031f8dc32523b87",
+  "alpha_grid": [
+    {
+      "alpha": 0.0,
+      "correct": 720,
+      "n": 798,
+      "accuracy": 90.22556390977444
+    },
+    {
+      "alpha": 0.125,
+      "correct": 721,
+      "n": 798,
+      "accuracy": 90.35087719298245
+    },
+    {
+      "alpha": 0.25,
+      "correct": 723,
+      "n": 798,
+      "accuracy": 90.6015037593985
+    },
+    {
+      "alpha": 0.5,
+      "correct": 722,
+      "n": 798,
+      "accuracy": 90.47619047619048
+    },
+    {
+      "alpha": 1.0,
+      "correct": 721,
+      "n": 798,
+      "accuracy": 90.35087719298245
+    },
+    {
+      "alpha": 2.0,
+      "correct": 712,
+      "n": 798,
+      "accuracy": 89.22305764411027
+    },
+    {
+      "alpha": 4.0,
+      "correct": 708,
+      "n": 798,
+      "accuracy": 88.7218045112782
+    },
+    {
+      "alpha": 8.0,
+      "correct": 708,
+      "n": 798,
+      "accuracy": 88.7218045112782
+    }
+  ],
+  "selected_alpha": 0.25,
+  "selection_data": "validation only",
+  "source_sha256": {
+    "vector_vote_fusion.py": "7d2f31652b2020ffc8ca501cc4e85a2cbf772797ab072eb8997a789bbf7985fd",
+    "run_fusion_experiments.py": "0fda27f7edbb2399ceb5ecfa66610fde7b9a6557603798f7ce8fee48d8c02258",
+    "vector_logistic.py": "747a32d8986504594bcb7e459ff9e52c56e1faf64bb2063b9f099cc4c64f05f6",
+    "baseline_majority.py": "322b302499d2f14e5220dead38d994397490849920a0cea9eb62046a41b2461e",
+    "check_fusion.py": "0c919cff7e08a1f7f16df1bcef4fea605253f7c633020d33ecf73c49a80211c9"
+  },
+  "variants": {
+    "valid_only": {
+      "config": {
+        "mode": "valid_only",
+        "alpha": 0.0,
+        "vector_model_sha256": "0cd4fee926498f8ac97901e76d0ed2f1826b817faa3664ffe031f8dc32523b87",
+        "formula": "raw vector logit + alpha*(same parsed answer count - 1)",
+        "invalid_candidates": "excluded; all invalid falls back to zero",
+        "ties": "earliest candidate among equal final scores",
+        "selection": "validation only, accuracy then smaller alpha",
+        "numpy_version": "2.5.3"
+      },
+      "validation_correct": 720,
+      "validation_accuracy": 90.22556390977444,
+      "assets": {
+        "config.json": "8367e54361ad8c5b27cf7b9a2547e16189e1a09b1b5e57416d7b9fd4df3ff948",
+        "model.npz": "0cd4fee926498f8ac97901e76d0ed2f1826b817faa3664ffe031f8dc32523b87"
+      },
+      "asset_bytes": 9140
+    },
+    "vote_first": {
+      "config": {
+        "mode": "vote_first",
+        "alpha": 0.0,
+        "vector_model_sha256": "0cd4fee926498f8ac97901e76d0ed2f1826b817faa3664ffe031f8dc32523b87",
+        "formula": "raw vector logit + alpha*(same parsed answer count - 1)",
+        "invalid_candidates": "excluded; all invalid falls back to zero",
+        "ties": "earliest candidate among equal final scores",
+        "selection": "validation only, accuracy then smaller alpha",
+        "numpy_version": "2.5.3"
+      },
+      "validation_correct": 708,
+      "validation_accuracy": 88.7218045112782,
+      "assets": {
+        "config.json": "9c3eef63731530ec4d2cbd621e31cdc96d3a83b417ea6bfbc9a43bb0986d85d1",
+        "model.npz": "0cd4fee926498f8ac97901e76d0ed2f1826b817faa3664ffe031f8dc32523b87"
+      },
+      "asset_bytes": 9140
+    },
+    "weighted": {
+      "config": {
+        "mode": "weighted",
+        "alpha": 0.25,
+        "vector_model_sha256": "0cd4fee926498f8ac97901e76d0ed2f1826b817faa3664ffe031f8dc32523b87",
+        "formula": "raw vector logit + alpha*(same parsed answer count - 1)",
+        "invalid_candidates": "excluded; all invalid falls back to zero",
+        "ties": "earliest candidate among equal final scores",
+        "selection": "validation only, accuracy then smaller alpha",
+        "numpy_version": "2.5.3"
+      },
+      "validation_correct": 723,
+      "validation_accuracy": 90.6015037593985,
+      "assets": {
+        "config.json": "06da0ca329bbab353390c82faf9fcd8b9048098f6ad09771c3b6de2a494caf9a",
+        "model.npz": "0cd4fee926498f8ac97901e76d0ed2f1826b817faa3664ffe031f8dc32523b87"
+      },
+      "asset_bytes": 9139
+    }
+  }
+}

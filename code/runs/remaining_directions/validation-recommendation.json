@@ -1,0 +1,6 @@
+{
+  "method": "linear_text_weighted",
+  "validation_correct": 746,
+  "checkpoint": "runs\\remaining_directions\\linear_text_weighted\\model_bundle",
+  "basis": "validation accuracy; ties preserve earlier simpler model"
+}

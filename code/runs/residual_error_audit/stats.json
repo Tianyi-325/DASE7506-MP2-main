@@ -1,0 +1,41 @@
+{
+  "source": "validation residuals of focused-round selected baseline; train OOF diagnostics; no test case/reference access",
+  "n": 798,
+  "wrong": 51,
+  "wrong_by_gold_candidate_count": {
+    "1": 42,
+    "2": 9
+  },
+  "selected_leader": 41,
+  "selected_wrong_unique_plurality": 23,
+  "selected_wrong_tied_leader": 18,
+  "gold_has_more_votes_than_selected": 5,
+  "all_focused_wrong": 36,
+  "validation_oracle_correct_among56": 762,
+  "reference_models": {
+    "current": {
+      "correct": 747,
+      "also_wrong_on_current_wrong": 51,
+      "fix_current_errors": 0
+    },
+    "mature_text": {
+      "correct": 746,
+      "also_wrong_on_current_wrong": 51,
+      "fix_current_errors": 0
+    },
+    "historical_joint": {
+      "correct": 746,
+      "also_wrong_on_current_wrong": 47,
+      "fix_current_errors": 4
+    }
+  },
+  "warning": "Oracle uses validation labels and is only a complementarity upper bound, never an implementable selector.",
+  "train_oof": {
+    "wrong_each_seed": [
+      400,
+      399
+    ],
+    "wrong_both": 339,
+    "wrong_either": 460
+  }
+}

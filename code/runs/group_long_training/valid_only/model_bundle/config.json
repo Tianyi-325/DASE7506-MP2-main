@@ -1,0 +1,26 @@
+{
+  "mode": "valid_only",
+  "alpha": 0.0,
+  "training": {
+    "schedule": "cosine",
+    "l2": 0.001,
+    "epoch": 360,
+    "lr": 0.028952081069798644,
+    "validation_group_loss": 0.25704506039619446,
+    "validation_correct": {
+      "valid_only": 733,
+      "weighted": 734
+    },
+    "gradient_norm_before_step": 0.00024806958390399814,
+    "elapsed_trajectory_seconds": 2.785423200000878
+  },
+  "objective": "multi-positive group likelihood",
+  "selection": "valid_only validation accuracy, ties by validation group loss",
+  "alpha_policy": "fixed 0.25; not searched",
+  "standardization": "train only folded into weight and bias",
+  "device": "cpu",
+  "threads": 4,
+  "seed": 2026,
+  "numpy": "2.5.3",
+  "torch_training": "2.7.1+cu126"
+}

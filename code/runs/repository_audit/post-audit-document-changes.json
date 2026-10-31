@@ -1,0 +1,19 @@
+{
+  "changes": [
+    {
+      "path": "README.md",
+      "purpose": "Publish this audit checklist and link it from project README",
+      "previous_sha256": "f5545c21abc07c50cb2fa07bf7a9057c2c98a8de20a6763a41bd176ee3990cb8",
+      "current_sha256": "c55a8b44f1ab71f48e44e4098907d48345b5bcd9e897b022daa3701432577a71"
+    },
+    {
+      "path": "PROJECT_CHECKLIST.md",
+      "purpose": "Publish this audit checklist and link it from project README",
+      "previous_sha256": null,
+      "current_sha256": "c76fab68ca9d286bb42c51f766947f2800872cc071b9baa12b4b291e95308452"
+    }
+  ],
+  "local_links_passed": true,
+  "broken_links": [],
+  "frozen_model_not_changed": true
+}

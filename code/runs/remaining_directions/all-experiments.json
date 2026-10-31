@@ -1,0 +1,186 @@
+[
+  {
+    "stage": "基线",
+    "name": "多数投票",
+    "validation_correct": 688,
+    "validation_accuracy": 86.2155388471178,
+    "test_correct": 323,
+    "test_accuracy": 69.16488222698072
+  },
+  {
+    "stage": "独立向量",
+    "name": "线性BCE，无屏蔽",
+    "validation_correct": 716,
+    "validation_accuracy": 89.72431077694236,
+    "test_correct": 358,
+    "test_accuracy": 76.65952890792292
+  },
+  {
+    "stage": "投票融合",
+    "name": "valid_only",
+    "validation_correct": 720,
+    "validation_accuracy": 90.22556390977444,
+    "test_correct": 361,
+    "test_accuracy": 77.30192719486081
+  },
+  {
+    "stage": "投票融合",
+    "name": "vote_first",
+    "validation_correct": 708,
+    "validation_accuracy": 88.7218045112782,
+    "test_correct": 353,
+    "test_accuracy": 75.58886509635974
+  },
+  {
+    "stage": "投票融合",
+    "name": "weighted",
+    "validation_correct": 723,
+    "validation_accuracy": 90.6015037593985,
+    "test_correct": 369,
+    "test_accuracy": 79.01498929336188
+  },
+  {
+    "stage": "目标对齐",
+    "name": "group_valid_only",
+    "validation_correct": 733,
+    "validation_accuracy": 91.8546365914787,
+    "test_correct": 369,
+    "test_accuracy": 79.01498929336188
+  },
+  {
+    "stage": "目标对齐",
+    "name": "group_weighted",
+    "validation_correct": 734,
+    "validation_accuracy": 91.97994987468671,
+    "test_correct": 371,
+    "test_accuracy": 79.44325481798715
+  },
+  {
+    "stage": "充分训练",
+    "name": "long_valid_only",
+    "validation_correct": 733,
+    "validation_accuracy": 91.8546365914787,
+    "test_correct": 369,
+    "test_accuracy": 79.01498929336188
+  },
+  {
+    "stage": "充分训练",
+    "name": "long_weighted",
+    "validation_correct": 734,
+    "validation_accuracy": 91.97994987468671,
+    "test_correct": 371,
+    "test_accuracy": 79.44325481798715
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "linear_control_valid_only",
+    "validation_correct": 733,
+    "validation_accuracy": 91.8546365914787,
+    "test_correct": 369,
+    "test_accuracy": 79.01498929336188
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "linear_control_weighted",
+    "validation_correct": 734,
+    "validation_accuracy": 91.97994987468671,
+    "test_correct": 371,
+    "test_accuracy": 79.44325481798715
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "linear_text_valid_only",
+    "validation_correct": 743,
+    "validation_accuracy": 93.10776942355889,
+    "test_correct": 386,
+    "test_accuracy": 82.65524625267666
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "linear_text_weighted",
+    "validation_correct": 746,
+    "validation_accuracy": 93.48370927318295,
+    "test_correct": 387,
+    "test_accuracy": 82.86937901498929
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "linear_calc_valid_only",
+    "validation_correct": 735,
+    "validation_accuracy": 92.10526315789474,
+    "test_correct": 375,
+    "test_accuracy": 80.29978586723769
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "linear_calc_weighted",
+    "validation_correct": 741,
+    "validation_accuracy": 92.85714285714286,
+    "test_correct": 379,
+    "test_accuracy": 81.15631691648822
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "linear_textcalc_valid_only",
+    "validation_correct": 742,
+    "validation_accuracy": 92.98245614035088,
+    "test_correct": 385,
+    "test_accuracy": 82.44111349036403
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "linear_textcalc_weighted",
+    "validation_correct": 742,
+    "validation_accuracy": 92.98245614035088,
+    "test_correct": 385,
+    "test_accuracy": 82.44111349036403
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "mlp_valid_only",
+    "validation_correct": 731,
+    "validation_accuracy": 91.60401002506266,
+    "test_correct": 371,
+    "test_accuracy": 79.44325481798715
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "mlp_weighted",
+    "validation_correct": 732,
+    "validation_accuracy": 91.72932330827068,
+    "test_correct": 372,
+    "test_accuracy": 79.65738758029978
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "context_valid_only",
+    "validation_correct": 729,
+    "validation_accuracy": 91.35338345864662,
+    "test_correct": 353,
+    "test_accuracy": 75.58886509635974
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "context_weighted",
+    "validation_correct": 732,
+    "validation_accuracy": 91.72932330827068,
+    "test_correct": 354,
+    "test_accuracy": 75.80299785867237
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "context_textcalc_valid_only",
+    "validation_correct": 737,
+    "validation_accuracy": 92.35588972431077,
+    "test_correct": 372,
+    "test_accuracy": 79.65738758029978
+  },
+  {
+    "stage": "本轮三方向",
+    "name": "context_textcalc_weighted",
+    "validation_correct": 738,
+    "validation_accuracy": 92.4812030075188,
+    "test_correct": 374,
+    "test_accuracy": 80.08565310492506
+  }
+]

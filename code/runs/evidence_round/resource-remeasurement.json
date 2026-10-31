@@ -1,0 +1,17 @@
+{
+  "reason": "Remove overlap with supplementary control freeze preparation; fixed models unchanged",
+  "records": [
+    {
+      "variant": "no_style_refit_verify_r3",
+      "split": "validation",
+      "previous_seconds": 4.899504799999704,
+      "new_seconds": 4.642929399999048
+    },
+    {
+      "variant": "no_style_refit_verify_r3",
+      "split": "test",
+      "previous_seconds": 3.0324000000000524,
+      "new_seconds": 2.8535867999999027
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "latest": {
+    "family": "joint_relations",
+    "input": "relations",
+    "pool": "logmeanexp",
+    "l2": 0.1,
+    "epoch": 360,
+    "validation_correct": {
+      "0.0": 740,
+      "0.25": 735
+    },
+    "validation_objective": 0.19215352833271027
+  },
+  "completed_checkpoints": 37
+}

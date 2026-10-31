@@ -1,0 +1,392 @@
+{
+  "basis": "Local guide and repository evidence; no external submissions verified",
+  "tasks": [
+    {
+      "id": "01",
+      "category": "任务与实现",
+      "requirement": "明确任务和研究问题",
+      "status": "已完成",
+      "evidence_summary": "从四份候选选正确最终数值；研究相对数学证据对联合答案组评分的补充价值。",
+      "evidence": "README.md；code/REPORT_OUTLINE.md",
+      "remaining": "写入正式报告。"
+    },
+    {
+      "id": "02",
+      "category": "任务与实现",
+      "requirement": "本机运行环境及依赖版本",
+      "status": "已完成",
+      "evidence_summary": "Python3.12、NumPy2.5.3；CPU训练使用PyTorch2.7.1；依赖文件存在。",
+      "evidence": "code/requirements.txt；code/requirements-vector.txt",
+      "remaining": "干净环境的安装验证另见28。"
+    },
+    {
+      "id": "03",
+      "category": "任务与实现",
+      "requirement": "原始数据、解析器和评分器保持不变",
+      "status": "已完成",
+      "evidence_summary": "PACKAGE_MANIFEST中20文件逐一hash匹配；包含原始code/README.md。",
+      "evidence": "code/runs/repository_audit/audit-results.json",
+      "remaining": "最终打包继续保留原文件及许可证。"
+    },
+    {
+      "id": "04",
+      "category": "任务与实现",
+      "requirement": "实现预测接口与0—3候选选择",
+      "status": "已完成",
+      "evidence_summary": "evidence_models.predict使用传入bank/arrays和checkpoint；允许替代submission.py。",
+      "evidence": "code/evidence_models.py；code/runs/evidence_round/checks.json",
+      "remaining": "原始submission.py仍为空不是缺陷；命令要明确--method。"
+    },
+    {
+      "id": "05",
+      "category": "任务与实现",
+      "requirement": "只用训练集拟合参数和预处理",
+      "status": "已完成",
+      "evidence_summary": "现有训练代码及记录中主干、残差、标准化按训练集拟合；OOF按题折内训练。",
+      "evidence": "code/evidence_training.py；code/run_evidence_round.py",
+      "remaining": "该判断基于代码/记录，不是对整个实验历史的独立取证。"
+    },
+    {
+      "id": "06",
+      "category": "任务与实现",
+      "requirement": "验证集开发与按题OOF协议",
+      "status": "已完成",
+      "evidence_summary": "种子211/509，两套三折，预处理与主干折内拟合，保留计划与选择记录。",
+      "evidence": "code/runs/evidence_round/plan.json；selection.json",
+      "remaining": "在报告注明重复开发带来的选择偏差。"
+    },
+    {
+      "id": "07",
+      "category": "任务与实现",
+      "requirement": "测试不训练与最终选模规则",
+      "status": "待澄清",
+      "evidence_summary": "未见用测试参考训练B；但用户在看过成绩后由原规则选中的A转为B，不能据此声称测试选模规则已满足。",
+      "evidence": "README.md；code/AI_DISCLOSURE.md；code/runs/evidence_round/selection.json",
+      "remaining": "如实说明过程；正式采用是否符合规定需解决，披露本身不豁免规则。"
+    },
+    {
+      "id": "08",
+      "category": "任务与实现",
+      "requirement": "无额外预训练权重或外部训练数据",
+      "status": "已完成",
+      "evidence_summary": "最终B使用课程固定向量和本项目训练的线性权重；未见额外数据/权重依赖。",
+      "evidence": "code/evidence_models.py；code/math_evidence.py；AI_DISCLOSURE.md",
+      "remaining": "保留数据来源归因。"
+    },
+    {
+      "id": "09",
+      "category": "任务与实现",
+      "requirement": "离线推理、无LLM/API新生成",
+      "status": "已完成",
+      "evidence_summary": "B的静态本地依赖闭包为8份源码，外部非标准库依赖只有NumPy。",
+      "evidence": "code/runs/repository_audit/audit-results.json",
+      "remaining": "干净包离线运行仍需28确认。"
+    },
+    {
+      "id": "10",
+      "category": "任务与实现",
+      "requirement": "新输入、未知ID、可变题数及候选重排",
+      "status": "已完成",
+      "evidence_summary": "0/1/7题、未知ID、重排、无效候选回退等已有通过记录；不依赖公开题号查表。",
+      "evidence": "code/runs/evidence_round/checks.json；code/runs/final_ablation/checks.json",
+      "remaining": "未获得老师独立audit bank，不能宣称已在该bank验证准确率。"
+    },
+    {
+      "id": "11",
+      "category": "实验与分析",
+      "requirement": "初始基线和改进方法比较",
+      "status": "已完成",
+      "evidence_summary": "多数投票、向量、文本/投票、答案组、证据残差等均有记录。",
+      "evidence": "code/EXPERIMENT_SUMMARY.md；code/runs/*/REPORT.md",
+      "remaining": "报告筛选关键对照，避免将跨协议发展路线都称为单因素消融。"
+    },
+    {
+      "id": "12",
+      "category": "实验与分析",
+      "requirement": "关键设计消融",
+      "status": "已完成",
+      "evidence_summary": "同joint主干下S/V/R八个直接输入子集及无主干控制已齐；补充21次残差拟合。",
+      "evidence": "code/FINAL_MODEL_ABLATION.md；code/runs/final_ablation/",
+      "remaining": "报告说明R的上游依赖，删除直接S/V不是彻底移除对应信息来源。"
+    },
+    {
+      "id": "13",
+      "category": "实验与分析",
+      "requirement": "结构、正则、门控和组合实验",
+      "status": "已完成",
+      "evidence_summary": "已有重训/残差、两档L2、门控、双/三模型组合记录。",
+      "evidence": "code/FINAL_MODEL_ABLATION.md；code/runs/evidence_round/REPORT.md",
+      "remaining": "重训vs残差同时改变优化器，归因需克制。"
+    },
+    {
+      "id": "14",
+      "category": "实验与分析",
+      "requirement": "错误与失败案例分析",
+      "status": "已完成",
+      "evidence_summary": "有验证错题分类、覆盖率、修复/破坏、候选文本与证据案例。",
+      "evidence": "code/runs/residual_error_audit/；code/runs/evidence_round/validation-case-studies.json",
+      "remaining": "正式报告选成功和失败各有代表性的案例；旧51错题不能当B的47错题。"
+    },
+    {
+      "id": "15",
+      "category": "实验与分析",
+      "requirement": "置信度校准、更多外部方法或训练轮次",
+      "status": "可选或条件性",
+      "evidence_summary": "指南提出研究问题供选择，不要求所有方向都做完；不能把分差直接称为已校准概率。",
+      "evidence": "guide/GUIDE.md；code/REPORT_OUTLINE.md",
+      "remaining": "无需为完成作业继续无目标搜索；若声称校准能力则需对应证据。"
+    },
+    {
+      "id": "16",
+      "category": "资源与冻结",
+      "requirement": "训练资源符合CPU/单GPU上限",
+      "status": "已完成",
+      "evidence_summary": "现有实验为CPU训练，未使用超过RTX4090的GPU。",
+      "evidence": "各轮实验与训练记录",
+      "remaining": "最终报告记录实际硬件和搜索成本。"
+    },
+    {
+      "id": "17",
+      "category": "资源与冻结",
+      "requirement": "CPU四线程完整本机评估",
+      "status": "已完成",
+      "evidence_summary": "设置各数值库4线程；记录新预测进程+独立评分，B约3.05秒。",
+      "evidence": "code/runs/evidence_round/official-results.json；compliance.json",
+      "remaining": "本机结果不能代替参考机器资格测量。"
+    },
+    {
+      "id": "18",
+      "category": "资源与冻结",
+      "requirement": "参考Xeon的30秒资格",
+      "status": "待确认",
+      "evidence_summary": "参考Xeon Platinum8457C尚未实测；课程以参考CPU为准。",
+      "evidence": "guide/GUIDE.md；code/runs/evidence_round/compliance.json",
+      "remaining": "由参考评测确认；不意味着学生必须自行购置相同机器。"
+    },
+    {
+      "id": "19",
+      "category": "资源与冻结",
+      "requirement": "推理资产不超过16MiB",
+      "status": "已完成",
+      "evidence_summary": "B的config.json和member0.npz未压缩合计22399字节；统计/权重/config均计入。",
+      "evidence": "code/runs/evidence_round/freeze.json",
+      "remaining": "最终打包如新增推理资产，应重新汇总。"
+    },
+    {
+      "id": "20",
+      "category": "资源与冻结",
+      "requirement": "checkpoint、参数及配置可用",
+      "status": "已完成",
+      "evidence_summary": "B模型bundle两文件存在；来源源码/模型hash与原freeze匹配。",
+      "evidence": "code/runs/evidence_round/variants/joint_residual_relative_r3/model_bundle/",
+      "remaining": "发布时包含这两个文件及8份推理依赖源码、官方runner/scorer。"
+    },
+    {
+      "id": "21",
+      "category": "资源与冻结",
+      "requirement": "官方预测与最终评分JSON",
+      "status": "已完成",
+      "evidence_summary": "保存467题预测、官方评分401/467=85.86723768736617%；本次重新评分一致。",
+      "evidence": "code/runs/evidence_round/official/joint_residual_relative_r3/",
+      "remaining": "网站填写accuracy百分数，不填0.8587，也不是上传测试原始数据。"
+    },
+    {
+      "id": "22",
+      "category": "资源与冻结",
+      "requirement": "种子、超参数、hash及搜索成本记录",
+      "status": "部分完成",
+      "evidence_summary": "各轮JSON/文档记录齐全，但最终报告尚未归并关键训练/搜索成本。",
+      "evidence": "code/runs/*/plan.json；freeze.json；各轮REPORT.md",
+      "remaining": "在正式报告和交付清单集中列出，分清单次B训练与全搜索成本。"
+    },
+    {
+      "id": "23",
+      "category": "文档与复现",
+      "requirement": "项目README与官方工具说明",
+      "status": "已完成",
+      "evidence_summary": "根README新增项目入口，原始code/README.md保留。",
+      "evidence": "README.md；code/README.md",
+      "remaining": "随最终包路径更新命令。"
+    },
+    {
+      "id": "24",
+      "category": "文档与复现",
+      "requirement": "精确安装、训练、评估命令",
+      "status": "部分完成",
+      "evidence_summary": "已有分散复现文档和固定版本依赖；部分命令依赖mp1环境或历史实验文件。",
+      "evidence": "code/EVIDENCE_EXPERIMENTS.md；其他实验说明",
+      "remaining": "整理从干净目录开始的完整命令与前提，不能只写conda activate mp1。"
+    },
+    {
+      "id": "25",
+      "category": "文档与复现",
+      "requirement": "完整训练复现流程",
+      "status": "部分完成",
+      "evidence_summary": "训练源码齐全，工作区实验已跑通；原流程还核对历史预测文件，未验证精简交付包从零复现。",
+      "evidence": "code/run_evidence_round.py及其依赖",
+      "remaining": "明确保留哪些历史校验材料，或整理等价的B训练入口并验证。"
+    },
+    {
+      "id": "26",
+      "category": "文档与复现",
+      "requirement": "冻结模型无需重训即可评估",
+      "status": "已完成",
+      "evidence_summary": "现有工作区加载B资产即可官方预测/评分；不是依赖训练缓存查答案。",
+      "evidence": "README.md；code/evidence_models.py",
+      "remaining": "最小包能否独立完成尚需28。"
+    },
+    {
+      "id": "27",
+      "category": "文档与复现",
+      "requirement": "最小完整提交包",
+      "status": "未完成",
+      "evidence_summary": "目前是约625.5MiB研究工作区，包含大量缓存、旧权重与开发日志；尚无独立交付目录/清单。",
+      "evidence": "code/runs/repository_audit/file-inventory.json",
+      "remaining": "整理必要源码、checkpoint、报告、评分/复现记录和许可证，区分实验归档与推理包。"
+    },
+    {
+      "id": "28",
+      "category": "文档与复现",
+      "requirement": "干净环境独立复现检查",
+      "status": "未完成",
+      "evidence_summary": "没有独立目录/新环境的复现记录；此前均为当前工作区检查。",
+      "evidence": "README.md明确列为待完成",
+      "remaining": "这是验证硬性可复现要求的推荐办法：仅按交付说明安装，离线加载B复现401并核对资源。"
+    },
+    {
+      "id": "29",
+      "category": "文档与复现",
+      "requirement": "稳定代码版本与对应模型标识",
+      "status": "部分完成",
+      "evidence_summary": "有源码hash快照和明确B路径，但没有.git元数据或公开release/commit标识证据。",
+      "evidence": "code/runs/evidence_round/freeze.json；all-python-sources.json",
+      "remaining": "公开发布时固定版本并绑定checkpoint及官方评分。"
+    },
+    {
+      "id": "30",
+      "category": "报告与披露",
+      "requirement": "正式课程报告不超过10页",
+      "status": "部分完成",
+      "evidence_summary": "英文LaTeX成稿report/main.tex和6张生成表已完成，源码静态检查通过；本机无TeX编译器，页数/视觉排版未验证。",
+      "evidence": "report/main.tex；report/build_status.json",
+      "remaining": "填写学号、本人复核、补公开版本链接、编译并确认不超过10页。"
+    },
+    {
+      "id": "31",
+      "category": "报告与披露",
+      "requirement": "正式报告的内容完整性",
+      "status": "部分完成",
+      "evidence_summary": "研究问题、方法、协议、关键对照、消融、失败、可靠性、资源、局限和真实选模历史已写入英文LaTeX成稿。",
+      "evidence": "report/main.tex；report/data/report_facts.json",
+      "remaining": "完成学生本人审阅、事实校对和编译后的图表/页数检查。"
+    },
+    {
+      "id": "32",
+      "category": "报告与披露",
+      "requirement": "AI辅助详细披露",
+      "status": "部分完成",
+      "evidence_summary": "详细披露稿、根README和报告末尾均已有实质AI辅助披露；个人理解与人工核验范围仍待本人确认。",
+      "evidence": "code/AI_DISCLOSURE.md；README.md；report/main.tex",
+      "remaining": "本人确认内容与责任范围，保留正式报告披露。"
+    },
+    {
+      "id": "33",
+      "category": "报告与披露",
+      "requirement": "数据、软件和公开方法归因",
+      "status": "部分完成",
+      "evidence_summary": "LICENSE/NOTICE保留；文档列出GSM8K/Qwen、软件与公开思想来源。",
+      "evidence": "code/data/LICENSE.txt；NOTICE.txt；code/BROAD_EXPERIMENTS.md",
+      "remaining": "正式报告引用实际使用/讨论的来源，不把未进入B的方法写入B结构。"
+    },
+    {
+      "id": "34",
+      "category": "报告与披露",
+      "requirement": "本人理解与个人课程责任",
+      "status": "待确认",
+      "evidence_summary": "指南为个人课程并要求理解实现，AI文档不能证明学生已掌握所有内容。",
+      "evidence": "guide/GUIDE.md；code/AI_DISCLOSURE.md",
+      "remaining": "本人能解释特征、组目标、残差、消融与局限，核对报告和代码。"
+    },
+    {
+      "id": "35",
+      "category": "发布与提交",
+      "requirement": "处理.gitignore忽略runs的问题",
+      "status": "未完成",
+      "evidence_summary": "现有.gitignore包含runs/；B的checkpoint、预测、官方评分和研究记录均在忽略范围内。",
+      "evidence": ".gitignore；B bundle及official目录",
+      "remaining": "把发布资产移入专用可发布目录，或只对必要文件明确纳入；不能假定git add .会上传。"
+    },
+    {
+      "id": "36",
+      "category": "发布与提交",
+      "requirement": "公开代码仓库链接",
+      "status": "待确认",
+      "evidence_summary": "本地没有已发布项目仓库链接/版本凭证；原课程仓库链接不能替代自己的提交代码。",
+      "evidence": "README.md；本地无.git",
+      "remaining": "如已在外部发布需提供链接并检查公开可访问；否则创建并发布。"
+    },
+    {
+      "id": "37",
+      "category": "发布与提交",
+      "requirement": "checkpoint/config下载链接",
+      "status": "待确认",
+      "evidence_summary": "本地资产齐全，但未见已发布下载链接或下载验证。",
+      "evidence": "B本地model_bundle",
+      "remaining": "发布完整资产并从下载端核对hash，确保对应代码版本可直接加载。"
+    },
+    {
+      "id": "38",
+      "category": "发布与提交",
+      "requirement": "提交所需身份与准确率",
+      "status": "部分完成",
+      "evidence_summary": "准确率数值明确；仓库没有确认实际学号及提交账号。",
+      "evidence": "B官方test-score.json；指南",
+      "remaining": "填写真实学号，使用一致GitHub账号/学号；采用B的协议问题见07。"
+    },
+    {
+      "id": "39",
+      "category": "发布与提交",
+      "requirement": "网站最终条目含代码与模型链接",
+      "status": "待确认",
+      "evidence_summary": "仓库没有网站最终条目完成的凭证；不得据本地文件断言未在外部提交。",
+      "evidence": "guide/GUIDE.md第4节",
+      "remaining": "核对最终条目的学号、accuracy、公开代码链接、checkpoint链接。"
+    },
+    {
+      "id": "40",
+      "category": "发布与提交",
+      "requirement": "实际创建GitHub提交issue",
+      "status": "待确认",
+      "evidence_summary": "网站只准备issue链接；未见已实际创建issue的URL/编号凭证。",
+      "evidence": "guide/GUIDE.md第4节",
+      "remaining": "点击Submit on GitHub并实际创建issue，保存链接/编号确认提交。"
+    },
+    {
+      "id": "41",
+      "category": "发布与提交",
+      "requirement": "截止前完成最终代码/模型链接",
+      "status": "待确认",
+      "evidence_summary": "本地指南规定2026-10-31 23:59 UTC+8前最终条目应含链接；未核对网站外部状态。",
+      "evidence": "guide/GUIDE.md第4节",
+      "remaining": "按课程截止规则确认，不能把生成链接当提交完成。"
+    },
+    {
+      "id": "42",
+      "category": "提交后与可选项",
+      "requirement": "公开复核期间可复现与链接可用",
+      "status": "可选或条件性",
+      "evidence_summary": "课程在截止后由老师释放链接并进行7天公共复核，可有另一个audit bank。",
+      "evidence": "guide/GUIDE.md第4节",
+      "remaining": "保持公开版本/资产稳定可下载；真实新audit bank成绩目前未知。"
+    },
+    {
+      "id": "43",
+      "category": "提交后与可选项",
+      "requirement": "对其他提交开展peer review",
+      "status": "可选或条件性",
+      "evidence_summary": "指南给出复现他人并提交Peer Review Report的机制，没有明确要求每人必须做一份。",
+      "evidence": "guide/GUIDE.md第4节",
+      "remaining": "如参与，使用对方版本/checkpoint并提交实际复现分数。"
+    }
+  ]
+}

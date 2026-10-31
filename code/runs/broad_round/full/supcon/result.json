@@ -1,0 +1,29 @@
+{
+  "epochs": 12,
+  "curves": [
+    {
+      "epoch": 1,
+      "train_loss": 0.19508828222751617,
+      "contrast_loss": 1.00768101811409
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.18183445632457734,
+      "contrast_loss": 0.7744165778160095
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.1479862779378891,
+      "contrast_loss": 0.758397376537323
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.08774432241916656,
+      "contrast_loss": 0.7571183800697326
+    }
+  ],
+  "seconds": 1.1609936999993806,
+  "score_scale": 2.4733696294571055,
+  "method": "supcon",
+  "validation_correct": 739
+}

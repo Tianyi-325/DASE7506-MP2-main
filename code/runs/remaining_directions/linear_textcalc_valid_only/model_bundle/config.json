@@ -1,0 +1,62 @@
+{
+  "family": "linear_textcalc",
+  "architecture": "linear",
+  "features": "textcalc",
+  "mode": "valid_only",
+  "alpha": 0.0,
+  "training": {
+    "family": "linear_textcalc",
+    "architecture": "linear",
+    "features": "textcalc",
+    "config": {
+      "hidden": 0,
+      "regularization": 0.01,
+      "lr": 0.03
+    },
+    "seed": 2026,
+    "epoch": 360,
+    "validation_correct": {
+      "valid_only": 742,
+      "weighted": 742
+    },
+    "validation_group_loss": 0.1740349978208542,
+    "trajectory_seconds": 5.907356799999434
+  },
+  "selection": "valid_only validation count, then group loss; seed2026 only",
+  "feature_names": [
+    "log_chars",
+    "log_words",
+    "log_lines",
+    "log_numbers",
+    "log_question_words",
+    "word_overlap",
+    "number_coverage",
+    "new_number_fraction",
+    "hash_marker",
+    "boxed_marker",
+    "log_equal_signs",
+    "log_math_operators",
+    "log_steps",
+    "confidence_words",
+    "revision_words",
+    "has_valid_answer",
+    "answer_signed_log",
+    "answer_integer",
+    "answer_negative",
+    "answer_zero",
+    "answer_in_question",
+    "log_sentence_count",
+    "log_checked_equations",
+    "log_correct_equations",
+    "log_wrong_equations",
+    "wrong_ratio",
+    "max_relative_error_log",
+    "log_unrecognized_equations",
+    "no_checked_equations",
+    "answer_matches_checked_value"
+  ],
+  "standardization": "train-only",
+  "inference": "numpy",
+  "torch_training": "2.7.1+cu126",
+  "numpy": "2.5.3"
+}

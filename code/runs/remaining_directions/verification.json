@@ -1,0 +1,12 @@
+{
+  "frozen_assets_sources_verified": true,
+  "official_files_unchanged": true,
+  "variants": 14,
+  "input_sizes": [
+    0,
+    1,
+    7
+  ],
+  "candidate_permutation_and_new_id_checks": true,
+  "inference_imports_torch": false
+}

@@ -1,0 +1,14 @@
+{
+  "variants_checked": 20,
+  "frozen_hashes_pass": true,
+  "input_sizes": [
+    0,
+    1,
+    7
+  ],
+  "new_ids_and_candidate_permutations_pass": true,
+  "reference_base_reconstruction_pass": true,
+  "five_fold_records_and_coverage_pass": true,
+  "official_files_unchanged": true,
+  "inference_imports_torch": false
+}

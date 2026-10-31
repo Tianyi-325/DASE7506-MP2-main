@@ -1,0 +1,15 @@
+{
+  "fit_questions": 4755,
+  "loss_questions": 4755,
+  "preprocess_questions": 4755,
+  "disagreement_questions": 2114,
+  "loss_factor": 1.0,
+  "parameters": 1091,
+  "initial_objective": 0.37872951513134123,
+  "final_objective": 0.18271554866245146,
+  "gradient_norm": 5.032182001807605e-06,
+  "optimizer_iterations": 42,
+  "function_evaluations": 46,
+  "score_scale": 1.3666589080374758,
+  "seconds": 2.095499299999574
+}

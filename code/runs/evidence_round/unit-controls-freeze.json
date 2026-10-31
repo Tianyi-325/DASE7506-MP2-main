@@ -1,0 +1,33 @@
+{
+  "purpose": "Matched single-member normalization/vote units; main selection remains immutable",
+  "main_selected": "no_style_evidence_90",
+  "alpha": 0.125,
+  "controls": {
+    "normalized_no_style_control": {
+      "base": "no_style",
+      "oof_correct": [
+        4381,
+        4370
+      ],
+      "assets": {
+        "config.json": "a4cb2e618026063a640984e658c3742c3963d9070861d30f2c8095c7e37bc07c",
+        "member0.npz": "0ab8038808c5c3c181d5d12cff0c14dfee18238f56c4f0ceddc85fd7f336decc"
+      },
+      "asset_bytes": 15694
+    },
+    "normalized_joint_control": {
+      "base": "joint",
+      "oof_correct": [
+        4372,
+        4346
+      ],
+      "assets": {
+        "config.json": "3ce1f5e5e72bd45ee7a8d384e92f6bfd6f90bafc22c91ef9d9dede23d566adf5",
+        "member0.npz": "624d1456ccd7a1ad0513019560cd01f75a270e3d8001f0fc17773307a7a76a42"
+      },
+      "asset_bytes": 19970
+    }
+  },
+  "source_sha256": "ed94d968b29bd5b7485c442ee80dfe79499c7784dbc2ff367104e42e6ffe060d",
+  "no_new_fitting_or_selection": true
+}

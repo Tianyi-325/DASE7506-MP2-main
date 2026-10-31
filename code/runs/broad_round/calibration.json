@@ -1,0 +1,27 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "temperature": 1.0,
+      "held_n": 704,
+      "raw_nll": 0.4345953742181265,
+      "calibrated_nll": 0.4345953742181265
+    },
+    {
+      "fold": 1,
+      "temperature": 1.0,
+      "held_n": 705,
+      "raw_nll": 0.4404585842148054,
+      "calibrated_nll": 0.4404585842148054
+    },
+    {
+      "fold": 2,
+      "temperature": 1.0,
+      "held_n": 705,
+      "raw_nll": 0.45359946888560254,
+      "calibrated_nll": 0.45359946888560254
+    }
+  ],
+  "full_oof_temperature": 1.0,
+  "note": "Calibration does not change argmax or accuracy. Second-level OOF calibration diagnostic is not fully nested across base-model fits."
+}

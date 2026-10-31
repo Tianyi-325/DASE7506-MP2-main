@@ -1,0 +1,31 @@
+{
+  "family": "linear_control",
+  "architecture": "linear",
+  "features": "none",
+  "mode": "valid_only",
+  "alpha": 0.0,
+  "training": {
+    "family": "linear_control",
+    "architecture": "linear",
+    "features": "none",
+    "config": {
+      "hidden": 0,
+      "regularization": 0.001,
+      "lr": 0.03
+    },
+    "seed": 2026,
+    "epoch": 360,
+    "validation_correct": {
+      "valid_only": 733,
+      "weighted": 734
+    },
+    "validation_group_loss": 0.25707197189331055,
+    "trajectory_seconds": 5.63482600000043
+  },
+  "selection": "valid_only validation count, then group loss; seed2026 only",
+  "feature_names": [],
+  "standardization": "train-only",
+  "inference": "numpy",
+  "torch_training": "2.7.1+cu126",
+  "numpy": "2.5.3"
+}

@@ -1,0 +1,73 @@
+{
+  "epochs": 16,
+  "curves": [
+    {
+      "epoch": 1,
+      "train_loss": 0.14099508843251637,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.13505687351737702,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.07185088470578194,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.027188467660120556,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.009834005630442075,
+      "contrast_loss": 0.0
+    }
+  ],
+  "seconds": 0.7835121999996773,
+  "score_scale": 3.883608169676848,
+  "fold": 0,
+  "method": "residual_width32",
+  "inner": {
+    "epochs": 16,
+    "curves": [
+      {
+        "epoch": 1,
+        "train_loss": 0.12791409343481064,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.12061141679684322,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.06425471665958564,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 12,
+        "train_loss": 0.022479709548254807,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 16,
+        "train_loss": 0.008185180369764566,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 20,
+        "train_loss": 0.0034777303226292133,
+        "contrast_loss": 0.0
+      }
+    ],
+    "seconds": 0.7951393999992433,
+    "score_scale": 3.878834405077751
+  },
+  "held_correct": 1443,
+  "held_n": 1585
+}

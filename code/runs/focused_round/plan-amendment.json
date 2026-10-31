@@ -1,0 +1,9 @@
+{
+  "reason": "Binary/duplicate hinges can reproduce linear terms and alter effective regularization; add controls removing their source affine component.",
+  "observed_before_amendment": "Training OOF and full-refit validation prediction assets existed. No focused-round test prediction/scoring had occurred.",
+  "original_configs": 35,
+  "added_configs": 8,
+  "total_configs": 43,
+  "selection_gates_unchanged": true,
+  "original_plan": "plan-initial.json"
+}

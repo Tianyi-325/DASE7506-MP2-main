@@ -1,0 +1,7 @@
+{
+  "method": "simple_blend_weighted",
+  "correct": 749,
+  "checkpoint": "runs\\priority_refinements\\simple_blend_weighted\\model_bundle",
+  "basis": "validation accuracy; ties preserve earlier/previous model",
+  "method_file": "refinement_models.py"
+}

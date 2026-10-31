@@ -1,0 +1,39 @@
+{
+  "method": "independent_embedding_logistic_regression",
+  "seed": 2026,
+  "training_device": "cpu",
+  "threads": 4,
+  "optimizer": "Adam",
+  "learning_rate": 0.03,
+  "loss": "candidate BCE + 0.5*l2*sum(weight**2)",
+  "positive_label": "official parsed numeric answer matches gold",
+  "standardization": "train-only mean/std, folded into exported coefficients",
+  "selected_by": "validation selection accuracy; ties by candidate NLL",
+  "selected": {
+    "l2": 0.01,
+    "epoch": 120,
+    "validation_correct": 716,
+    "validation_n": 798,
+    "validation_accuracy": 89.72431077694236,
+    "validation_candidate_nll": 0.4187485884678429,
+    "elapsed_for_l2_seconds": 0.6609501000002638
+  },
+  "grid": {
+    "l2": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "epochs": [
+      40,
+      80,
+      120
+    ]
+  },
+  "train_questions": 4755,
+  "train_positive_fraction": 0.7546266913414001,
+  "dependencies": {
+    "numpy": "2.5.3",
+    "torch": "2.7.1+cu126"
+  }
+}

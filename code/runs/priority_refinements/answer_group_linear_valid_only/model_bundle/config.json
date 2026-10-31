@@ -1,0 +1,24 @@
+{
+  "kind": "group_linear",
+  "family": "answer_group_linear",
+  "alpha": 0.0,
+  "selection": {
+    "family": "answer_group_linear",
+    "kind": "group_linear",
+    "metadata": {
+      "l2": 0.001,
+      "epoch": 100,
+      "meta_fit": "question-level train OOF scores; full-train bases at inference"
+    },
+    "validation_correct": {
+      "0.0": 745
+    },
+    "validation_group_loss": 0.185974519334185,
+    "training_objective": 0.18140561878681183
+  },
+  "device": "cpu",
+  "threads": 4,
+  "seed": 2026,
+  "numpy": "2.5.3",
+  "torch_training": "2.7.1+cu126"
+}

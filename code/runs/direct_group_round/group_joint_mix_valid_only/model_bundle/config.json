@@ -1,0 +1,32 @@
+{
+  "members": [
+    {
+      "input": "base",
+      "pool": "logmeanexp",
+      "family": "group_logmeanexp"
+    },
+    {
+      "input": "joint",
+      "pool": "mean",
+      "family": "joint_group"
+    }
+  ],
+  "weights": [
+    0.5,
+    0.5
+  ],
+  "alpha": 0.0,
+  "metadata": {
+    "left": "group_logmeanexp",
+    "right": "joint_group",
+    "left_weight": 0.5
+  },
+  "seed": 2026,
+  "device": "cpu",
+  "threads": 4,
+  "scaling": "train within-question centered score std",
+  "family": "group_joint_mix",
+  "validation_correct": 750,
+  "numpy": "2.5.3",
+  "torch_training": "2.7.1+cu126"
+}

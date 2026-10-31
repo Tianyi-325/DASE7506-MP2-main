@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "family": "lexical_tfidf",
+    "kind": "lexical",
+    "metadata": {
+      "hash_dimensions": 16384,
+      "token_l2": 0.01,
+      "base_l2": 0.01,
+      "epoch": 360,
+      "tokenization": "candidate word unigrams/bigrams; numeric identities normalized; CRC32 hashing; train-only IDF"
+    },
+    "validation_correct": {
+      "0.0": 742,
+      "0.25": 746
+    },
+    "validation_group_loss": 0.17345966296546744,
+    "training_objective": 0.172617569565773
+  },
+  "completed_validation_checks": 52
+}

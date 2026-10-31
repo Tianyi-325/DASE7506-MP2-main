@@ -1,0 +1,293 @@
+{
+  "created_utc": "2026-10-31T08:46:35Z",
+  "specs": {
+    "full_all_linear_l210": {
+      "features": "full",
+      "style": "all",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "all"
+    },
+    "full_all_linear_l220": {
+      "features": "full",
+      "style": "all",
+      "basis": "linear",
+      "l2": 0.02,
+      "policy": "all"
+    },
+    "full_all_hinges_l210": {
+      "features": "full",
+      "style": "all",
+      "basis": "hinges",
+      "l2": 0.01,
+      "policy": "all"
+    },
+    "full_all_hinges_l220": {
+      "features": "full",
+      "style": "all",
+      "basis": "hinges",
+      "l2": 0.02,
+      "policy": "all"
+    },
+    "full_all_interactions_l210": {
+      "features": "full",
+      "style": "all",
+      "basis": "interactions",
+      "l2": 0.01,
+      "policy": "all"
+    },
+    "full_all_interactions_l220": {
+      "features": "full",
+      "style": "all",
+      "basis": "interactions",
+      "l2": 0.02,
+      "policy": "all"
+    },
+    "full_all_both_l210": {
+      "features": "full",
+      "style": "all",
+      "basis": "both",
+      "l2": 0.01,
+      "policy": "all"
+    },
+    "full_all_both_l220": {
+      "features": "full",
+      "style": "all",
+      "basis": "both",
+      "l2": 0.02,
+      "policy": "all"
+    },
+    "full_broad_linear_l210": {
+      "features": "full",
+      "style": "broad",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "all"
+    },
+    "full_broad_linear_l220": {
+      "features": "full",
+      "style": "broad",
+      "basis": "linear",
+      "l2": 0.02,
+      "policy": "all"
+    },
+    "full_broad_hinges_l210": {
+      "features": "full",
+      "style": "broad",
+      "basis": "hinges",
+      "l2": 0.01,
+      "policy": "all"
+    },
+    "full_broad_hinges_l220": {
+      "features": "full",
+      "style": "broad",
+      "basis": "hinges",
+      "l2": 0.02,
+      "policy": "all"
+    },
+    "full_broad_interactions_l210": {
+      "features": "full",
+      "style": "broad",
+      "basis": "interactions",
+      "l2": 0.01,
+      "policy": "all"
+    },
+    "full_broad_interactions_l220": {
+      "features": "full",
+      "style": "broad",
+      "basis": "interactions",
+      "l2": 0.02,
+      "policy": "all"
+    },
+    "full_broad_both_l210": {
+      "features": "full",
+      "style": "broad",
+      "basis": "both",
+      "l2": 0.01,
+      "policy": "all"
+    },
+    "full_broad_both_l220": {
+      "features": "full",
+      "style": "broad",
+      "basis": "both",
+      "l2": 0.02,
+      "policy": "all"
+    },
+    "base_all_linear_l210": {
+      "features": "base",
+      "style": "all",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "all"
+    },
+    "base_narrow_linear_l210": {
+      "features": "base",
+      "style": "narrow",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "all"
+    },
+    "base_broad_linear_l210": {
+      "features": "base",
+      "style": "broad",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "all"
+    },
+    "base_all_linear_l220": {
+      "features": "base",
+      "style": "all",
+      "basis": "linear",
+      "l2": 0.02,
+      "policy": "all"
+    },
+    "full_narrow_linear_l210": {
+      "features": "full",
+      "style": "narrow",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "all"
+    },
+    "base_all_informative_full": {
+      "features": "base",
+      "style": "all",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "informative_full"
+    },
+    "base_all_informative_mean": {
+      "features": "base",
+      "style": "all",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "informative_mean"
+    },
+    "base_all_hard_full": {
+      "features": "base",
+      "style": "all",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "hard_full"
+    },
+    "base_all_hard_mean": {
+      "features": "base",
+      "style": "all",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "hard_mean"
+    },
+    "base_all_hard_mask_full": {
+      "features": "base",
+      "style": "all",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "hard_mask_full"
+    },
+    "base_all_all_mask_full": {
+      "features": "base",
+      "style": "all",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "all_mask_full"
+    },
+    "base_all_hard_prep_mean": {
+      "features": "base",
+      "style": "all",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "hard_prep_mean"
+    },
+    "full_broad_informative_full": {
+      "features": "full",
+      "style": "broad",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "informative_full"
+    },
+    "full_broad_informative_mean": {
+      "features": "full",
+      "style": "broad",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "informative_mean"
+    },
+    "full_broad_hard_full": {
+      "features": "full",
+      "style": "broad",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "hard_full"
+    },
+    "full_broad_hard_mean": {
+      "features": "full",
+      "style": "broad",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "hard_mean"
+    },
+    "full_broad_hard_mask_full": {
+      "features": "full",
+      "style": "broad",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "hard_mask_full"
+    },
+    "full_broad_all_mask_full": {
+      "features": "full",
+      "style": "broad",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "all_mask_full"
+    },
+    "full_broad_hard_prep_mean": {
+      "features": "full",
+      "style": "broad",
+      "basis": "linear",
+      "l2": 0.01,
+      "policy": "hard_prep_mean"
+    }
+  },
+  "seeds": [
+    101,
+    307
+  ],
+  "folds_per_seed": 3,
+  "baseline": "base_all_linear_l210",
+  "optimizer": {
+    "name": "LBFGS",
+    "max_iter": 100,
+    "max_eval": 140,
+    "history_size": 12,
+    "dtype": "float64",
+    "tolerance_grad": 1e-7,
+    "tolerance_change": 1e-11
+  },
+  "promotion": {
+    "mean_oof_gain_min": 8,
+    "each_seed_gain_at_least": 0,
+    "positive_folds_at_least": 4,
+    "worst_fold_gain_at_least": -6,
+    "validation_gain_at_least": 0
+  },
+  "selection": "Gate versus normalized-score baseline; rank eligible by mean train OOF correct, minimum seed gain, validation correct, fewer parameters. Otherwise retain baseline.",
+  "comparison": "All main and mixed models divide scores by own training within-question std, then use fixed alpha=.25. Raw baseline alpha=.25 and normalized baseline alpha=0 are extra controls, not selectable.",
+  "combinations": "OOF-only best hard, best no-style linear and best additive; five prescribed pair types at .5/.75 left weights and one triple .5/.25/.25; same score units and vote alpha.",
+  "supervision": "All preprocessing uses all fitting-fold inputs except explicit hard_prep_mean. *_full preserves original full-fold loss denominator; *_mean averages selected questions.",
+  "validation": "Only full TRAIN refits evaluated on validation after CV. Test evaluated only after all variants and selection freeze.",
+  "limits": {
+    "threads": 4,
+    "device": "cpu",
+    "asset_bytes": 16777216,
+    "cpu_seconds": 30
+  },
+  "notes": [
+    "Repeated CV reuses questions; 9510 predictions are not 9510 independent examples.",
+    "OOF and historical validation are development data; no claim of unbiased family-selection evaluation.",
+    "No new data, pretrained weights or LLM generation. Previous frozen rounds unchanged."
+  ],
+  "dependencies": {
+    "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:37:13) [MSC v.1942 64 bit (AMD64)]",
+    "numpy": "2.5.3",
+    "torch": "2.7.1+cu126"
+  }
+}

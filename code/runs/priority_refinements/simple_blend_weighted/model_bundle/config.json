@@ -1,0 +1,29 @@
+{
+  "kind": "blend",
+  "family": "simple_blend",
+  "alpha": 0.25,
+  "selection": {
+    "family": "simple_blend",
+    "kind": "blend",
+    "metadata": {
+      "weights": [
+        0.75,
+        0.25,
+        0
+      ],
+      "scaling": "train OOF centered standard deviation"
+    },
+    "validation_correct": {
+      "0.0": 744,
+      "0.25": 749,
+      "0.5": 744
+    },
+    "validation_group_loss": 0.18586028366853088,
+    "training_objective": 0.0
+  },
+  "device": "cpu",
+  "threads": 4,
+  "seed": 2026,
+  "numpy": "2.5.3",
+  "torch_training": "2.7.1+cu126"
+}

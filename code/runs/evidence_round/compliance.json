@@ -1,0 +1,10 @@
+{
+  "original_data_hashes_passed": true,
+  "frozen_sources_and_assets_passed": true,
+  "max_asset_bytes": 56176,
+  "max_test_fresh_seconds": 3.4182552000002033,
+  "cpu_threads": 4,
+  "no_external_data_or_pretrained_weights": true,
+  "reference_Xeon_not_measured": true,
+  "additional_unit_controls": 2
+}

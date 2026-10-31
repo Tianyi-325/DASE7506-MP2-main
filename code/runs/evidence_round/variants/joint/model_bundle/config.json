@@ -1,0 +1,15 @@
+{
+  "alpha": 0.0,
+  "members": [
+    {
+      "config": {
+        "base": "joint",
+        "mode": "control",
+        "block": "relative",
+        "alpha": 0.0
+      },
+      "weight": 1.0,
+      "scale": 1.0
+    }
+  ]
+}

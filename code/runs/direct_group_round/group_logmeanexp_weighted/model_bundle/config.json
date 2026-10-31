@@ -1,0 +1,35 @@
+{
+  "members": [
+    {
+      "input": "base",
+      "pool": "logmeanexp",
+      "family": "group_logmeanexp"
+    }
+  ],
+  "weights": [
+    1.0
+  ],
+  "alpha": 0.25,
+  "metadata": {
+    "selected_training": {
+      "family": "group_logmeanexp",
+      "input": "base",
+      "pool": "logmeanexp",
+      "l2": 0.01,
+      "epoch": 360,
+      "validation_correct": {
+        "0.0": 743,
+        "0.25": 747
+      },
+      "validation_objective": 0.18904531002044678
+    }
+  },
+  "seed": 2026,
+  "device": "cpu",
+  "threads": 4,
+  "scaling": "none",
+  "family": "group_logmeanexp",
+  "validation_correct": 747,
+  "numpy": "2.5.3",
+  "torch_training": "2.7.1+cu126"
+}

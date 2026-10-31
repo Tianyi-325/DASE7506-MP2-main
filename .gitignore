@@ -1,0 +1,23 @@
+# Python bytecode and local virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated execution logs; keep structured results and reports
+*.log
+
+# Rebuildable feature caches; keep checkpoints and learned statistics
+/code/runs/**/training-cache.npz
+/code/runs/**/input-cache.npz
+
+# Local copies and helpers for browser-only upload
+/upload_batches/
+/web_upload/
+/prepare_upload_batches.py

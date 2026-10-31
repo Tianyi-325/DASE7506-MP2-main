@@ -1,0 +1,65 @@
+{
+  "selected": {
+    "schedule": "cosine",
+    "l2": 0.001,
+    "epoch": 360,
+    "lr": 0.028952081069798644,
+    "validation_group_loss": 0.25704506039619446,
+    "validation_correct": {
+      "valid_only": 733,
+      "weighted": 734
+    },
+    "gradient_norm_before_step": 0.00024806958390399814,
+    "elapsed_trajectory_seconds": 2.785423200000878
+  },
+  "variants": {
+    "valid_only": {
+      "validation_correct": 733,
+      "assets": {
+        "config.json": "b2e4f287ff4244969f3095666112a21b78853fc5d67b1719857580b818bdcbc8",
+        "model.npz": "bcde14273526cf26e74bb58f89bebe5f0defe77965ec09205eace19cc6e0345a"
+      },
+      "asset_bytes": 9475
+    },
+    "weighted": {
+      "validation_correct": 734,
+      "assets": {
+        "config.json": "889c909395ec986a5c82b14161987057e7fac26ed90c46592ac1fb1a014ea312",
+        "model.npz": "bcde14273526cf26e74bb58f89bebe5f0defe77965ec09205eace19cc6e0345a"
+      },
+      "asset_bytes": 9474
+    }
+  },
+  "grid": {
+    "schedules": [
+      "constant",
+      "cosine"
+    ],
+    "l2": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "epochs": [
+      360,
+      1000,
+      3000
+    ]
+  },
+  "cosine": {
+    "initial": 0.03,
+    "minimum": 1e-05,
+    "total_epochs": 3000
+  },
+  "constant_lr": 0.01,
+  "source_sha256": {
+    "train_long_group.py": "adbd0e978e60b7f76f5ce558d9b55fbd0d6a91c436f855e3c2d73de91031c12b",
+    "evaluate_long_group.py": "98985f39061c98ea6f41f7bf481c80b7baf8cd3de73750f41fe8c7fba6318320",
+    "train_objectives.py": "4a82296e9bfc4d2a3617ad8c2c27a4e5ca4064cf9f3ba30b07a5d442ef606ac0",
+    "train_vector.py": "286703b51e7beaaf03e7378618918bb87c5d998cb46925487fc3cc52b432fe3e",
+    "vector_logistic.py": "747a32d8986504594bcb7e459ff9e52c56e1faf64bb2063b9f099cc4c64f05f6",
+    "vector_vote_fusion.py": "7d2f31652b2020ffc8ca501cc4e85a2cbf772797ab072eb8997a789bbf7985fd",
+    "run_fusion_experiments.py": "0fda27f7edbb2399ceb5ecfa66610fde7b9a6557603798f7ce8fee48d8c02258"
+  },
+  "selection": "validation only; one common scorer for both inference modes"
+}

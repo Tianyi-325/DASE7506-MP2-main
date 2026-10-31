@@ -1,0 +1,14 @@
+{
+  "epochs": 60,
+  "curves": [
+    {
+      "epoch": 60,
+      "objective": 0.1728106588125229,
+      "gradient": 3.7360936403274536e-05
+    }
+  ],
+  "seconds": 0.510114299999259,
+  "score_scale": 1.4442595043898745,
+  "method": "linear_lbfgs",
+  "validation_correct": 746
+}

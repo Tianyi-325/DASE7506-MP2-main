@@ -1,0 +1,263 @@
+{
+  "created_utc": "2026-10-31T08:25:02Z",
+  "seed": 2026,
+  "folds": 3,
+  "directions": {
+    "A1": [
+      "gbdt"
+    ],
+    "A2": [
+      "lambdamart"
+    ],
+    "A3": [
+      "gam"
+    ],
+    "A4": [
+      "fm"
+    ],
+    "A5": [
+      "rff"
+    ],
+    "A6": [
+      "charcnn"
+    ],
+    "A7": [
+      "supcon"
+    ],
+    "B1": [
+      "three-fold question CV, inner early stopping, fold-local preprocessing"
+    ],
+    "B2": [
+      "predeclared promotion gates, paired bootstrap"
+    ],
+    "B3": [
+      "supervision_balanced"
+    ],
+    "B4": [
+      "parser and duplicate audit",
+      "valid_training_mask"
+    ],
+    "B5": [
+      "numeric_quality",
+      "extended_features"
+    ],
+    "B6": [
+      "no_style",
+      "stable_features",
+      "fold coefficient stability"
+    ],
+    "B7": [
+      "cross-fitted temperature calibration",
+      "OOF scale audit",
+      "fixed mixtures"
+    ],
+    "C1": [
+      "residual"
+    ],
+    "C2": [
+      "residual_width32",
+      "residual_dropout",
+      "residual_adam_l2"
+    ],
+    "C3": [
+      "linear_lbfgs"
+    ],
+    "C4": [
+      "linear_earlystop"
+    ],
+    "C5": [
+      "residual_batch128"
+    ],
+    "C6": [
+      "residual_ema",
+      "residual_swa"
+    ],
+    "C7": [
+      "residual_sam"
+    ]
+  },
+  "specs": {
+    "baseline": {
+      "arch": "linear",
+      "design": "base",
+      "epochs": 120,
+      "l2": 0.01
+    },
+    "gbdt": {
+      "arch": "tree",
+      "design": "compact",
+      "epochs": 100,
+      "objective": "bce",
+      "depth": 3
+    },
+    "lambdamart": {
+      "arch": "tree",
+      "design": "compact",
+      "epochs": 100,
+      "objective": "lambda",
+      "depth": 3
+    },
+    "gam": {
+      "arch": "linear",
+      "design": "gam",
+      "epochs": 180,
+      "l2": 0.02
+    },
+    "fm": {
+      "arch": "fm",
+      "design": "base",
+      "epochs": 60,
+      "l2": 0.01
+    },
+    "rff": {
+      "arch": "linear",
+      "design": "rff",
+      "epochs": 180,
+      "l2": 0.01
+    },
+    "charcnn": {
+      "arch": "cnn",
+      "design": "base",
+      "epochs": 12,
+      "l2": 0.01
+    },
+    "supcon": {
+      "arch": "supcon",
+      "design": "base",
+      "epochs": 20,
+      "l2": 0.01
+    },
+    "extended_features": {
+      "arch": "linear",
+      "design": "full",
+      "epochs": 120,
+      "l2": 0.01
+    },
+    "supervision_balanced": {
+      "arch": "linear",
+      "design": "base",
+      "epochs": 120,
+      "l2": 0.01,
+      "balanced": true
+    },
+    "valid_training_mask": {
+      "arch": "linear",
+      "design": "base",
+      "epochs": 120,
+      "l2": 0.01,
+      "mask": true
+    },
+    "stable_features": {
+      "arch": "linear",
+      "design": "stable",
+      "epochs": 120,
+      "l2": 0.01
+    },
+    "no_style": {
+      "arch": "linear",
+      "design": "nostyle",
+      "epochs": 120,
+      "l2": 0.01
+    },
+    "numeric_quality": {
+      "arch": "linear",
+      "design": "quality",
+      "epochs": 120,
+      "l2": 0.01
+    },
+    "residual": {
+      "arch": "residual",
+      "design": "base",
+      "epochs": 20,
+      "l2": 0.01,
+      "width": 16
+    },
+    "residual_width32": {
+      "arch": "residual",
+      "design": "base",
+      "epochs": 20,
+      "l2": 0.01,
+      "width": 32
+    },
+    "residual_dropout": {
+      "arch": "residual",
+      "design": "base",
+      "epochs": 20,
+      "l2": 0.01,
+      "width": 16,
+      "dropout": 0.2
+    },
+    "residual_adam_l2": {
+      "arch": "residual",
+      "design": "base",
+      "epochs": 20,
+      "l2": 0.01,
+      "width": 16,
+      "adam_l2": true
+    },
+    "linear_lbfgs": {
+      "arch": "linear",
+      "design": "base",
+      "epochs": 60,
+      "l2": 0.01,
+      "lbfgs": true
+    },
+    "linear_earlystop": {
+      "arch": "linear",
+      "design": "base",
+      "epochs": 360,
+      "l2": 0.01,
+      "earlystop": true
+    },
+    "residual_batch128": {
+      "arch": "residual",
+      "design": "base",
+      "epochs": 20,
+      "l2": 0.01,
+      "width": 16,
+      "batch": 128
+    },
+    "residual_ema": {
+      "arch": "residual",
+      "design": "base",
+      "epochs": 20,
+      "l2": 0.01,
+      "width": 16,
+      "average": "ema"
+    },
+    "residual_swa": {
+      "arch": "residual",
+      "design": "base",
+      "epochs": 20,
+      "l2": 0.01,
+      "width": 16,
+      "average": "swa"
+    },
+    "residual_sam": {
+      "arch": "residual",
+      "design": "base",
+      "epochs": 20,
+      "l2": 0.01,
+      "width": 16,
+      "sam": true
+    }
+  },
+  "threads": 4,
+  "device": "cpu",
+  "promotion_gate": {
+    "minimum_oof_gain_questions": 5,
+    "positive_folds": 2,
+    "worst_fold_gain_at_least": -5,
+    "minimum_validation_gain_questions": 3
+  },
+  "selection": "Gate by train OOF vs matched baseline; candidates passing gate need >=3 external validation questions gain. Rank eligible by OOF correct, validation as tie-break; otherwise retain matched baseline.",
+  "mixtures": "Fixed equal or 0.75/0.25 pairs; fixed triple and selected component pairs; OOF and validation only; no post-test adjustments.",
+  "calibration": "Train-only cross-fitted distinct-answer group temperature; finite grid, no test fitting.",
+  "limitations": "OOF used for comparison/selection, not an untouched final estimate. Existing validation has prior reuse. No formal nested CV for choosing whole families.",
+  "dependencies": {
+    "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:37:13) [MSC v.1942 64 bit (AMD64)]",
+    "numpy": "2.5.3",
+    "torch": "2.7.1+cu126"
+  },
+  "external_packages": "PyPI unavailable. Native histogram gradient boosting and lambda ranking are lightweight original implementations, not official XGBoost/LightGBM/EBM."
+}

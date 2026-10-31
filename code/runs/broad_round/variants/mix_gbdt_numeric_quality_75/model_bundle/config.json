@@ -1,0 +1,29 @@
+{
+  "ensemble": true,
+  "alpha": 0.25,
+  "seed": 2026,
+  "threads": 4,
+  "members": [
+    {
+      "config": {
+        "arch": "tree",
+        "design": "compact",
+        "epochs": 100,
+        "objective": "bce",
+        "depth": 3
+      },
+      "weight": 0.75,
+      "score_scale": 1.7369609395429668
+    },
+    {
+      "config": {
+        "arch": "linear",
+        "design": "quality",
+        "epochs": 120,
+        "l2": 0.01
+      },
+      "weight": 0.25,
+      "score_scale": 1.4914244247654957
+    }
+  ]
+}

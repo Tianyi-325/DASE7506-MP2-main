@@ -1,0 +1,5 @@
+{
+  "reason": "Mixed float64 engineered features and float32 Torch weights; fixed feature output dtype and added checks",
+  "approx_log_wall_seconds": 47.98647412109375,
+  "stage": "Before freeze and before any test evaluation"
+}

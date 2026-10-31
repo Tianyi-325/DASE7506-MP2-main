@@ -1,0 +1,12 @@
+{
+  "model": "Groupwise Relative Evidence Correction (GREC)",
+  "implementation": "joint_residual_relative_r3",
+  "files_sha256": {
+    "config.json": "34027fc497be822b39c6cb2849f0c483a10e8eae035ca48462f21267db16b262",
+    "member0.npz": "ebfc829b9f44cd6ee093c102a8f1abc82d21829ca9c2def503fb334ba4bd98f0"
+  },
+  "zip_sha256": "ea185f8b2b1faf90db74424d954df584261075c2e22b2682c61b0c67d97cb0c6",
+  "uncompressed_asset_bytes": 22399,
+  "test_correct": 401,
+  "test_total": 467
+}

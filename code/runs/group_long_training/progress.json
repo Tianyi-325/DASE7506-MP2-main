@@ -1,0 +1,29 @@
+{
+  "latest": {
+    "schedule": "cosine",
+    "l2": 0.01,
+    "epoch": 3000,
+    "lr": 1e-05,
+    "validation_group_loss": 0.2289966344833374,
+    "validation_correct": {
+      "valid_only": 729,
+      "weighted": 733
+    },
+    "gradient_norm_before_step": 4.228881422818631e-08,
+    "elapsed_trajectory_seconds": 22.077055100000507
+  },
+  "completed_checkpoints": 18,
+  "best_validation": {
+    "schedule": "cosine",
+    "l2": 0.001,
+    "epoch": 360,
+    "lr": 0.028952081069798644,
+    "validation_group_loss": 0.25704506039619446,
+    "validation_correct": {
+      "valid_only": 733,
+      "weighted": 734
+    },
+    "gradient_norm_before_step": 0.00024806958390399814,
+    "elapsed_trajectory_seconds": 2.785423200000878
+  }
+}

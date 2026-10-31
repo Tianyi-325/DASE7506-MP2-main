@@ -1,0 +1,58 @@
+{
+  "epochs": 4,
+  "curves": [
+    {
+      "epoch": 1,
+      "train_loss": 0.14095857526574815,
+      "contrast_loss": 0.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.13635454965489252,
+      "contrast_loss": 0.0
+    }
+  ],
+  "seconds": 0.28320179999900574,
+  "score_scale": 1.5401143769609658,
+  "fold": 2,
+  "method": "residual",
+  "inner": {
+    "epochs": 4,
+    "curves": [
+      {
+        "epoch": 1,
+        "train_loss": 0.12964390963315964,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.12662781899174055,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.08834325522184372,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 12,
+        "train_loss": 0.04580725419024626,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 16,
+        "train_loss": 0.021396942126254242,
+        "contrast_loss": 0.0
+      },
+      {
+        "epoch": 20,
+        "train_loss": 0.011358463981499275,
+        "contrast_loss": 0.0
+      }
+    ],
+    "seconds": 0.6608878000006371,
+    "score_scale": 1.5921331911095822
+  },
+  "held_correct": 1445,
+  "held_n": 1585
+}

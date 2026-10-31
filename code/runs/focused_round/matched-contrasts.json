@@ -1,0 +1,420 @@
+{
+  "style_base_narrow": {
+    "control": "base_all_linear_l210",
+    "changed": "base_narrow_linear_l210",
+    "oof_gains_by_seed": [
+      0,
+      4
+    ],
+    "mean_oof_gain": 2.0,
+    "validation_gain": 2,
+    "test_gain_descriptive": -2
+  },
+  "style_base_broad": {
+    "control": "base_all_linear_l210",
+    "changed": "base_broad_linear_l210",
+    "oof_gains_by_seed": [
+      -3,
+      9
+    ],
+    "mean_oof_gain": 3.0,
+    "validation_gain": 1,
+    "test_gain_descriptive": -1
+  },
+  "style_full_narrow": {
+    "control": "full_all_linear_l210",
+    "changed": "full_narrow_linear_l210",
+    "oof_gains_by_seed": [
+      -5,
+      7
+    ],
+    "mean_oof_gain": 1.0,
+    "validation_gain": 2,
+    "test_gain_descriptive": 2
+  },
+  "style_full_broad": {
+    "control": "full_all_linear_l210",
+    "changed": "full_broad_linear_l210",
+    "oof_gains_by_seed": [
+      -2,
+      1
+    ],
+    "mean_oof_gain": -0.5,
+    "validation_gain": 0,
+    "test_gain_descriptive": 1
+  },
+  "basis_all_10_hinges": {
+    "control": "full_all_linear_l210",
+    "changed": "full_all_hinges_l210",
+    "oof_gains_by_seed": [
+      -4,
+      11
+    ],
+    "mean_oof_gain": 3.5,
+    "validation_gain": -2,
+    "test_gain_descriptive": -5
+  },
+  "basis_all_10_interactions": {
+    "control": "full_all_linear_l210",
+    "changed": "full_all_interactions_l210",
+    "oof_gains_by_seed": [
+      -2,
+      1
+    ],
+    "mean_oof_gain": -0.5,
+    "validation_gain": 1,
+    "test_gain_descriptive": -1
+  },
+  "basis_all_10_both": {
+    "control": "full_all_linear_l210",
+    "changed": "full_all_both_l210",
+    "oof_gains_by_seed": [
+      1,
+      12
+    ],
+    "mean_oof_gain": 6.5,
+    "validation_gain": 0,
+    "test_gain_descriptive": -2
+  },
+  "basis_all_10_orth_hinges": {
+    "control": "full_all_linear_l210",
+    "changed": "full_all_orth_hinges_l210",
+    "oof_gains_by_seed": [
+      -12,
+      10
+    ],
+    "mean_oof_gain": -1.0,
+    "validation_gain": -1,
+    "test_gain_descriptive": -6
+  },
+  "basis_all_10_orth_both": {
+    "control": "full_all_linear_l210",
+    "changed": "full_all_orth_both_l210",
+    "oof_gains_by_seed": [
+      -12,
+      5
+    ],
+    "mean_oof_gain": -3.5,
+    "validation_gain": -2,
+    "test_gain_descriptive": -5
+  },
+  "basis_all_20_hinges": {
+    "control": "full_all_linear_l220",
+    "changed": "full_all_hinges_l220",
+    "oof_gains_by_seed": [
+      -2,
+      4
+    ],
+    "mean_oof_gain": 1.0,
+    "validation_gain": 1,
+    "test_gain_descriptive": 0
+  },
+  "basis_all_20_interactions": {
+    "control": "full_all_linear_l220",
+    "changed": "full_all_interactions_l220",
+    "oof_gains_by_seed": [
+      3,
+      -6
+    ],
+    "mean_oof_gain": -1.5,
+    "validation_gain": 1,
+    "test_gain_descriptive": 0
+  },
+  "basis_all_20_both": {
+    "control": "full_all_linear_l220",
+    "changed": "full_all_both_l220",
+    "oof_gains_by_seed": [
+      -5,
+      4
+    ],
+    "mean_oof_gain": -0.5,
+    "validation_gain": 2,
+    "test_gain_descriptive": 1
+  },
+  "basis_all_20_orth_hinges": {
+    "control": "full_all_linear_l220",
+    "changed": "full_all_orth_hinges_l220",
+    "oof_gains_by_seed": [
+      -7,
+      -4
+    ],
+    "mean_oof_gain": -5.5,
+    "validation_gain": -2,
+    "test_gain_descriptive": 1
+  },
+  "basis_all_20_orth_both": {
+    "control": "full_all_linear_l220",
+    "changed": "full_all_orth_both_l220",
+    "oof_gains_by_seed": [
+      -7,
+      2
+    ],
+    "mean_oof_gain": -2.5,
+    "validation_gain": -3,
+    "test_gain_descriptive": 0
+  },
+  "basis_broad_10_hinges": {
+    "control": "full_broad_linear_l210",
+    "changed": "full_broad_hinges_l210",
+    "oof_gains_by_seed": [
+      1,
+      11
+    ],
+    "mean_oof_gain": 6.0,
+    "validation_gain": -1,
+    "test_gain_descriptive": -6
+  },
+  "basis_broad_10_interactions": {
+    "control": "full_broad_linear_l210",
+    "changed": "full_broad_interactions_l210",
+    "oof_gains_by_seed": [
+      -5,
+      1
+    ],
+    "mean_oof_gain": -2.0,
+    "validation_gain": 0,
+    "test_gain_descriptive": -2
+  },
+  "basis_broad_10_both": {
+    "control": "full_broad_linear_l210",
+    "changed": "full_broad_both_l210",
+    "oof_gains_by_seed": [
+      -7,
+      6
+    ],
+    "mean_oof_gain": -0.5,
+    "validation_gain": 2,
+    "test_gain_descriptive": -3
+  },
+  "basis_broad_10_orth_hinges": {
+    "control": "full_broad_linear_l210",
+    "changed": "full_broad_orth_hinges_l210",
+    "oof_gains_by_seed": [
+      -7,
+      14
+    ],
+    "mean_oof_gain": 3.5,
+    "validation_gain": -1,
+    "test_gain_descriptive": -4
+  },
+  "basis_broad_10_orth_both": {
+    "control": "full_broad_linear_l210",
+    "changed": "full_broad_orth_both_l210",
+    "oof_gains_by_seed": [
+      -7,
+      5
+    ],
+    "mean_oof_gain": -1.0,
+    "validation_gain": -1,
+    "test_gain_descriptive": -4
+  },
+  "basis_broad_20_hinges": {
+    "control": "full_broad_linear_l220",
+    "changed": "full_broad_hinges_l220",
+    "oof_gains_by_seed": [
+      -1,
+      6
+    ],
+    "mean_oof_gain": 2.5,
+    "validation_gain": 1,
+    "test_gain_descriptive": 3
+  },
+  "basis_broad_20_interactions": {
+    "control": "full_broad_linear_l220",
+    "changed": "full_broad_interactions_l220",
+    "oof_gains_by_seed": [
+      3,
+      2
+    ],
+    "mean_oof_gain": 2.5,
+    "validation_gain": 1,
+    "test_gain_descriptive": 0
+  },
+  "basis_broad_20_both": {
+    "control": "full_broad_linear_l220",
+    "changed": "full_broad_both_l220",
+    "oof_gains_by_seed": [
+      -1,
+      2
+    ],
+    "mean_oof_gain": 0.5,
+    "validation_gain": 2,
+    "test_gain_descriptive": 1
+  },
+  "basis_broad_20_orth_hinges": {
+    "control": "full_broad_linear_l220",
+    "changed": "full_broad_orth_hinges_l220",
+    "oof_gains_by_seed": [
+      -11,
+      -4
+    ],
+    "mean_oof_gain": -7.5,
+    "validation_gain": 0,
+    "test_gain_descriptive": 1
+  },
+  "basis_broad_20_orth_both": {
+    "control": "full_broad_linear_l220",
+    "changed": "full_broad_orth_both_l220",
+    "oof_gains_by_seed": [
+      -9,
+      7
+    ],
+    "mean_oof_gain": -1.0,
+    "validation_gain": 0,
+    "test_gain_descriptive": 2
+  },
+  "supervision_base_informative_full": {
+    "control": "base_all_linear_l210",
+    "changed": "base_all_informative_full",
+    "oof_gains_by_seed": [
+      0,
+      0
+    ],
+    "mean_oof_gain": 0.0,
+    "validation_gain": 0,
+    "test_gain_descriptive": 0
+  },
+  "supervision_base_informative_mean": {
+    "control": "base_all_linear_l210",
+    "changed": "base_all_informative_mean",
+    "oof_gains_by_seed": [
+      -11,
+      5
+    ],
+    "mean_oof_gain": -3.0,
+    "validation_gain": 1,
+    "test_gain_descriptive": 1
+  },
+  "supervision_base_hard_full": {
+    "control": "base_all_linear_l210",
+    "changed": "base_all_hard_full",
+    "oof_gains_by_seed": [
+      -1,
+      -1
+    ],
+    "mean_oof_gain": -1.0,
+    "validation_gain": 0,
+    "test_gain_descriptive": 3
+  },
+  "supervision_base_hard_mean": {
+    "control": "base_all_linear_l210",
+    "changed": "base_all_hard_mean",
+    "oof_gains_by_seed": [
+      -14,
+      5
+    ],
+    "mean_oof_gain": -4.5,
+    "validation_gain": -1,
+    "test_gain_descriptive": 0
+  },
+  "supervision_base_hard_mask_full": {
+    "control": "base_all_linear_l210",
+    "changed": "base_all_hard_mask_full",
+    "oof_gains_by_seed": [
+      -3,
+      -2
+    ],
+    "mean_oof_gain": -2.5,
+    "validation_gain": 2,
+    "test_gain_descriptive": 1
+  },
+  "supervision_base_all_mask_full": {
+    "control": "base_all_linear_l210",
+    "changed": "base_all_all_mask_full",
+    "oof_gains_by_seed": [
+      -3,
+      -2
+    ],
+    "mean_oof_gain": -2.5,
+    "validation_gain": 2,
+    "test_gain_descriptive": 1
+  },
+  "supervision_base_hard_prep_mean": {
+    "control": "base_all_linear_l210",
+    "changed": "base_all_hard_prep_mean",
+    "oof_gains_by_seed": [
+      -12,
+      2
+    ],
+    "mean_oof_gain": -5.0,
+    "validation_gain": 0,
+    "test_gain_descriptive": 1
+  },
+  "supervision_full_informative_full": {
+    "control": "full_broad_linear_l210",
+    "changed": "full_broad_informative_full",
+    "oof_gains_by_seed": [
+      0,
+      0
+    ],
+    "mean_oof_gain": 0.0,
+    "validation_gain": 0,
+    "test_gain_descriptive": 0
+  },
+  "supervision_full_informative_mean": {
+    "control": "full_broad_linear_l210",
+    "changed": "full_broad_informative_mean",
+    "oof_gains_by_seed": [
+      8,
+      1
+    ],
+    "mean_oof_gain": 4.5,
+    "validation_gain": 1,
+    "test_gain_descriptive": -2
+  },
+  "supervision_full_hard_full": {
+    "control": "full_broad_linear_l210",
+    "changed": "full_broad_hard_full",
+    "oof_gains_by_seed": [
+      2,
+      5
+    ],
+    "mean_oof_gain": 3.5,
+    "validation_gain": 2,
+    "test_gain_descriptive": 1
+  },
+  "supervision_full_hard_mean": {
+    "control": "full_broad_linear_l210",
+    "changed": "full_broad_hard_mean",
+    "oof_gains_by_seed": [
+      5,
+      -5
+    ],
+    "mean_oof_gain": 0.0,
+    "validation_gain": 0,
+    "test_gain_descriptive": -2
+  },
+  "supervision_full_hard_mask_full": {
+    "control": "full_broad_linear_l210",
+    "changed": "full_broad_hard_mask_full",
+    "oof_gains_by_seed": [
+      4,
+      -2
+    ],
+    "mean_oof_gain": 1.0,
+    "validation_gain": 1,
+    "test_gain_descriptive": 1
+  },
+  "supervision_full_all_mask_full": {
+    "control": "full_broad_linear_l210",
+    "changed": "full_broad_all_mask_full",
+    "oof_gains_by_seed": [
+      4,
+      -2
+    ],
+    "mean_oof_gain": 1.0,
+    "validation_gain": 1,
+    "test_gain_descriptive": 1
+  },
+  "supervision_full_hard_prep_mean": {
+    "control": "full_broad_linear_l210",
+    "changed": "full_broad_hard_prep_mean",
+    "oof_gains_by_seed": [
+      7,
+      -1
+    ],
+    "mean_oof_gain": 3.0,
+    "validation_gain": 0,
+    "test_gain_descriptive": -2
+  }
+}

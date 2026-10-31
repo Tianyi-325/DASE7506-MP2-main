@@ -1,0 +1,219 @@
+{
+  "scope": "All regular files present at audit start, excluding audit output directory and its live log; original files not edited",
+  "files_checked": 4389,
+  "bytes_checked": 655859237,
+  "counts": {
+    "": 1,
+    ".json": 2212,
+    ".pyc": 14,
+    ".md": 32,
+    ".py": 61,
+    ".log": 34,
+    ".jsonl": 6,
+    ".npz": 1078,
+    ".txt": 544,
+    ".npy": 397,
+    ".csv": 10
+  },
+  "array_members_checked": 8339,
+  "jsonl_rows_parsed": 12040,
+  "file_failures": [],
+  "missing_markdown_link_targets": [],
+  "logs_with_historical_error_tokens": [
+    {
+      "file": "code/dependency-install.log",
+      "historical_error_token_counts": {
+        "ERROR": 2
+      },
+      "not_current_failure_proof": true
+    },
+    {
+      "file": "code/runs/direct_group_round/training-failed-dtype.log",
+      "historical_error_token_counts": {
+        "Traceback": 1
+      },
+      "not_current_failure_proof": true
+    }
+  ],
+  "original_package_files": [
+    {
+      "path": "code/README.md",
+      "passed": true
+    },
+    {
+      "path": "code/check_data.py",
+      "passed": true
+    },
+    {
+      "path": "code/common.py",
+      "passed": true
+    },
+    {
+      "path": "code/data/LICENSE.txt",
+      "passed": true
+    },
+    {
+      "path": "code/data/NOTICE.txt",
+      "passed": true
+    },
+    {
+      "path": "code/data/candidates/gsm8k_test.jsonl",
+      "passed": true
+    },
+    {
+      "path": "code/data/candidates/gsm8k_test.npz",
+      "passed": true
+    },
+    {
+      "path": "code/data/candidates/gsm8k_train.jsonl",
+      "passed": true
+    },
+    {
+      "path": "code/data/candidates/gsm8k_train.npz",
+      "passed": true
+    },
+    {
+      "path": "code/data/candidates/gsm8k_validation.jsonl",
+      "passed": true
+    },
+    {
+      "path": "code/data/candidates/gsm8k_validation.npz",
+      "passed": true
+    },
+    {
+      "path": "code/data/gsm8k_test.jsonl",
+      "passed": true
+    },
+    {
+      "path": "code/data/gsm8k_train.jsonl",
+      "passed": true
+    },
+    {
+      "path": "code/data/gsm8k_validation.jsonl",
+      "passed": true
+    },
+    {
+      "path": "code/data/manifest.json",
+      "passed": true
+    },
+    {
+      "path": "code/predict.py",
+      "passed": true
+    },
+    {
+      "path": "code/requirements.txt",
+      "passed": true
+    },
+    {
+      "path": "code/score_predictions.py",
+      "passed": true
+    },
+    {
+      "path": "code/submission.py",
+      "passed": true
+    },
+    {
+      "path": "guide/GUIDE.md",
+      "passed": true
+    }
+  ],
+  "final_frozen_sources_and_assets": [
+    {
+      "path": "code/run_evidence_round.py",
+      "passed": true
+    },
+    {
+      "path": "code/evidence_models.py",
+      "passed": true
+    },
+    {
+      "path": "code/evidence_training.py",
+      "passed": true
+    },
+    {
+      "path": "code/math_evidence.py",
+      "passed": true
+    },
+    {
+      "path": "code/check_evidence_round.py",
+      "passed": true
+    },
+    {
+      "path": "code/broad_models.py",
+      "passed": true
+    },
+    {
+      "path": "code/broad_training.py",
+      "passed": true
+    },
+    {
+      "path": "code/direct_group_models.py",
+      "passed": true
+    },
+    {
+      "path": "code/reasoning_features.py",
+      "passed": true
+    },
+    {
+      "path": "code/vector_vote_fusion.py",
+      "passed": true
+    },
+    {
+      "path": "code/common.py",
+      "passed": true
+    },
+    {
+      "path": "code/predict.py",
+      "passed": true
+    },
+    {
+      "path": "code/score_predictions.py",
+      "passed": true
+    },
+    {
+      "path": "code/run_fusion_experiments.py",
+      "passed": true
+    },
+    {
+      "path": "code\\runs\\evidence_round\\variants\\joint_residual_relative_r3\\model_bundle\\config.json",
+      "passed": true
+    },
+    {
+      "path": "code\\runs\\evidence_round\\variants\\joint_residual_relative_r3\\model_bundle\\member0.npz",
+      "passed": true
+    }
+  ],
+  "final_B_existing_predictions_official_rescore": {
+    "correct": 401,
+    "n": 467,
+    "accuracy": 85.86723768736617
+  },
+  "B_local_inference_source_closure": [
+    "code/broad_models.py",
+    "code/common.py",
+    "code/direct_group_models.py",
+    "code/evidence_models.py",
+    "code/math_evidence.py",
+    "code/reasoning_features.py",
+    "code/vector_logistic.py",
+    "code/vector_vote_fusion.py"
+  ],
+  "B_external_import_roots": [
+    "ast",
+    "collections",
+    "fractions",
+    "hashlib",
+    "json",
+    "math",
+    "numpy",
+    "pathlib",
+    "re"
+  ],
+  "dependencies_not_dynamic_execution_proof": true,
+  "git_metadata_present": false,
+  "gitignore_ignores_runs": true,
+  "formal_pdf_docx_files": [],
+  "elapsed_seconds": 5.560691099999531,
+  "not_clean_environment_reproduction": true,
+  "no_external_submission_checked": true
+}

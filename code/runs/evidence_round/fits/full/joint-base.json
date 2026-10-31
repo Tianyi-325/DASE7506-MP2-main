@@ -1,0 +1,9 @@
+{
+  "seconds": 3.5407795000010083,
+  "kind": "joint",
+  "training": {
+    "epochs": 360,
+    "final_objective": 0.17006869614124298
+  },
+  "score_scale": 1.0886843473406216
+}

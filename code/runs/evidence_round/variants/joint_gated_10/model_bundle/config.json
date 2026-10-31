@@ -1,0 +1,18 @@
+{
+  "alpha": 0.0,
+  "members": [
+    {
+      "config": {
+        "base": "joint",
+        "mode": "gated",
+        "block": "relative",
+        "extra_l2": 0.1,
+        "gate_tau": 1.0,
+        "cap_norm": 0.5,
+        "alpha": 0.0
+      },
+      "weight": 1.0,
+      "scale": 1.0
+    }
+  ]
+}

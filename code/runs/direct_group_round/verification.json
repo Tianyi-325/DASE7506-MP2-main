@@ -1,0 +1,13 @@
+{
+  "variants": 22,
+  "sizes": [
+    0,
+    1,
+    7
+  ],
+  "new_ids_and_permutations_pass": true,
+  "frozen_hashes_pass": true,
+  "official_files_unchanged": true,
+  "inference_imports_torch": false,
+  "control_reproduces_original_choices": true
+}

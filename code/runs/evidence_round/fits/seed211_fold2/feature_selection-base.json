@@ -1,0 +1,27 @@
+{
+  "seconds": 1.7321701999990182,
+  "kind": "feature_selection",
+  "training": {
+    "epochs": 120,
+    "curves": [
+      {
+        "epoch": 1,
+        "objective": 0.37950342893600464,
+        "gradient": 0.7443004250526428
+      },
+      {
+        "epoch": 60,
+        "objective": 0.16244833171367645,
+        "gradient": 0.01580626517534256
+      },
+      {
+        "epoch": 120,
+        "objective": 0.16184836626052856,
+        "gradient": 0.0011674133129417896
+      }
+    ],
+    "seconds": 1.4954870000001392,
+    "score_scale": 1.5568372823830265
+  },
+  "score_scale": 1.5568372668303117
+}

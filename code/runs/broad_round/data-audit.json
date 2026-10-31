@@ -1,0 +1,132 @@
+{
+  "train": {
+    "questions": 4755,
+    "positive_candidate_counts": {
+      "3": 1070,
+      "1": 711,
+      "4": 2242,
+      "2": 732
+    },
+    "distinct_answer_counts": {
+      "1": 2641,
+      "3": 608,
+      "2": 1338,
+      "4": 168
+    },
+    "invalid_candidates": 871,
+    "duplicate_normalized_questions": 0,
+    "all_positive_zero_group_gradient_questions": 2242,
+    "old_equation_candidate_coverage": 12206,
+    "strict_equation_candidate_coverage": 2442,
+    "strict_detected_inconsistent_candidates": 80,
+    "feature_finite": true
+  },
+  "validation": {
+    "questions": 798,
+    "positive_candidate_counts": {
+      "2": 123,
+      "4": 379,
+      "1": 117,
+      "3": 179
+    },
+    "distinct_answer_counts": {
+      "3": 108,
+      "1": 443,
+      "4": 20,
+      "2": 227
+    },
+    "invalid_candidates": 157,
+    "duplicate_normalized_questions": 0,
+    "all_positive_zero_group_gradient_questions": 379,
+    "old_equation_candidate_coverage": 2057,
+    "strict_equation_candidate_coverage": 415,
+    "strict_detected_inconsistent_candidates": 17,
+    "feature_finite": true
+  },
+  "train_validation_normalized_overlap": 0,
+  "strict_equation_synthetic_cases": [
+    {
+      "text": "2 + 3 = 5",
+      "features": [
+        0.6931471805599453,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "text": "2 + 3 = 6",
+      "features": [
+        0.6931471805599453,
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "text": "2 / 0 = 7",
+      "features": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "text": "x + 3 = 5",
+      "features": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "text": "2 + 3 = 5 dollars",
+      "features": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "text": "__import__(\"os\") = 1",
+      "features": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "text": "2 * (3 + 4) = 14",
+      "features": [
+        0.6931471805599453,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "text": "10 / 4 = 2.5",
+      "features": [
+        0.6931471805599453,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "text": "4 × 3 = 11",
+      "features": [
+        0.6931471805599453,
+        1.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "interpretation": "Coverage is not reliability. Final-answer labels do not validate reasoning steps. Unknown is not wrong. No official parser/labels were modified.",
+  "official_files_unchanged": true
+}

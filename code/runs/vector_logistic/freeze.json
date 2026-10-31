@@ -1,0 +1,21 @@
+{
+  "selection": {
+    "l2": 0.01,
+    "epoch": 120,
+    "validation_correct": 716,
+    "validation_n": 798,
+    "validation_accuracy": 89.72431077694236,
+    "validation_candidate_nll": 0.4187485884678429,
+    "elapsed_for_l2_seconds": 0.6609501000002638
+  },
+  "selection_source": "validation only",
+  "assets": {
+    "config.json": "e9e78d6b117219aac00a9e9dbda1ee601c441614104dc0ec87979936c3f07fd0",
+    "model.npz": "0cd4fee926498f8ac97901e76d0ed2f1826b817faa3664ffe031f8dc32523b87"
+  },
+  "source_sha256": {
+    "train_vector.py": "286703b51e7beaaf03e7378618918bb87c5d998cb46925487fc3cc52b432fe3e",
+    "vector_logistic.py": "747a32d8986504594bcb7e459ff9e52c56e1faf64bb2063b9f099cc4c64f05f6"
+  },
+  "asset_bytes": 9717
+}
